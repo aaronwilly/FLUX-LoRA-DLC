@@ -254,39 +254,98 @@ def flux_pipe_call_that_returns_an_iterable_of_images(
     # and can increase peak VRAM during offload transitions. Memory is cleaned outside safely.
     yield self.image_processor.postprocess(image, output_type=output_type)[0]
 
+# ✅ OFFLINE MODE: Setup local LoRA cache directory (define early for use below)
+WORKSPACE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # Load LoRAs from external JSON file
 with open("loras.json", "r", encoding="utf-8") as f:
     loras = json.load(f)
 
-# ✅ OFFLINE MODE: Setup local LoRA cache directory
-WORKSPACE_DIR = os.path.dirname(os.path.abspath(__file__))
+# ✅ OFFLINE MODE: Convert local image paths to absolute paths for Gradio
+# Gradio needs absolute paths for local images, but can handle URLs directly
+def get_image_path_or_url(image_path_or_url):
+    """Convert local image paths to absolute paths, keep URLs as-is."""
+    if image_path_or_url.startswith("http://") or image_path_or_url.startswith("https://"):
+        # It's a URL, return as-is
+        return image_path_or_url
+    else:
+        # It's a local path, convert to absolute
+        if not os.path.isabs(image_path_or_url):
+            # Relative path - make it absolute
+            return os.path.join(WORKSPACE_DIR, image_path_or_url)
+        return image_path_or_url
+
+# Update all image paths in loras to use absolute paths
+for lora in loras:
+    if "image" in lora and lora["image"]:
+        lora["image"] = get_image_path_or_url(lora["image"])
 LORAS_CACHE_DIR = os.path.join(WORKSPACE_DIR, "loras_cache")
 os.makedirs(LORAS_CACHE_DIR, exist_ok=True)
 print(f"✓ LoRA cache directory: {LORAS_CACHE_DIR}")
 
-def get_lora_local_path(lora_repo):
+def get_lora_local_path(lora_repo_or_path):
     """
     Get the local cache path for a LoRA.
-    Returns the path to the cached LoRA directory.
+    Handles both HuggingFace repo IDs and local cache paths.
+    
+    Args:
+        lora_repo_or_path: Either a HuggingFace repo ID (e.g., "user/repo") 
+                          or a local cache path (e.g., "loras_cache/user_repo")
+    
+    Returns:
+        Absolute path to cached LoRA directory
     """
-    # Sanitize repo name for filesystem (replace / and . with _)
-    safe_name = lora_repo.replace("/", "_").replace(".", "_")
-    return os.path.join(LORAS_CACHE_DIR, safe_name)
+    # Check if it's already a local path (starts with loras_cache/)
+    if lora_repo_or_path.startswith("loras_cache/") or os.path.isabs(lora_repo_or_path):
+        # It's already a local path
+        if os.path.isabs(lora_repo_or_path):
+            return lora_repo_or_path
+        else:
+            # Relative path - make it absolute
+            return os.path.join(WORKSPACE_DIR, lora_repo_or_path)
+    else:
+        # It's a HuggingFace repo ID - convert to local cache path
+        safe_name = lora_repo_or_path.replace("/", "_").replace(".", "_")
+        return os.path.join(LORAS_CACHE_DIR, safe_name)
 
-def ensure_lora_cached(lora_repo, weight_name=None, offline_mode=False):
+def ensure_lora_cached(lora_repo_or_path, weight_name=None, offline_mode=False):
     """
     Ensure LoRA is cached locally. Downloads if not present (unless offline_mode=True).
     Returns the local path to the cached LoRA.
     
     Args:
-        lora_repo: HuggingFace repo ID (e.g., "user/repo")
+        lora_repo_or_path: Either a HuggingFace repo ID (e.g., "user/repo") 
+                          or a local cache path (e.g., "loras_cache/user_repo")
         weight_name: Optional specific weight file name
         offline_mode: If True, only check cache, don't download
     
     Returns:
         Local path to cached LoRA directory
     """
-    local_path = get_lora_local_path(lora_repo)
+    local_path = get_lora_local_path(lora_repo_or_path)
+    
+    # If it's already a local path and exists, return it directly (offline mode)
+    if (lora_repo_or_path.startswith("loras_cache/") or os.path.isabs(lora_repo_or_path)):
+        if os.path.exists(local_path) and os.path.isdir(local_path):
+            # Check if it has the required files
+            if weight_name:
+                weight_path = os.path.join(local_path, weight_name)
+                if os.path.exists(weight_path):
+                    return local_path
+            else:
+                # Check for any safetensors file
+                try:
+                    files = os.listdir(local_path)
+                    if any(f.endswith(".safetensors") for f in files):
+                        return local_path
+                except:
+                    pass
+        # Local path doesn't exist - this shouldn't happen if download script worked
+        if offline_mode:
+            raise FileNotFoundError(f"LoRA cache path not found: {local_path}")
+        # Fall through to try downloading (in case path format changed)
+    
+    # Original repo ID path - check cache or download
     
     # Check if already cached
     if os.path.exists(local_path) and os.path.isdir(local_path):
