@@ -1,0 +1,18 @@
+git+https://github.com/huggingface/accelerate.git
+git+https://github.com/huggingface/diffusers.git
+git+https://github.com/huggingface/peft.git
+huggingface_hub
+sentencepiece 
+transformers
+spaces
+numpy
+protobuf
+requests
+tqdm
+
+# IMPORTANT: PyTorch with CUDA must be installed separately!
+# DO NOT install torch/torchvision from this file - they will be CPU-only
+# Install PyTorch with CUDA support using:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# torch
+# torchvision
