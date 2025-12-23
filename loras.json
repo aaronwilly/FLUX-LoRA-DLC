@@ -1095,7 +1095,12 @@
     "repo": "loras_cache/prithivMLmods_Ton618-Amxtoon-Flux-LoRA",
     "weights": "Amxtoon.safetensors",
     "trigger_word": "Amxtoon",
-    "id": 142
+    "id": 142,
+    "prompts": [
+      "Amxtoon, a woman with long brown hair and blue eyes is standing next to a anime doll with long black hair. The doll on the left is wearing a gray t-shirt with an orange and yellow sweater draped over it. The woman on the right is smiling and looking at the camera. In the background, a painting of a fire is visible on the wall.",
+      "Amxtoon: A woman with long, straight silver hair and violet eyes stands beside an anime doll with rainbow-colored hair and sparkly eyes. The doll on the right wears a denim jacket with patches, while the woman on the left wears a casual black turtleneck, glancing shyly at the doll. A painting of a night sky filled with stars is visible on the wall behind them.",
+      "Amxtoon, Captured in a close-up, eye-level perspective, a woman with long blonde hair, wearing a gray t-shirt, is seated at a brown wooden table with two white coffee mugs in front of her. She is smiling, with her left hand resting on her hip. Her right hand is resting on a white saucer, adding a touch of warmth to the scene. The anime womans face is adorned with blue eyes, pink ears, and a green dress adorned with a white collar. The background is blurred, suggesting a coffee shop."
+    ]
   },
   {
     "image": "loras_images/Epic_Realism.png",
@@ -1103,7 +1108,12 @@
     "repo": "loras_cache/prithivMLmods_Ton618-Epic-Realism-Flux-LoRA",
     "weights": "Epic-Realism-Unpruned.safetensors",
     "trigger_word": "Epic Realism",
-    "id": 143
+    "id": 143,
+    "prompts": [
+      "Epic Realism, A close-up shot of a young woman with long brown hair and blue eyes. She is wearing a red and white cheerleading uniform. The uniform has a white stripe down the center of the uniform. Her hair is pulled back and cascades over her shoulders. Her eyes are a piercing blue. Her lips are painted a light pink color. Her eyebrows are a darker shade of brown. Her nose is a lighter shade of blue. The background is blurred, but it is out of focus.",
+      "Epic Realism, Captured in a close-up, eye-level perspective, a medium-sized young mans face is adorned with a gold necklace, adding a touch of sparkle to his outfit. His eyes are a piercing blue, and his hair is a mix of brown and black. His eyebrows are a darker shade of brown, while his lips are a lighter shade of pink. The backdrop is blurred, creating a stark contrast to the foreground.",
+      "Epic Realism, A medium-angle shot of a woman with long, wavy brown hair, a black long-sleeved t-shirt, and a black necklace around her neck. Her eyes are a piercing blue, and her lips are a lighter pink. She is standing in front of a white wall with a window on the left side of the wall. The window is slightly open, and the wall is a light gray color. The womans hair is a darker shade of brown, and she has a slight smile on her face."
+    ]
   },
   {
     "image": "loras_images/Mixed_Reality.jpg",
@@ -1111,7 +1121,12 @@
     "repo": "loras_cache/bingbangboom_flux-mixReality",
     "weights": "HLFILSTHLFPHTO_000002500.safetensors",
     "trigger_word": "in the style of HLFILSTHLFPHTO",
-    "id": 144
+    "id": 144,
+    "prompts": [
+      "A vivid photo of a 2D illustrated anime girl riding a bicycle, busy street, road signs. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO",
+      "A vivid photo of a 2D illustrated anime girl coding on her laptop, background of a library. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO",
+      "A vivid photo of a 2D illustrated anime girl posing for a photo in front of the taj mahal. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO"
+    ]
   },
   {
     "image": "loras_images/Pixelart.jpeg",
@@ -1119,7 +1134,12 @@
     "repo": "loras_cache/sWizad_pokemon-trainer-sprites-pixelart-flux",
     "weights": "pktrainer_F1-v1-0.safetensors",
     "trigger_word": "pixel image of, pixel art",
-    "id": 145
+    "id": 145,
+    "prompts": [
+      "a pixel image of captain American with shield, on white background ",
+      "a pixel image of ariel from the little mermaid ",
+      "a pixel image of belle from beauty and the beast "
+    ]
   },
   {
     "image": "loras_images/Colorscape.jpg",
@@ -1127,7 +1147,12 @@
     "repo": "loras_cache/bingbangboom_flux_colorscape",
     "weights": "flux_colorscape.safetensors",
     "trigger_word": "illustration in the style of ASstyle001",
-    "id": 146
+    "id": 146,
+    "prompts": [
+      "a poster of a sci-fi film, illustrated in the style of ASstyle001",
+      "a big ferocious tiger, jungle, sunset, illustration in the style of ASstyle001",
+      "a white-haired young woman wearing a flower crown, holding face of a very large fiery dragon, castle in the background, illustration in the style of ASstyle001"
+    ]
   },
   {
     "image": "loras_images/Modern_Pixel_art.jpeg",
@@ -1135,7 +1160,12 @@
     "repo": "loras_cache/UmeAiRT_FLUX_1-dev-LoRA-Modern_Pixel_art",
     "weights": "ume_modern_pixelart.safetensors",
     "trigger_word": "umempart",
-    "id": 147
+    "id": 147,
+    "prompts": [
+      "(ruins, broken, snow, dappled sunlight:1.2), sun, tree, forest, scenery, rock, reflection, ancient, overgrown, mountains, sunset, clouds, mountainous horizon, fantasy, medieval, 1other, looking away, (pixel art, pixelated:1.2), (masterpiece, exceptional, best aesthetic, best quality, masterpiece, extremely detailed:1.2), in the style of umempart",
+      "(ruins, broken, summer, dappled sunlight:1.2), sun, tree, forest, scenery, rock, reflection, water, ancient, overgrown, mountains, sunset, clouds, mountainous horizon, fantasy, medieval, 1other, looking away, cloak, (pixel art, pixelated:1.2), (masterpiece, exceptional, best aesthetic, best quality, masterpiece, extremely detailed:1.2), in the style of umempart",
+      "(blue theme, summer, dappled sunlight, 1other, looking away, cloak:1.2), sun, tree, forest, scenery, rock, reflection, water, lake, island, ancient, overgrown, mountains, sunset, clouds, mountainous horizon, fantasy, medieval, (pixel art, pixelated:1.2), (masterpiece, exceptional, best aesthetic, best quality, masterpiece, extremely detailed:1.2), in the style of umempart"
+    ]
   },
   {
     "image": "loras_images/Sticker.png",
@@ -1143,7 +1173,12 @@
     "repo": "loras_cache/prithivMLmods_Ton618-Only-Stickers-Flux-LoRA",
     "weights": "only-stickers.safetensors",
     "trigger_word": "Only Sticker",
-    "id": 148
+    "id": 148,
+    "prompts": [
+      "Only Sticker, An animated image of a pink brain with a white border around it. The background is a solid white. The brain is outlined in a vibrant shade of pink, with a maroon stripe running down the center. The borders of the brain are outlined in black, creating a striking contrast with the white border. The image is taken from a low-angle perspective.",
+      "Only Sticker, An animated illustration of a sloth in a mug with the words `Sloth Fuel` written on it. The sloth is holding the mug with its left hand and its right hand resting on the mug. The mug is filled with coffee and there is a brown liquid dripping from the bottom of the cup. There is a white background behind the sloth with a smoke coming out of it. There are three coffee beans on the bottom left corner of the image.",
+      "Only Sticker, A sticker of a green van is on a white background. There are mountains in the background with trees in front of them. There is a yellow sun in the top right corner of the image. Below the mountain there is black text that says 'collect moments not things'."
+    ]
   },
   {
     "image": "loras_images/Space_Wallpaper.png",
@@ -1151,7 +1186,12 @@
     "repo": "loras_cache/prithivMLmods_Ton618-Space-Wallpaper-LoRA",
     "weights": "space-wallpaper-xl.safetensor",
     "trigger_word": "Space Wallpaper",
-    "id": 149
+    "id": 149,
+    "prompts": [
+      "Space Wallpaper, a medium-angle view of the solar system is depicted. The solar system, the largest planet, is seen in the upper right corner of the frame. The sun, the furthest right corner, is in the center of the image, with the sun on the right corner. The background is a dark shade of blue, with a few white stars scattered across it. Below the sun, there are three large, round, orange, and gray balls. The largest ball, the smallest one, is a light blue, while the largest one, a darker blue, is at the bottom. There are wavy lines on the left and right sides of the black background, adding depth to the image.",
+      "Space Wallpaper, Captured from a high-angle perspective on a light pink background, a detailed illustration of a space ship is depicted in the center of the image. The ship is painted in shades of blue, green, and orange, with a black hole in the middle of its body. It is adorned with a few stars, adding a pop of color to the scene. To the left of the ship, a blue planet is seen with a pink ring around it, while to the right of the planet, a green planet is shown with a silver moon in the bottom left corner of the frame. The planet is surrounded by a few white stars, and a few yellow stars.",
+      "Space Wallpaper, a close-up view of a galaxy is depicted. The galaxy is a spiral, with a bright yellow center. The sky is a deep blue, with streaks of white and blue, and there are a few white stars visible. There is a large cluster of gray clouds in the upper left corner of the image, and a cluster of smaller clouds on the lower right corner. There are streaks of blue and white lights in the middle of the sky, and in the top right corner, a bright orange star is visible."
+    ]
   },
   {
     "image": "loras_images/Pixar_3D.png",
@@ -1159,7 +1199,12 @@
     "repo": "loras_cache/prithivMLmods_Canopus-Pixar-3D-Flux-LoRA",
     "weights": "Canopus-Pixar-3D-FluxDev-LoRA.safetensors",
     "trigger_word": "Pixar 3D",
-    "id": 150
+    "id": 150,
+    "prompts": [
+      "3d image, cute girl, in the style of Pixar --ar 1:2 --stylize 750, style of Pixarstyle of Pixar 4K : cinematic --ar 68:128 --stylize 750 --v 5.2",
+      "Cartoon 3D sunny bright Pixar-style image : super hero : full costume : cinematic --ar 68:128 --stylize 750 --v 5.2",
+      "A young man with light brown wavy hair and light brown eyes sitting in an armchair and looking directly at the camera, pixar style, disney pixar, office background, ultra detailed, 1 man"
+    ]
   },
   {
     "image": "loras_images/EBook_Cover.png",
