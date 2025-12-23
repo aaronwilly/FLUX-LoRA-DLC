@@ -11,6 +11,9 @@ license: creativeml-openrail-m
 short_description: 270+ Impressive LoRAs for Flux.1
 ---
 
+
+![FLUX LoRA DLC](screen.png)
+
 ## Installation
 
 ### Prerequisites
