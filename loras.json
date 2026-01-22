@@ -1415,23 +1415,30 @@
     "repo": "loras_cache/prithivMLmods_Golden-Dust-Flux-LoRA",
     "weights": "Golden-Dust.safetensors",
     "trigger_word": "Golden Dust",
-    "id": 166
+    "id": 166,
+    "prompts": [
+      "Golden Dust, A close-up view of a cheeseburger on a table. The hamburger is made up of a dark brown bun, with a layer of melted cheese on top of it. The cheese is a bright yellow, and there is a red sauce dripping from the bun. The bun is adorned with sesame seeds, adding a touch of sparkle to the scene. The table under the hamburger, is a dark wooden table, and the lighting is subdued, creating a stark contrast to the burger.",
+      "Golden Dust, A close-up shot of a golden retriever dogs face is seen in a vibrant orange hue. The dogs fur is a mix of brown and white, and the dogs nose is a darker shade of brown. Its eyes are a deep brown, and its ears are a lighter brown. The background is blurred, and there are small orange dots dotting the fur around its neck, adding a festive touch to the scene.",
+      "Golden Dust, A close-up eye-level shot of a womans face, adorned with sparkles of golden light. The womans eyes are adorned with green eyes, adding a pop of color to the scene. Her eyebrows are a darker shade of brown, while her eyelashes are a lighter shade of green. Her lips are a vibrant shade of red, her nose is adorned with a light pink tint. Her hair is a dark brown, wavy, and she has long bangs. The background is dark, creating a stark contrast to her face."
+    ]
   },
-  {
-    "image": "loras_images/Dramatic_Neon.webp",
-    "title": "Dramatic Neon",
-    "repo": "loras_cache/prithivMLmods_Castor-Dramatic-Neon-Flux-LoRA",
-    "weights": "Dramatic-Neon-Flux-LoRA.safetensors",
-    "trigger_word": "Dramatic Neon",
-    "id": 167
-  },
+
   {
     "image": "loras_images/Outfit_Generator.jpeg",
     "title": "Outfit Generator",
     "repo": "loras_cache/tryonlabs_FLUX_1-dev-LoRA-Outfit-Generator",
     "weights": "outfit-generator.safetensors",
     "trigger_word": "Outfit",
-    "id": 168
+    "id": 168,
+    "prompts": [
+      "A dress with Color: Black, Department: Dresses, Detail: High Low, Fabric-Elasticity: No Sretch, Fit: Fitted, Hemline: Slit, Material: Gabardine, Neckline: Collared, Pattern: Solid, Sleeve-Length: Sleeveless, Style: Casual, Type: Tunic, Waistline: Regular",
+      "A dress with Color: Red, Department: Dresses, Detail: Belted, Fabric-Elasticity: High Stretch, Fit: Fitted, Hemline: Flared, Material: Gabardine, Neckline: Off The Shoulder, Pattern: Floral, Sleeve-Length: Sleeveless, Style: Elegant, Type: Fit and Flare, Waistline: High",
+      "A dress with Color: Multicolored, Department: Dresses, Detail: Split, Fabric-Elasticity: High Stretch, Fit: Fitted, Hemline: Slit, Material: Gabardine, Neckline: V Neck, Pattern: Leopard, Sleeve-Length: Sleeveless, Style: Casual, Type: T Shirt, Waistline: Regular",
+      "A dress with Color: Brown, Department: Dresses, Detail: Zipper, Fabric-Elasticity: No Sretch, Fit: Fitted, Hemline: Asymmetrical, Material: Satin, Neckline: Spaghetti Straps, Pattern: Floral, Sleeve-Length: Sleeveless, Style: Boho, Type: Cami Top, Waistline: High",
+      "Color: Lavender Department: Outerwear Detail: Double-breasted, Padded shoulders Fabric-Elasticity: Non-stretch Fit: Oversized Hemline: Hip-length Material: Wool Blend Neckline: Notched Lapel Pattern: Solid Sleeve-Length: Long Style: Power Suit Type: Blazer Waistline: Relaxed",
+      "A stunning gold silk lehenga with intricate embroidery. This traditional outfit features a fitted, long skirt with a high waist, paired with a short-sleeved blouse with a V-neck. The stretchy fabric ensures comfort while maintaining the elegant silhouette.",
+      "A lehenga with a solid blue color features a floral pattern, traditional style, fitted fit, and a long hemline. It is made from silk with full sleeve length and stretchy fabric elasticity, sporting a V-neck and a high waistline. The embroidery adds a touch of elegance to the traditional design."
+    ]
   },
   {
     "image": "loras_images/Half_Illustration.webp",
@@ -1439,7 +1446,14 @@
     "repo": "loras_cache/davisbro_half_illustration",
     "weights": "flux_train_replicate.safetensors",
     "trigger_word": "in the style of TOK",
-    "id": 169
+    "id": 169,
+    "prompts": [
+      "In the style of TOK, a photo editorial avant-garde dramatic action pose of a woman short blue hair wearing 70s round wacky sunglasses pulling glasses down looking forward, in Tokyo with large marble structures and bonsai trees at sunset with a vibrant illustrated jacket surrounded by illustrations of flowers, smoke, flames, ice cream, sparkles, rock and roll",
+      "In the style of TOK, a photo editorial avant-garde dramatic action pose of a person wearing 90s round wacky sunglasses pulling glasses down looking forward, in Tokyo with large marble structures and bonsai trees at sunset with a vibrant illustrated jacket surrounded by illustrations of flowers, smoke, flames, ice cream, sparkles, rock and roll",
+      "In the style of TOK, a photo editorial avant-garde dramatic action pose of a person wearing 90s round wacky sunglasses pulling glasses down looking forward, in Seattle at sunset with a vibrant illustrated jacket surrounded by illustrations of flowers, smoke, flames, ice cream, sparkles, rock and roll",
+      "In the style of TOK, a photo editorial dramatic action pose of a person piercing eyes, tattoos on face, with creative bucket hat, standing in Tokyo with large marble structures and white purple trees in a Basketball court, with a vibrant illustrated street wear puffy vintage jacket, black shirt, volcano in the background, surrounded by illustrations of smoke, flames, and flowers, fog, exclamation marks, lines shooting outwards, minion characters, butterflies",
+      "In the style of TOK, a photo editorial dramatic action pose of a person with mirrored lenses with creative bucket hat, standing in Tokyo with large marble structures and white purple trees in a Basketball court, with a vibrant illustrated street wear puffy architectural leather jacket surrounded by illustrations of smoke, flames, birds, and flowers, fog, exclamation mark, lines shooting outwards, ascii characters"
+    ]
   },
   {
     "image": "loras_images/Oilscape.jpg",
@@ -1447,7 +1461,12 @@
     "repo": "loras_cache/bingbangboom_flux_oilscape",
     "weights": "flux_Oilstyle.safetensors",
     "trigger_word": "in the style of Oilstyle002",
-    "id": 170
+    "id": 170,
+    "prompts": [
+      "a white-haired young woman wearing a flower crown, a very large fiery dragon, castle in the background, in the style of Oilstyle002",
+      "a young woman wearing glasses, a baseball cap and a scarf, standing in front of old dilapidated lighthouse, crashing waves, in the style of Oilstyle002",
+      "a cat in a field of lavender flowers, in the style of Oilstyle002"
+    ]
   },
   {
     "image": "loras_images/Red_Undersea_Flux.png",
@@ -1455,7 +1474,12 @@
     "repo": "loras_cache/prithivMLmods_Red-Undersea-Flux-LoRA",
     "weights": "Red-Undersea.safetensors",
     "trigger_word": "Red Undersea",
-    "id": 171
+    "id": 171,
+    "prompts": [
+      "Red Undersea, An eye-level perspective of a 3D image of a Burger. The Burger is in the center of the image, with the Burger on the right side of the frame and the Burger on the left side. There is a blue swirl in the top left corner, and white swirls on the top right corner. There are red swirls in the bottom left corner. The background is a deep blue, and there are small white dots in the middle of the blue swirls. In the bottom right corner, there is a black surface.",
+      "Red Undersea, an illustration of a Tree in blue, in the style of glowing neon, with fish fluid formation floating around, witchcore, dark cyan and red, master of shadows, ethereal, ghostly figures ",
+      "Red Undersea, an illustration of a Candlelight in blue, in the style of glowing neon, with fish fluid formation floating around, witchcore, dark cyan and red, master of shadows, ethereal, ghostly figures "
+    ]
   },
   {
     "image": "loras_images/3D_Render_Flux_LoRA.png",
@@ -1463,7 +1487,12 @@
     "repo": "loras_cache/prithivMLmods_3D-Render-Flux-LoRA",
     "weights": "3D_Portrait.safetensors",
     "trigger_word": "3D Portrait, 3d render",
-    "id": 172
+    "id": 172,
+    "prompts": [
+      "3D Portrait, A detailed close-up of a cats face, adorned with a vibrant pink hue. The cats whiskers, adding a pop of color to the scene. The background is a deep purple, creating a stark contrast to the cats fur. The cats eyes are open, as if they are looking to the right. The ears of the cat are pointed, adding to the overall composition of the image.",
+      "3D Portrait, An eye-level perspective, a close-up of a young childs face, is depicted in a multi-colored, monochromatic fashion. The childs eyes are a piercing blue, and her hair is a vibrant shade of green, with a mix of brown and orange highlights. Her hair is pulled back in a ponytail, adding a pop of color to the scene. She is wearing a white turtleneck, and the background is a pale purple. Her eyebrows are a darker shade of brown, while her lips are a lighter shade of blue. Her nose is adorned with a tiny red dot.",
+      "3D Portrait, 3d render of a Hamburger, in the style of light magenta and light green, macro lens, light purple and light gold, pastelcore, characterful portraits, zbrush, 3d render, unreal engine "
+    ]
   },
   {
     "image": "loras_images/Yellow_Pop_Flux.png",
@@ -1471,7 +1500,12 @@
     "repo": "loras_cache/prithivMLmods_Yellow-Pop-Flux-Dev-LoRA",
     "weights": "Yellow_Pop.safetensors",
     "trigger_word": "Yellow Pop",
-    "id": 173
+    "id": 173,
+    "prompts": [
+      "Yellow Pop, A medium-sized bulldog stands in front of a vibrant pink background. The bulldogs face is prominently displayed, with its mouth slightly open. Its eyes are wide open, and its ears are perked up. Its mouth is slightly open, revealing a black nose. Its muzzle is adorned with small black dots, adding a pop of color to the scene. The dogs coat is a light brown, with a purple collared shirt underneath it. The coat has a black collar with a few buttons on it.",
+      "Yellow Pop, An eye-level painting of a tree with a yellow base and a thick trunk. The trees leaves are a vibrant shade of green, while the base is a lighter shade of yellow. The background is a deep pink, and the trees shadow is cast on the ground below the tree, creating a striking contrast of colors. The leaves are arranged in a way that creates a sense of depth and dimension, adding a pop of color to the scene.",
+      "Yellow Pop, A digital art painting of a woman in a pink jacket and a yellow turtleneck. The womans hair is styled in a bun and she is wearing a pair of pink tinted glasses. Her eyes are blue and her lips are pink. Her hair is pulled back in a ponytail. She is wearing large silver hoop earrings on both sides of her ears. The background of the painting is a vibrant yellow."
+    ]
   },
   {
     "image": "loras_images/Purple_Grid_Flux.png",
@@ -1479,15 +1513,12 @@
     "repo": "loras_cache/prithivMLmods_Purple-Grid-Flux-LoRA",
     "weights": "Purple_Grid.safetensors",
     "trigger_word": "Purple Grid",
-    "id": 174
-  },
-  {
-    "image": "loras_images/Dark_Thing_Flux.png",
-    "title": "Dark Thing Flux",
-    "repo": "loras_cache/prithivMLmods_Dark-Thing-Flux-LoRA",
-    "weights": "Dark_Creature.safetensors",
-    "trigger_word": "Dark Creature",
-    "id": 175
+    "id": 174,
+    "prompts": [
+      "Purple Grid, a black silhouette of a lit candle stands in front of a black mesh fence. The candle is lit, creating a stark contrast against the white background. The silhouette of the candle stands out against the mesh fence, adding a pop of color to the scene. In the background, a tall building stands out of the view. The buildings shadow is cast on the bottom of the screen, adding depth to the composition.",
+      "Purple Grid, This Surfer, is drawing in the style of the new contemporary artist,using black ink on white paper. The background wall has purple grid lines. The surreal style also calls to mind traditional illustration with comic drawing a cartoon-like quality ",
+      "Purple Grid, A black and white drawing of a crow on a white background. The crow is facing the right side of the image, with its head turned slightly to the left. The birds beak is pointed to the right, and its eyes are open. Its wings are spread out, and it has a black stripe running down its back. The wings are black, while its tail is white, and the birds feet are black. The background has a grid pattern of pink and purple lines, and there are black lines on the top and bottom of the grid."
+    ]
   },
   {
     "image": "loras_images/Shadow_Projection.png",
@@ -1495,7 +1526,12 @@
     "repo": "loras_cache/prithivMLmods_Shadow-Projection-Flux-LoRA",
     "weights": "Shadow-Projection.safetensors",
     "trigger_word": "Shadow Projection",
-    "id": 176
+    "id": 176,
+    "prompts": [
+      "Shadow Projection, a close-up shot of a womans face is visible. Her eyes are a piercing blue, and her eyelashes are a darker shade of blue. Her eyebrows are a dark brown, and she has long, wavy brown hair. Her lips are a lighter shade of brown, with a slight smile on her lips. The womans eyebrows are dark, adding a touch of depth to her face. The background is blurred, and the womans shadow is cast on the right side of the frame.",
+      "Shadow Projection, Captured from a close-up, eye-level perspective, a medium-sized boy with dark brown eyes and dark brown hair stands in front of a window. The boys face is angled slightly to the left, with a slight smile on his lips. His eyes are a piercing blue, and his eyebrows are a darker brown. His lips are a lighter shade of brown, and he is wearing a plaid shirt with a white collar. The background of the boy is blurred, and the boys shadow is cast on the window.",
+      "Shadow Projection, A close-up shot of a mans face is captured in a low-angle perspective. The mans eyes are a piercing blue, and his eyebrows are a darker shade of brown. His lips are a lighter shade of pink, and he has a brown mustache and goatee. He is wearing a brown jacket, and the background is blurred."
+    ]
   },
   {
     "image": "loras_images/Street_Bokeh.png",
