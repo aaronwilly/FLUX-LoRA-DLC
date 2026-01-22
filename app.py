@@ -279,8 +279,12 @@ def get_image_path_or_url(image_path_or_url):
 for lora in loras:
     if "image" in lora and lora["image"]:
         lora["image"] = get_image_path_or_url(lora["image"])
+# ✅ OFFLINE MODE: Setup local cache directories
+MODELS_CACHE_DIR = os.path.join(WORKSPACE_DIR, "models_cache")
 LORAS_CACHE_DIR = os.path.join(WORKSPACE_DIR, "loras_cache")
+os.makedirs(MODELS_CACHE_DIR, exist_ok=True)
 os.makedirs(LORAS_CACHE_DIR, exist_ok=True)
+print(f"✓ Models cache directory: {MODELS_CACHE_DIR}")
 print(f"✓ LoRA cache directory: {LORAS_CACHE_DIR}")
 
 def get_lora_local_path(lora_repo_or_path):
@@ -400,10 +404,11 @@ base_model = "black-forest-labs/FLUX.1-dev"
 # ✅ FIX: Lazy loading for pipe_i2i to prevent OOM at startup
 # Loading both pipelines at once is too much for 12GB RTX 4070
 # Load pipe_i2i only when needed (first image-to-image request)
-good_vae = AutoencoderKL.from_pretrained(base_model, subfolder="vae", torch_dtype=dtype, low_cpu_mem_usage=True)
+# ✅ OFFLINE MODE: Use local models_cache directory instead of default C drive cache
+good_vae = AutoencoderKL.from_pretrained(base_model, subfolder="vae", torch_dtype=dtype, low_cpu_mem_usage=True, cache_dir=MODELS_CACHE_DIR)
 print("Loading text-to-image pipeline...")
 try:
-    pipe = DiffusionPipeline.from_pretrained(base_model, torch_dtype=dtype, vae=good_vae, low_cpu_mem_usage=True)
+    pipe = DiffusionPipeline.from_pretrained(base_model, torch_dtype=dtype, vae=good_vae, low_cpu_mem_usage=True, cache_dir=MODELS_CACHE_DIR)
     print("✓ Text-to-image pipeline loaded")
 except Exception as e:
     print(f"❌ Failed to load text-to-image pipeline: {e}")
@@ -446,11 +451,13 @@ def ensure_pipe_i2i_loaded():
             
             # ✅ FIX: Do NOT share transformer between pipelines - causes instability with LoRA + adapter registry + offload
             # Load pipe_i2i independently (uses more RAM on CPU, but avoids GPU spikes and adapter conflicts)
+            # ✅ OFFLINE MODE: Use local models_cache directory instead of default C drive cache
             pipe_i2i = AutoPipelineForImage2Image.from_pretrained(
                 base_model,
                 vae=good_vae,
                 torch_dtype=dtype,
-                low_cpu_mem_usage=True
+                low_cpu_mem_usage=True,
+                cache_dir=MODELS_CACHE_DIR
             )
             
             # Enable optimizations
@@ -543,8 +550,9 @@ def restart_pipelines():
         torch.cuda.ipc_collect()
         
         # Reload text-to-image pipeline
-        good_vae = AutoencoderKL.from_pretrained(base_model, subfolder="vae", torch_dtype=dtype, low_cpu_mem_usage=True)
-        pipe = DiffusionPipeline.from_pretrained(base_model, torch_dtype=dtype, vae=good_vae, low_cpu_mem_usage=True)
+        # ✅ OFFLINE MODE: Use local models_cache directory instead of default C drive cache
+        good_vae = AutoencoderKL.from_pretrained(base_model, subfolder="vae", torch_dtype=dtype, low_cpu_mem_usage=True, cache_dir=MODELS_CACHE_DIR)
+        pipe = DiffusionPipeline.from_pretrained(base_model, torch_dtype=dtype, vae=good_vae, low_cpu_mem_usage=True, cache_dir=MODELS_CACHE_DIR)
         
         # Re-enable optimizations
         try:

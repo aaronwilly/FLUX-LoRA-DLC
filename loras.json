@@ -1212,7 +1212,12 @@
     "repo": "loras_cache/prithivMLmods_EBook-Creative-Cover-Flux-LoRA",
     "weights": "EBook-Cover.safetensors",
     "trigger_word": "EBook Cover",
-    "id": 151
+    "id": 151,
+    "prompts": [
+    "EBook Cover, An eye-level view of an ancient ruins, with the words `ECHOES OF THE PAST` written in gold in the center of the image. The ruins are made of stone, and the pillars are adorned with intricate carvings. In the background, a mountain can be seen. The sky is a muted yellow, and at the top, the word  `By Cesar Blair` is written in a bold black font.",
+    "EBook Cover, Captured in a close-up, eye-level perspective, the cover of the book 'Devond The SKIES' features a torn brown background with a white outline in the center of the cover. The title, 'devond the skies' is written in a bold, white font. Below the title, the author name, 'By Steven Brown,' is in a smaller font beneath the title.",
+    "EBook Cover, A poster of a woman in a black dress, standing in front of a circular window. The womans face is tilted upward, and her eyes are closed. The background of the poster is black, and the womans hair is wet. The window is cracked, and there is a light shining through the window. Below the window, the words The INVADERS are written in blue letters, and 'By James Stall' is written in white letters."
+    ]
   },
   {
     "image": "loras_images/Minimal_Futuristic.png",
@@ -1220,7 +1225,12 @@
     "repo": "loras_cache/prithivMLmods_Minimal-Futuristic-Flux-LoRA",
     "weights": "Minimal-Futuristic.safetensors",
     "trigger_word": "Minimal Futuristic",
-    "id": 152
+    "id": 152,
+    "prompts": [
+      "Minimal Futuristic, Captured in a digital art style, a womans face is visible in the foreground. The womans head is positioned in front of a mirror, which is mounted on a wall. The mirrors reflection is visible on the right side of the frame, depicting a wave in the water. The background is a combination of black, orange, and yellow, creating a vibrant contrast to the womans outfit. The outline of the mirror is encircled by a red circle, adding a pop of color to the scene.",
+      "Minimal Futuristic, A digital art painting of a womans face. The woman has short dark brown hair that is pulled back into a bun. Her eyes are dark and her lips are a lighter shade of pink. Her eyebrows are a darker shade of brown. Her lips are slightly parted and her mouth is slightly open. She is wearing a black t-shirt with a collar. The background is a dark gray and orange striped wall.",
+      "Minimal Futuristic, a black bird with a black beak and red eyes stands in front of an orange square-shaped object. The birds head is positioned in a way that is positioned to the right of the frame, its beak is pointed towards the right. Its eyes are a bright red, adding a pop of color to the otherwise monochromatic image. The background is a muted gray, creating a stark contrast to the black bird and the orange square object."
+    ]
   },
   {
     "image": "loras_images/Seamless_Pattern.png",
@@ -1228,7 +1238,12 @@
     "repo": "loras_cache/prithivMLmods_Seamless-Pattern-Design-Flux-LoRA",
     "weights": "Seamless-Pattern-Design.safetensors",
     "trigger_word": "Seamless Pattern Design",
-    "id": 153
+    "id": 153,
+    "prompts":[
+      "This is a vibrant digital illustration featuring a seamless pattern of four Chihuahua heads, each adorned with large, bright pink sunglasses. The dogs have tan fur with white chests and expressive, wide eyes. The background is a solid, vivid blue, interspersed with scattered pink heart shapes, adding a playful and whimsical touch. The illustration style is cartoonish, with smooth shading and exaggerated features, creating a cheerful and eye-catching design.",
+      "Seamless Pattern Design, a light blue background features a pattern of red berries and white snowflakes. The berries are arranged in a way that creates a striking contrast to the blue background. The leaves, stems, and branches are outlined in a muted gold color, adding a touch of nature to the image. The red berries are centered in the middle of the image, while the branches on the right side are outlined with a darker shade of gold. The branches, leaves, and stems are also outlined in white, creating a stark contrast against the background.",
+      "Seamless Pattern Design, A white background with red bows and Christmas decorations. The bows are tied in a bow shape. The decorations are in small pots with green leaves and red flowers. The background is a light pink color."
+    ]
   },
   {
     "image": "loras_images/Logo_Design.png",
@@ -1236,7 +1251,12 @@
     "repo": "loras_cache/prithivMLmods_Logo-Design-Flux-LoRA",
     "weights": "Logo-design.safetensors",
     "trigger_word": "Logo Design",
-    "id": 154
+    "id": 154,
+    "prompts": [
+      "Logo Design, A close-up of a bottle cap with the word 'HUNTER' carved into the center of the cap. The cap is made up of a silver metal frame with ridges along the edges. The background is a dark gray color. The word is carved into a wood-like pattern. There are tall pine trees in the middle of the frame. There is a mountain range in the background.",
+      "Logo Design, a round, teal-colored metal sign is adorned with the words 'RANGER' in bold, capitalized letters. The sign is set against a stark white backdrop, creating a striking contrast. The text, 'PARK RANGER', is prominently displayed in the center of the sign, adding a pop of color to the otherwise monochromatic image.",
+      "Logo Design, An eye-level view of a dark gray house with the words 'House Cleaning' written in the center of the image. The house is cracked, and the sky is filled with dark gray clouds. There are three spires sticking out of the top of the roof of the house, and there are small white stars scattered across the sky."
+    ]
   },
   {
     "image": "loras_images/Coloring_Book.png",
@@ -1244,7 +1264,12 @@
     "repo": "loras_cache/prithivMLmods_Coloring-Book-Flux-LoRA",
     "weights": "coloring-book.safetensors",
     "trigger_word": "Coloring Book",
-    "id": 155
+    "id": 155,
+    "prompts": [
+      "Coloring Book, A black and white drawing of a truck parked in front of a house. The truck is facing towards the right side of the image. There is a large tree to the right of the truck. There are small bushes to the left of the house. A fence is behind the truck on the right. The house has a roof that is made up of wood. The sky above the house is filled with fluffy white clouds.",
+      "Coloring Book, A black and white pencil sketch of a fox standing on its hind legs. The foxs fur is a light brown color, and its ears are a darker brown. Its eyes are black, and the foxs mouth is slightly open, as if it is about to go into the water. Thefoxs ears are sticking up, and it has a black nose and black eyes. There is a tree trunk on the left side of the image, and there are clouds in the sky. There are plants on the right and left of the fox.",
+      "Coloring Book, An eye-level view of a white sports car, the car is facing towards the right. The car is positioned in front of a backdrop of a cityscape, with the city skyline in the background. It is a black and white monochromatic image, with black accents on the cars body and the hood. The front of the car has a large headlight in the center of the front, and a black bumper with a yellow emblem on the right side of the headlight. On the left side, there are two large black tires with silver rims on them."
+    ]
   },
   {
     "image": "loras_images/Intense_Red.png",
@@ -1252,7 +1277,12 @@
     "repo": "loras_cache/prithivMLmods_Intense-Red-Flux-LoRA",
     "weights": "Intense-Red.safetensors",
     "trigger_word": "Intense Red",
-    "id": 156
+    "id": 156,
+    "prompts": [
+      "Intense Red, a black cat is facing the left side of the frame. The cats head is tilted upward, with its eyes closed. Its whiskers are protruding from its mouth, adding a touch of warmth to the scene. The background is a vibrant red, creating a striking contrast with the cats fur.", 
+      "Intense Red, A black bird is perched on a thin branch. The bird has a black body and a black tail. Its head is turned to the left and its beak is pointed to the right. The background is a vibrant red and there is a shadow of a tree on the right side of the frame. The branch that the bird is sitting on is dark brown and has a few small black spots on it.",
+      "Intense Red, a silhouette of a man in a black wetsuit stands on a beach, holding a black surfboard in his right hand. The mans shadow is cast on the ground, adding a touch of color to the scene. The background is a vibrant red, creating a striking contrast to the man and his surfboard."
+    ]
   },
   {
     "image": "loras_images/Glowing_Body_Flux.png",
@@ -1260,7 +1290,12 @@
     "repo": "loras_cache/prithivMLmods_Glowing-Body-Flux-LoRA",
     "weights": "Glowing-Body.safetensors",
     "trigger_word": "Glowing Body",
-    "id": 157
+    "id": 157,
+    "prompts": [
+      "Glowing Body, a vibrant black-haired man stands against a dark backdrop, adorned with a glowing heart-shaped light-up shirt. The mans face is adorned with white paint, adding a pop of color to the otherwise monochromatic scene. His hair is short, cascading down to his forehead, framing his face. His eyes are covered in white paint. His lips are slightly parted, as if he is looking down at the heart. His arms are stretched out in front of him, adding depth to the composition. The heart-like shape of the shirt is glowing, creating a stark contrast against the dark backdrop.",
+      "Glowing body, A close-up of a black birds head and neck is seen in a stark white lighted photograph. The birds beak is pointed towards the right side of the frame, and its eye is visible in the center of the image. The background is completely black, creating a stark contrast to the birds body and head.",
+      "Captured in a low-angle, eye-level perspective, a black and white cat stands against a stark black backdrop. The cats fur is a mix of black, white, and gray, creating a stark contrast against the dark background. The black cats face is adorned with a white line, adding a pop of color to the otherwise monochromatic image. The tail of the cat is draped over its body, adding depth to the composition."
+    ]
   },
   {
     "image": "loras_images/Electric_Blue.png",
@@ -1268,7 +1303,15 @@
     "repo": "loras_cache/prithivMLmods_Electric-Blue-Flux-LoRA",
     "weights": "Electric-Blue.safetensors",
     "trigger_word": "Electric Blue",
-    "id": 158
+    "id": 158,
+    "prompts": [
+      "Electric Blue, a woman is surfing on a surfboard on a wave. The woman is wearing a long-sleeved black wetsuit with a yellow stripe down the side. Her long blonde hair is pulled back in a ponytail, and shes wearing a white baseball cap on her head. The surfboard is a vibrant orange, while the wave behind her is a deep blue. The background is dark, and there are white stars visible in the upper right corner of the frame.",
+      "Electric Blue, An ethereal forest scene bathed in moonlight. Tall, ancient trees have leaves that glow faintly in shades of blue and green. Fireflies dot the forest floor with tiny sparks of light, while a small stream flows through, reflecting the glowing blue from the trees. A lone white wolf stands by the stream, its fur faintly glowing in the moonlight, with piercing blue eyes looking toward the viewer.",
+      "Electric Blue, A dramatic close-up of a young womans face with vivid makeup. Her eyes are deep blue, framed by long, thick lashes, and her eyelids are painted in shimmering silver. Her lips are a bold shade of electric blue, contrasting with her pale skin. She has a sleek black bob haircut, and her expression is calm, with a slight smile. The background is a gradient of purple to black, which enhances the glowing quality of her eyes and lips.",
+      "Electric Blue, An eye-level perspective of a womans face is captured in a close-up shot. The womans eyes are a piercing blue, and her lips are a lighter shade of blue. Her eyebrows are a darker shade of brown, and she has long, wavy hair. Her hair is pulled back in a ponytail, adding a touch of texture to her face. The background is a solid black, and the womans features are a striking contrast of blue and yellow.",
+      "Electric Blue, A digital art painting of a mans face. The mans eyes are glowing yellow and green. His hair is a vibrant shade of purple. His eyebrows are a darker shade of brown. His mouth is slightly open. He is wearing a necklace around his neck. His ear is a light blue color. The background is a dark blue.",
+      "Electric Blue, a woman is surfing on a surfboard on a wave. The woman is wearing a long-sleeved black wetsuit with a yellow stripe down the side. Her long blonde hair is pulled back in a ponytail, and shes wearing a white baseball cap on her head. The surfboard is a vibrant orange, while the wave behind her is a deep blue. The background is dark, and there are white stars visible in the upper right corner of the frame."
+    ]
   },
   {
     "image": "loras_images/Clouds_Illusion.png",
@@ -1276,7 +1319,12 @@
     "repo": "loras_cache/prithivMLmods_Clouds-Illusion-Flux-LoRA",
     "weights": "Clouds-Illusion.safetensors",
     "trigger_word": "Clouds Illusion",
-    "id": 159
+    "id": 159,
+    "prompts": [
+      "Clouds Illusion, a whimsical bicycle is adorned with a vibrant array of vibrant colors, adding a pop of color to the scene. The bicycles frame is adorned in a variety of hues of red, yellow, green, and blue, creating a striking contrast against the backdrop of the bicycle and the sky. The sky is a deep blue, with a few wispy white clouds dotting the horizon.",
+      "Clouds Illusion, a vibrant green tree stands out against a backdrop of a blue sky dotted with fluffy white clouds. The trees trunk is adorned with a thick layer of green leaves, adding a touch of nature to the scene. The leaves are a mix of green and yellow, while the roots of the tree are a darker darker green. The trunk is encircled by a series of brown vines, adding depth to the composition. The sky is a deep blue, with a few wispy clouds in the distance.",
+      "Clouds Illusion, A drawing of an man made out of Mountains, with a blue sky background, in the style of Stylized llustration, with soft pastel colors, pop art "
+    ]
   },
   {
     "image": "loras_images/Digital_Yellow.png",
@@ -1284,7 +1332,12 @@
     "repo": "loras_cache/prithivMLmods_Digital-Yellow-Flux-LoRA",
     "weights": "Digital-Yellow.safetensors",
     "trigger_word": "Digital Yellow",
-    "id": 160
+    "id": 160,
+    "prompts": [
+      "Digital Yellow, An eye-level view of a black cat with yellow eyes and a black tail. The cats whiskers are long and black, and the cats ears are pointed up. The background is a combination of blue, yellow, and orange squares, and there are buildings in the background.",
+      "Digital Yellow, An eye-level view of a bird with a yellow beak. The birds beak is a vibrant shade of orange, while its head is a dark shade of blue. The eyes are a bright red, and the birds feathers are a lighter shade of black. The beak of the bird is a bright orange, and its head is adorned with a black crown. The background is a mix of blue, white, and orange lines, creating a vibrant contrast to the bird and the background.",
+      "Digital Yellow, a medium-angle view of a large yellow ship is seen on a reflective reflective surface. The ships hull is adorned with a blue stripe running down the center of it, adding a pop of color to the otherwise monochromatic scene. The background is a mix of blue, yellow, and white lines, creating a stark contrast to the ships vibrant colors. The reflection of the ship and the surrounding buildings can be seen in the bottom right corner of the frame, adding depth to the composition."
+    ]
   },
   {
     "image": "loras_images/Flux_Qwen_Capybara.png",
@@ -1292,7 +1345,17 @@
     "repo": "loras_cache/cfahlgren1_flux-qwen-capybara",
     "weights": "flux-qwen-capybara.safetensors",
     "trigger_word": "QWENCAPY",
-    "id": 161
+    "id": 161,
+    "prompts": [
+      "An adorable anthropomorphic capybara mascot with hipster glasses and a quirky tech t-shirt sits at a futuristic desk, intensely focused on a sleek laptop. Its paws type on the keyboard, the screen displaying 'SQL'. Only show text 'SQL' in orange font on the laptop screen. Capybara wears a blank tshirt. The scene is vibrant and energetic, blending cute charm with high-tech elements. The lighting is soft and warm, casting a gentle glow from the laptop screen, with a cool blue ambient light from the futuristic desk. The background is a sleek, modern office with a hint of Flux LORA style, adding a whimsical touch. Film grain is subtle, and the color grading enhances the vibrant, playful atmosphere.",
+      "QWENCAPY capybara playing basketball",
+      "QWENCAPY adorable capybara driving inside a black tesla model y, side view",
+      "QWENCAPY capybara sitting on a beach drinking a margarita in a lawn chair, with bathing suit shorts on",
+      "QWENCAPY capybara laying on bench, bench pressing at the gym with 2 45 pound weights on each side. capybara is wearing a tank top and sweat pants",
+      "QWENCAPY capybara in an astronaut suit",
+      "QWENCAPY  capybara cooking a cake with letters '32B' on top of it in the oven",
+      "An adorable anthropomorphic capybara mascot on computer with dark hoodie which has text 'Qwen 3' printed on it"
+    ]
   },
   {
     "image": "loras_images/Plein_Air.jpg",
@@ -1300,7 +1363,12 @@
     "repo": "loras_cache/dasdsff_PleinAirArt",
     "weights": "PleinAir_000002500.safetensors",
     "trigger_word": "P1e!n",
-    "id": 162
+    "id": 162,
+    "prompts": [
+      "seed=4202671819",
+      "P1e!n Plein Air art of photo of hand holding vibrant Plein Air pastel art capturing ornate Hindu temple with intricate carved stone gopuram towers, rich vermillion and saffron hues, detailed elephant sculptures, decorative mandala patterns, actual temple rising majestically behind artwork, warm sunlight illuminating both artwork and temple spires, incense smoke drifting through scene P1e!n",
+      "P1e!n ,  realistic wide background capturing detailed street performers in vintage clothing playing acoustic instruments on cobblestone street, warm evening light, passersby watching, urban scenery, guitar violin accordion, authentic candid moment, documentary style, realistic details, film grain with a Plein Air art  of a hand holding vibrant pastel art of street performers in vintage clothing playing acoustic instruments on cobblestone street, warm evening light, passersby watching, urban scenery, guitar violin accordion, authentic candid moment, documentary style, realistic details, film grain, Plein Air art photo is taken in a such way it shows art and detailed background, background is wide and detailed, P1e!n "
+    ]
   },
   {
     "image": "loras_images/Orange_Chroma.png",
@@ -1308,7 +1376,12 @@
     "repo": "loras_cache/prithivMLmods_Orange-Chroma-Flux-LoRA",
     "weights": "Orange-Chroma.safetensors",
     "trigger_word": "Orange Chroma",
-    "id": 163
+    "id": 163,
+    "prompts": [
+      "Orange Chroma, A close-up of a cats face, the cats eyes are a piercing blue. The cats whiskers are long and white, adding a touch of color to the scene. The background is a vibrant orange, creating a striking contrast with the cat and its vibrant colors.",
+      "Orange Chroma, a close-up shot of a womans face is adorned with shiny silver paint. The womans eyes are covered in a shiny, reflective paint, adding a touch of sparkle to her face. Her hair is a vibrant shade of brown, cascading down her shoulders. She is wearing a white collared shirt, adorned with a white collar and a shiny red cape. Her lips are painted a darker shade of pink, while her hair is styled in a wavy bob. The background is a deep orange, creating a vibrant contrast to the womans skin.",
+      "Orange Chroma, A close-up eye-level shot of a young mans face, adorned with a vibrant blue wig. The wigs bangs are a mix of pink, blue, and purple, adding a pop of color to the scene. The mans eyes are a piercing blue, while his lips are a lighter shade of green. He is wearing a colorful shirt with a pattern of red, yellow, and green. The background is a vibrant orange, creating a striking contrast to the mans head."
+    ]
   },
   {
     "image": "loras_images/Lime_Green.png",
@@ -1316,7 +1389,12 @@
     "repo": "loras_cache/prithivMLmods_Lime-Green-Flux-LoRA",
     "weights": "Lime-Green.safetensors",
     "trigger_word": "Lime Green",
-    "id": 164
+    "id": 164,
+    "prompts": [
+      "Lime Green, An abstract painting of a hamburger on a green background. The hamburger is composed of a large red bun, with a thick layer of cheese between the bun and two slices of tomatoes. The tomatoes are red, and the lettuce is a vibrant green. The bun has a layer of white crumbs on top of it. There is a black base on the bottom of the hamburger.",
+      "Lime Green, An eye-level painting of a gray and white cat with green eyes. The cats ears are sticking up, and the cats nose is pointed towards the left side of the frame. Its whiskers are white, and there are splashes of black on the cat. The background of the painting is a vibrant lime green, with black splashes all around the cat, adding a pop of color to the scene.",
+      "Lime Green, An eye-level painting of a womans face, painted in a vibrant shade of green and red. Her lips are painted a deep red, and her eyes are closed. Her eyebrows are a darker shade of black, while her lips are a lighter shade of red. She is wearing a black baseball cap, and she is holding a phone in her right hand. Her hair is pulled back in a ponytail, adding a pop of color to her face. The background is a lime green, and there are a few lines of paint splattered across the image, adding depth to the composition."
+    ]
   },
   {
     "image": "loras_images/Line_Flare.png",
@@ -1324,7 +1402,12 @@
     "repo": "loras_cache/prithivMLmods_Fractured-Line-Flare",
     "weights": "Fractured-Line-Flare.safetensors",
     "trigger_word": "Fractured Line Flare",
-    "id": 165
+    "id": 165,
+    "prompts": [
+      "Fractured Line Flare, Captured at eye-level, a close-up shot captures a hamburger, adorned with sesame seeds on a brown bun. The bun is adorned with a variety of vibrant colors, including pink, purple, and white. The hamburger is situated on a black surface, with a backdrop of a trees leaves, adding a pop of color to the scene. The burger is encased in a thick layer of melted cheese, a dark brown meat, and a few slices of onion are arranged in the middle of the bun, adding depth to the composition. The lighting is subdued in a vibrant hue, creating a stark contrast to the burger.",
+      "Fractured Line Flare, Captured at eye-level on a low-angle perspective, a medium-sized bull stands on a grassy field. The bulls head is encircled by a wire fence, its horns protruding from the top of its head, adding a pop of color to the otherwise monochromatic scene. The cows body is covered in a pattern of small, square-shaped pieces of wire, adding depth to the composition. The background is a deep, vibrant purple, with a pink hue to the scene, creating a stunning contrast. The sky is filled with stars, adding to the overall composition of the image.",
+      "Fractured Line Flare, two women are seated on stools, playing violins. The woman on the left is wearing a long-sleeved black shirt and blue pants, while the other woman is on the right. Both women are dressed in dark clothing, their hair is styled in a bob, and their eyes are closed. The background is dark, and there are pink and blue lights strung across the image."
+    ]
   },
   {
     "image": "loras_images/Golden_Dust.png",
