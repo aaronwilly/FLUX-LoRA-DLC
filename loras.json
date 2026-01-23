@@ -1608,8 +1608,9 @@
     "prompts": [
       "Bold Shadows, Captured in a black and white monochromatic shot, a woman stands in front of a backdrop of leaves and shadows. She is wearing a black bra, her hair cascades over her shoulders. Her eyes are squinted and her lips are pursed. Her hair is long and cascades in a ponytail, adding a touch of movement to her face. The wall behind her is made up of white tiles, creating a stark contrast to the womans body.",
     "Bold Shadows, Captured in a black and white monochromatic shot, a woman stands in a short black dress, her long, wavy hair cascades over her shoulders. The womans left leg is bent at the knee, while her right leg is straight at the elbow. She is leaning against a wall, her left arm is resting on the wall, adding a touch of balance to the scene. The sun is shining down, creating a shadow on the right side of the image. To the left of the woman, there are tall buildings, their windows reflecting off of them.",
-    "Bold Shadows, A black and white photograph of Candlelight, in the style of street photography, with light projections casting bold shadows. The contrast between her dark attire and the stark background creates a striking visual impact. Her pose is dynamic yet confident, embodying strength amid simplicity, buildings, wide angle "
-    ]
+    "Bold Shadows, A black and white photograph of Candlelight, in the style of street photography, with light projections casting bold shadows. The contrast between her dark attire and the stark background creates a striking visual impact. Her pose is dynamic yet confident, embodying strength amid simplicity, buildings, wide angle ",
+  "Bold Shadows, Captured in a black and white monochromatic shot, a man stands in a short black shirt, his short, fashion hair cascades over his shoulders. The man left leg is bent at the knee, while his right leg is straight at the elbow. He is leaning against a wall, his left arm is resting on the wall, adding a touch of balance to the scene. The sun is shining down, creating a shadow on the right side of the image. To the left of the man, there are tall buildings, their windows reflecting off of them."  
+  ]
   },
   {
     "image": "loras_images/Knitted_Character.png",
@@ -1617,14 +1618,25 @@
     "repo": "loras_cache/prithivMLmods_Knitted-Character-Flux-LoRA",
     "weights": "Knitted-Character.safetensors",
     "trigger_word": "Knitted Character",
-    "id": 183
+    "id": 183,
+    "prompts": [
+      "Knitted Character, A close-up view of a crocheted toy. The toy is made up of a blend of orange, yellow, and pink yarn. It has a black button in the center of its head. The background is a solid white color.",
+      "Knitted Character, a crocheted doll stands on a wooden platform. The dolls head is encased in a multi-colored knit outfit, adorned with a pair of dark-colored goggles. The eyes are tinted blue, adding a pop of color to the scene. The figures arms and legs are positioned in a way that creates a sense of balance. The background is a stark white, creating a stark contrast to the figure.",
+      "Knitted Character, A close-up view of a knitted cat toy. The toy is a gray and white striped cat with blue eyes. The cats nose is pink. Its eyes are a piercing blue color. Its ears are made of gray yarn. Its whiskers are black and white. Its paws are knitted with white yarn. The background is a solid white color."
+    ]
   },
   {
     "image": "loras_images/Frosting_Lane.jpeg",
     "title": "Frosting Lane",
     "repo": "loras_cache/alvdansen_frosting_lane_flux",
     "trigger_word": "frstingln illustration",
-    "id": 184
+    "id": 184,
+    "prompts":[
+      "a pink crystal gem suspended in space, frstingln illustration",
+      "a man wearing a hunters cap frstingln illustration",
+      "a beautiful castle frstingln illustration",
+      "a small girl with a big grin, confident, on their toes, holding a sign that says 'I LOVE PROMPTS!' frstingln illustration"
+    ]
   },
   {
     "image": "loras_images/Fine_Detailed_Character.png",
@@ -1632,7 +1644,12 @@
     "repo": "loras_cache/prithivMLmods_Flux-Realism-FineDetailed",
     "weights": "Flux-Realism-FineDetailed.safetensors",
     "trigger_word": "Fine Detailed",
-    "id": 185
+    "id": 185,
+    "prompts": [
+      "Fine Detailed, A close-up shot of a medium-sized man with medium-length brown hair and a goatee. His eyes are a piercing blue, and his eyebrows are a darker shade of brown. He is wearing a brown jacket over a white t-shirt, and a gray sweater with a zipper on the right side of the jacket. The background is blurred, and the lighting is soft, creating a soft focus on the mans face.",
+      "Fine Detailed, A half Body Photo of a beautiful brunette Scottish girl, green eyes, messy beehive hair style, natural skin complexion, slim with curves, tartan shirt, outdoor background, soft lighting, captured by {randomly selected} photographer. This image looks glamorous and elegant in style and outdoor  background that was recognized as a contest winner. It has been featured on CG Society. Cinematic",
+      "Fine Detailed, A woman with long red hair, wearing a fur coat, standing outdoors in snowy Red Square, Moscow, with iconic colorful domes in the background. She faces slightly sideways, looking directly at the camera with a calm expression."
+    ]
   },
   {
     "image": "loras_images/Aura_9999.png",
@@ -1640,7 +1657,12 @@
     "repo": "loras_cache/prithivMLmods_Aura-9999",
     "weights": "Aura-9999.safetensors",
     "trigger_word": "Aura 9999",
-    "id": 186
+    "id": 186,
+    "prompts": [
+      "Aura 9999, a silhouette of a mans face can be seen in front of a dark background. The mans head is facing towards the right side of the frame, and his eyes are slightly open. His hair is a mix of brown and yellow, and he has a slight smile on his face. His mouth is slightly open, and there is a line of fire behind him, adding a touch of warmth to the scene.",
+      "Aura 9999, a hamburger is captured in a vibrant blue-green glow. The hamburger bun is adorned with sesame seeds, adding a pop of color to the otherwise monochromatic scene. The burger is situated in the center of the frame, with a layer of lettuce surrounding it. The lettuce is a vibrant shade of green, while the tomato slices are a vibrant red. The sandwich is positioned in front of a backdrop of smoke, creating a stark contrast to the burger. The lighting is subdued in the foreground, adding depth to the composition.",
+      "Aura 9999, a silhouette of a mans face can be seen in front of a dark background. The mans head is facing towards the right side of the frame, and his eyes are slightly open. His hair is a mix of brown and yellow, and he has a slight smile on his face. His mouth is slightly open, and there is a line of fire behind him, adding a touch of warmth to the scene."
+    ]
   },
   {
     "image": "loras_images/Pastel_BG.png",
@@ -1648,7 +1670,12 @@
     "repo": "loras_cache/prithivMLmods_Pastel-BG-Flux-LoRA",
     "weights": "Pastel-BG.safetensors",
     "trigger_word": "Pastel BG",
-    "id": 187
+    "id": 187,
+    "prompts": [
+      "Pastel BG, a young woman with brown hair and blue eyes stands in front of a colorful backdrop. The womans face is adorned with freckles, adding a pop of color to her outfit. The backdrop is a vibrant shade of purple, with yellow stars and stripes on it.",
+      "Pastel BG, An eye-level view of a gray tabby cat with long white whiskers and a pink nose. The cats head is tilted slightly to the right, and its eyes are wide open. Its ears are pointed up, and the cats fur is a mix of gray and black. The background is a combination of pink, purple, and yellow, with white dots dotting the background. To the left of the cat, there is a purple star with a white butterfly on it.",
+      "Pastel BG, a man stands in front of a colorful backdrop. He is dressed in a light pink suit jacket, a yellow collared shirt, and a pair of sunglasses. His hair is styled in a short bob, and his eyes are slightly open. His lips are slightly parted, as if he is looking to the right. The backdrop is a combination of pink, yellow, and green, with small white stars on the right side of the wall."
+    ]
   },
   {
     "image": "loras_images/Green_Cartoon.png",
@@ -1656,7 +1683,12 @@
     "repo": "loras_cache/prithivMLmods_Green-Cartoon-Flux-LoRA",
     "weights": "Green-Cartoon.safetensors",
     "trigger_word": "Green Cartoon",
-    "id": 188
+    "id": 188,
+    "prompt": [
+      "Green Cartoon, a cartoon character is depicted in a vibrant yellow and black outfit. The characters head is adorned with a black headband, adorned with two large round eyes, a white dot in the center, and a black crown on its head. The background is a dark green, adding a pop of color to the scene.",
+      "Green Cartoon, An animated image of a green bird with a yellow beak. The birds head is facing the left side of the image. Its beak is a bright yellow color. Its eyes are black and round. The beak has a yellow stripe on it. Its wings are a vibrant green color. The background is a dark green.",
+      "Green Cartoon, An animated image of a green dachshund dog standing on a black surface. The dogs head is facing the left side of the image, with its mouth slightly open. Its ears are pointed to the left, and its eyes are open. The ears are a dark green, with a black stripe running down the middle of the ears. Its mouth is slightly open, and there are black dots on its stomach. The background is a dark gray wall with a light shining on it."
+    ]
   },
   {
     "image": "loras_images/Retro_Pixel.png",
@@ -1664,7 +1696,12 @@
     "repo": "loras_cache/prithivMLmods_Retro-Pixel-Flux-LoRA",
     "weights": "Retro-Pixel.safetensors",
     "trigger_word": "Retro Pixel",
-    "id": 189
+    "id": 189,
+    "prompts": [
+      "Retro Pixel, A pixelated image of a german shepherd dog. The dogs fur is a vibrant shade of brown, with a black stripe running down its back. The background is a light green, and the dogs shadow is cast on the ground.",
+      "Retro Pixel, A pixelated image of a man surfing on a surfboard. The mans body is covered in a red shirt and blue shorts. His arms are out to the sides of his body. The surfboard is a vibrant blue color. The water is a light blue color with white splashes. The sun is shining on the right side of the image.",
+      "Retro Pixel, pixel art of a Hamburger in the style of an old video game, hero, pixelated 8bit, final boss "
+    ]
   },
   {
     "image": "loras_images/Teen_Outfit.png",
@@ -1672,7 +1709,15 @@
     "repo": "loras_cache/prithivMLmods_Teen-Outfit",
     "weights": "Teen-Outfit.safetensors",
     "trigger_word": "Teen Outfit",
-    "id": 190
+    "id": 190,
+    "prompt": [
+      "Teen Outfit, a teal and white jacket is adorned with a white hoodie. The jacket has a white stripe down the left side of the jacket, and two white stripes on the right and left side. On the left sleeve, there is a text written in a cursive font that is in black ink that reads 'X' and 'X'. The jacket is positioned against a stark white backdrop, creating a striking contrast.",
+      "Teen Outfit, a jacket is hung on a hanger against a stark white backdrop. The jacket is composed of a light green and gray striped jacket, with two orange pockets on either side of the jacket. The pocket on the left side has a white tag with black text on it. The tag also has a black text that reads 'N' and 'M'. The jacket has a zipper on the right side.",
+      "Teen Outfit, a light brown and white varsity jacket is hung on a black wall. The jacket is adorned with a white collar, white stripes and the words 'FORE CAST' in bold white letters. A keychain is hanging from the collar, adding a touch of charm to the jacket.",
+      "Teen Outfit: A cropped denim jacket with frayed edges, hanging from a black metal hanger against a white brick wall. The jacket is a light wash with a faded floral pattern on the back and a small silver star pin on the right lapel. The left sleeve has a hand-painted design in pastel colors that says WILD in playful, graffiti-style text.",
+      "Teen Outfit: An olive-green military-inspired jacket with multiple front pockets, displayed on a mannequin against a sandy beige background. The jacket has epaulets on the shoulders, a drawstring waist, and a subtle patch that reads 'BRV' on the right arm in dark green. The left pocket has a small silver pin in the shape of a lightning bolt.",
+      "Teen Outfit: A pastel pink raincoat with a clear plastic overlay, hanging on a bamboo hanger against a navy blue background. The raincoat has snap closures down the front and two side pockets with clear flaps. On the upper back, there’s a delicate white floral design in an outlined style, adding an artistic touch."
+    ]
   },
   {
     "image": "loras_images/CAnime.png",
@@ -1680,7 +1725,12 @@
     "repo": "loras_cache/prithivMLmods_CAnime-LoRA",
     "weights": "CAnime.safetensors",
     "trigger_word": "CAnime",
-    "id": 191
+    "id": 191,
+    "prompts": [
+      "CAnime, Captured at eye-level on a vibrant day, a detailed detailed illustration of a mountain range is depicted. The mountains top is adorned with a white snow-capped peak, adding a touch of color to the scene. The sky is a deep blue, with a few wispy clouds in the distance. The sun is setting, casting a pink hue over the mountain, adding depth to the composition. The mountains are reflected in a body of water, creating a stunning contrast to the sky.",
+      "CAnime, An animated image of a hamburger on a light blue background. The hamburger is a vibrant shade of pink, with a golden brown bun, and a thick layer of lettuce and cheese. The bun is adorned with a variety of colorful stripes, adding a pop of color to the scene. The sandwich is positioned in a circular fashion, with the top layer being the same shade as the bottom layer. There is a shadow of the hamburger cast on the ground below it.",
+      "CAnime, An animated portrait of a young man in a bright orange jacket with a light blue shirt underneath. The mans eyes are closed, and his lips are slightly parted. His hair is a vibrant orange, and he is wearing a pair of light blue jeans. The background is a pale blue, and there is a large circular blue circle in the background."
+    ]
   },
   {
     "image": "loras_images/Simple_Pencil.png",
@@ -1688,7 +1738,12 @@
     "repo": "loras_cache/prithivMLmods_Super-Pencil-Flux-LoRA",
     "weights": "Pencil.safetensors",
     "trigger_word": "Simple Pencil",
-    "id": 192
+    "id": 192,
+    "prompt": [
+      "Simple Pencil, A pencil drawing of a smiling boy is drawn on a white wall. The pencil is black with a yellow tip. The boys face is drawn with black lines. He has short brown hair that is pulled up in a ponytail. His eyes are open and he has a big smile on his face. His mouth is open and his teeth are visible. He is standing on a black pole that is attached to the pencil. The background is plain white.",
+      "Simple Pencil, A black and white pencil drawing of a small bird on a white surface. The bird is facing towards the left side of the image, with its head turned towards the right side. Its beak is black, and its eyes are black. Its wings are black, while its tail is black. There are two black pencils on the surface to the left of the bird. The background is a solid white.",
+      "Simple Pencil, A black and white pencil drawing of a womans face on a white paper. Her hair is long and cascades down to her shoulders. Her eyes are closed and her lips are slightly parted. Her eyebrows are squinted. Her lips are painted a dark shade of black. She is wearing a necklace around her neck. Her neck is draped over her chest. Her head is tilted slightly to the left. Her nose and mouth are also painted black."
+    ]
   },
   {
     "image": "loras_images/Retro_futurism.jpeg",
@@ -1696,23 +1751,31 @@
     "repo": "loras_cache/martintomov_retrofuturism-flux",
     "weights": "retrofuturism_flux_lora_martintomov_v1.safetensors",
     "trigger_word": "retrofuturism",
-    "id": 193
+    "id": 193,
+    "prompts": [
+      "photograph, background of Earth from space, red car on the Moon watching Earth, retrofuturism",
+      "illustration of a cowboy on horseback in a desert landscape, full body, side view, cowboy is holding a rifle and wearing a yellow hat and blue shirt, with a red bandana around the neck, three UFOs hover above him in the sky, which transitions from daylight to a starry space, detailed rock formations and green shrubs in the background, vibrant and surreal atmosphere, retrofuturism",
+      "red sports car with `SPACE RIDER` on its frontal hood, frontal view with a person visible inside through the windshield, car is emerging from a circular radiant portal with bright orange and red hues against a dark background, sense of high-speed motion and a tunnel-like effect, retrofuturism",
+      "an open door in the middle of a starry space, from front, white door partially opened, bright blue sky with large white clouds visible through the door, black bird flying in the sky, numerous glowing stars and Earth in the black space surrounding the door, retrofuturism",
+      "stylish room with a large circular window overlooking a desert-like alien landscape with planets and futuristic structures, interior perspective with a modern chair, sleek desk holding a computer with a colorful screen, and two potted plants, soft lighting and shadows enhance the calm, high-tech atmosphere, retrofuturism"
+    ]
   },
-  {
-    "image": "loras_images/Retro_Anime.webp",
-    "title": "Retro Anime",
-    "repo": "loras_cache/Bootoshi_retroanime",
-    "weights": "RetroAnimeFluxV1.safetensors",
-    "trigger_word": "retro anime",
-    "id": 194
-  },
+
   {
     "image": "loras_images/Plushy_world.png",
     "title": "Plushy world",
     "repo": "loras_cache/alvdansen_plushy-world-flux",
     "weights": "plushy_world_flux_araminta_k.safetensors",
     "trigger_word": "3dcndylnd style",
-    "id": 195
+    "id": 195,
+    "prompts": [
+      "a cute toad, 3dcndylnd style",
+      "An eccentric inventor in a lab coat, with wild hair and glasses, surrounded by quirky gadgets, 3dcndylnd style",
+      "A gentle giant, a friendly ogre with a flower crown, sitting cross-legged in a meadow, 3dcndylnd style",
+      "A sleepy alien floating in zero gravity, hugging a teddy bear, surrounded by twinkling stars, 3dcndylnd style",
+      "A whimsical treehouse village connected by rope bridges, nestled in a misty forest, 3dcndylnd style",
+      "An enchanted mushroom forest with glowing fungi, fireflies, and hidden fairy houses, 3dcndylnd style"
+    ]
   },
   {
     "image": "loras_images/ROYGBIVFlux.png",
@@ -1720,7 +1783,17 @@
     "repo": "loras_cache/renderartist_ROYGBIVFlux",
     "weights": "ROYGBIV_Flux_v1_renderartist.safetensors",
     "trigger_word": "r0ygb1v, digital illustration, textured",
-    "id": 196
+    "id": 196,
+    "prompts": [
+      "r0ygb1v This image is a digital illustration depicting an extreme closeup of a Little Red Riding Hood character face in a forest, she has a white ribbon on her collar, upper body view, medium complexion, the plants have brush texture and dappling, minimalist shapes, simple colors, abstract",
+      "r0ygb1v This illustration captures a striking scene of a black wolf with piercing yellow eyes and black pupils emerging from a mystical forest setting. The artwork employs a distinctive limited color palette featuring deep navy blues, various shades of forest greens, bright coral reds, and a dark red background. The composition is layered with silhouetted tree trunks in the foreground and background, while decorative fern-like foliage in both green and vibrant red creates a lush forest floor. The wolf's fur is rendered with detailed texture, appearing almost bristled and dark against the lighter backdrop. The overall aesthetic combines elements of traditional Japanese woodblock prints with modern digital illustration techniques, creating a moody, atmospheric piece that balances both menace and beauty in its forest setting. ",
+      "r0ygb1v digital illustration, castle in a purple scene, texture, contrast, flat colors, bold shapes striking geometric design ",
+      "r0ygb1v style digital illustration gouache style, a large tree trunk with a carved face clearing mythical, flat shading, brush strokes, textured",
+      "r0ygb1v digital illustration, a phoenix with orange feathers, brush strokes and textures, modern art, gouache textures, digital painting, majestic fantasy scene landscape background",
+      "r0ygb1v style digital illustration gouache style with (((visible textures)))   focus on a penguin in arctic scene, dotted with rocks and snow",
+      "r0ygb1v style digital illustration flat color style with (((visible textures)))   focus on a tropical forest scene with a gorilla, closeup",
+      "r0ygb1v style digital illustration flat color style with (((visible textures)))   focus on a lake scene with a singular large swan, closeup, detailed, dark moody atmosphere"
+    ]
   },
   {
     "image": "loras_images/sonny_anime.png",
@@ -1728,7 +1801,12 @@
     "repo": "loras_cache/alvdansen_sonny-anime-flex",
     "weights": "araminta_k_sonnyanime_fluxd_flex.safetensors",
     "trigger_word": "nm22 [style] style",
-    "id": 197
+    "id": 197,
+    "prompts": [
+      "a boy in a sailor suit frowning, nm22 illustration style",
+      "a pink frog, nm22 minimalist style",
+      "a chibi astronaut, nm22 minimalist anime style, crayon style"
+    ]
   },
   {
     "image": "loras_images/flux_whimscape.png",
@@ -1736,7 +1814,13 @@
     "repo": "loras_cache/bingbangboom_flux_whimscape",
     "weights": "WHMSCPE001.safetensors",
     "trigger_word": "illustration in the style of WHMSCPE001",
-    "id": 198
+    "id": 198,
+    "prompts":[
+      "a girl wearing glasses, wearing a baseball cap, holding a boba tea cup with a straw in her hand, illustration in the style of WHMSCPE001",
+      "a portrait of a boy, daydreaming, background of night sky, illustration in the style of WHMSCPE001",
+      "a cat taking a nap on a work table, illustration in the style of WHMSCPE001",
+      "a robot playing chess against a girl in a park, illustration in the style of WHMSCPE001"
+    ]
   },
   {
     "image": "loras_images/movie_shots_ic_lora.jpg",
@@ -1744,7 +1828,11 @@
     "repo": "loras_cache/glif-loradex-trainer_AP123_movie_shots_ic_lora_experiment_v1",
     "weights": "movie_shots_ic_lora_experiment_v1.safetensors",
     "trigger_word": "MOVIE-SHOTS",
-    "id": 199
+    "id": 199,
+    "prompts": [
+      "[MOVIE-SHOTS] In this adventurous three-part sequence, [SCENE-1] <Ethan>, an intrepid archaeologist with a rugged appearance, uncovers an ancient map in a sunlit desert dig site, his excitement palpable as he brushes away the sand, [SCENE-2] transitioning to a bustling marketplace in a vibrant foreign city where <Ethan> negotiates with local merchants and gathers essential supplies for his quest, [SCENE-3] and finally, <Ethan> treks through a dense, mist-covered jungle, the towering trees and exotic wildlife emphasizing the challenges and mysteries that lie ahead on his journey.",
+      "[MOVIE-SHOTS] In a vibrant festival, [SCENE-1] we find <Leo>, a shy boy, standing at the edge of a bustling carnival, eyes wide with awe at the colorful rides and laughter, [SCENE-2] transitioning to him reluctantly trying a daring game, his friends cheering him on, [SCENE-3] culminating in a triumphant moment as he wins a giant stuffed bear, his face beaming with pride as he holds it up for all to see."
+    ]
   },
   {
     "image": "loras_images/LiDAR.png",
@@ -1752,7 +1840,12 @@
     "repo": "loras_cache/glif_LiDAR-Vision",
     "weights": "Lidar.safetensors",
     "trigger_word": "L1d4r",
-    "id": 200
+    "id": 200,
+    "prompts": [
+      "macrophotography",
+      "woman baking",
+      "a photo within a dungeon with stone walls, wooden doors, and ornate torches"
+    ]
   },
   {
     "image": "loras_images/Hoodies.png",
@@ -1760,7 +1853,11 @@
     "repo": "loras_cache/prithivMLmods_Canopus-Flux-LoRA-Hoodies",
     "weights": "Canopus-Flux-LoRA-Hoodies.safetensors",
     "trigger_word": "Hoodie",
-    "id": 201
+    "id": 201,
+    "prompts": [
+      "Front view, capture a urban style, Hoodie, technical materials, fabric small point label on text Graytheory, the design is minimal, with a raised collar, fabric is a dark grey, low angle to capture the Hoodies form and detailing, f/5.6 to focus on the hoodies craftsmanship, solid grey background, studio light setting",
+      "Front view, capture a urban style, Hoodie, technical materials, fabric small point label on text red theory, the design is minimal, with a raised collar, fabric is a light red, low angle to capture the Hoodies form and detailing, f/5.6 to focus on the hoodies craftsmanship, solid grey background, studio light setting"
+    ]
   },
   {
     "image": "loras_images/World_of_RDR.jpg",
@@ -1768,15 +1865,11 @@
     "repo": "loras_cache/dvyio_flux-lora-rdr2",
     "weights": "eb79a593332f40458ea36fe0782f01a4_pytorch_lora_weights.safetensors",
     "trigger_word": "in the style of RDRGM",
-    "id": 202
-  },
-  {
-    "image": "loras_images/Retro_Collage_Art.jpeg",
-    "title": "Retro Collage Art",
-    "repo": "loras_cache/Fihade_Retro-Collage-Art-Flux-Dev",
-    "weights": "flux_dev_ff_collage_artstyle.safetensors",
-    "trigger_word": "ff-collage",
-    "id": 203
+    "id": 202,
+    "prompts": [
+      "Marilyn Monroe, video game screenshot in the style of RDRGM",
+      "person standing in front of Tower Bridge, Victorian era, dramatic sunset, video game screenshot in the style of RDRGM"
+    ]
   },
   {
     "image": "loras_images/Quote.png",
@@ -1784,7 +1877,8 @@
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Quote-LoRA",
     "weights": "quoter001.safetensors",
     "trigger_word": "quoter",
-    "id": 204
+    "id": 204,
+    "prompts": ["quoter, Captured from a low-angle perspective on a white backdrop, a square-shaped sticker is adorned with text that reads 'Books, not guns. Culture, not violence.' The text is written in a bold, black font. The stickers border is a light brown color, adding a pop of color to the image. The background is a stark white, creating a stark contrast to the text."]
   },
   {
     "image": "loras_images/Stamp.png",
@@ -1792,7 +1886,8 @@
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Stamp-Art-LoRA",
     "weights": "stam9.safetensors",
     "trigger_word": "stam9",
-    "id": 205
+    "id": 205,
+    "prompts": ["stam9, Captured from a high-angle perspective on a vibrant red backdrop, a square-shaped postage stamp features a red tomato with a green stem and a green leaf on top of it. The tomato is drawn in a cartoon-like fashion, with the word 'TOMATO' written below it in a bold, blue font. The background is a light beige, with a rough texture, adding depth to the composition."]
   },
   {
     "image": "loras_images/Hand_Sticky.png",
@@ -1800,7 +1895,12 @@
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Hand-Sticky-LoRA",
     "weights": "handstick69.safetensors",
     "trigger_word": "handstick69",
-    "id": 206
+    "id": 206,
+    "prompts": [
+      "handstick69, a human hand is holding two small stickers, each with the words 'you can do this!' written on them in black text. The left sticker is pink, while the right sticker is yellow, with black text written on it. Behind the hand, there is a plant with green leaves and a white tile floor.",
+      "handstick69, A close-up view of a persons hand holding a sticker that reads 'You Rock' in black letters. The sticker is a light blue ice cream with a smiley face on it. The persons nails are painted a vibrant red nail color. The background is a beige polka dot pattern.",
+      "handstick69, A close-up view of a white sticker that reads 'Stay' in black letters on a white background. The sticker has a black outline of a mountain, a cactus, a sun, and a house on the right side of the sticker. There is a tree in the bottom right corner of the image. There are green leaves in the background behind the sticker, and there is a clear blue sky in the top right corner."
+    ]
   },
   {
     "image": "loras_images/Poster_Foss.png",
