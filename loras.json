@@ -1539,7 +1539,12 @@
     "repo": "loras_cache/prithivMLmods_Street-Bokeh-Flux-LoRA",
     "weights": "Street_Bokeh.safetensors",
     "trigger_word": "Street Bokeh",
-    "id": 177
+    "id": 177,
+    "prompts": [
+      "Street Bokeh, a young woman with long dark hair, wearing a black hooded jacket, stands in front of a backdrop of colorful lights. The backdrop is blurred, creating a stark contrast with the vibrant colors of the lights.",
+      "Street Bokeh, A close-up shot of a mans face, the mans eyes are slightly open, and he is wearing a pair of dark sunglasses with tinted lenses. His hair is dark brown, and his eyebrows are a light brown. His mouth is slightly closed, as if he is looking to the left. The background is blurred, and there are a bunch of colorful lights in the background, adding a pop of color to the scene.",
+      "Street Bokeh, Captured at eye-level, a close-up shot of a womans face, adorned with a pair of tinted sunglasses. The womans eyes are tinted a deep pink, and her hair is cascading over her shoulders. She is dressed in a leopard print jacket, a silver necklace, and earrings. The background is blurred, creating a vibrant and colorful backdrop."
+    ]
   },
   {
     "image": "loras_images/Abstract_Cartoon.png",
@@ -1547,7 +1552,12 @@
     "repo": "loras_cache/prithivMLmods_Abstract-Cartoon-Flux-LoRA",
     "weights": "Abstract-Cartoon.safetensors",
     "trigger_word": "Abstract Cartoon",
-    "id": 178
+    "id": 178,
+    "prompts": [
+      "Abstract Cartoon, An eye-level painting of a monsters face, painted in a vibrant orange, yellow, red, and blue color scheme. The monsters eyes are covered in white paint, adding a pop of color to the scene. The eyes are squinted with black paint, while the mouth is adorned with red and white paint. The background is a dark blue, creating a contrast with the orange and yellow of the monsters head.",
+      "Abstract Cartoon, An eye-level view of a cats face is depicted in a close-up view. The cats eyes are black, and the cats nose is white, with a red nose and mouth painted in white. Its whiskers are white, and they are painted in a variety of colors, including orange, yellow, and blue. The background is a dark blue, and there is a star-shaped object in the top right corner of the image.",
+      "Abstract Cartoon, a portrait of Boat, painted by a dadaist abstract artist. a colorful character with a whismical theme, the background color is dark blue. All depicted by very colorful brush strokes. It all looks like a cartoon from 90 "
+    ]
   },
   {
     "image": "loras_images/Cartoon_Style_Flux.jpg",
@@ -1555,7 +1565,12 @@
     "repo": "loras_cache/Norod78_CartoonStyle-flux-lora",
     "weights": "CartoonStyle_flux_lora.safetensors",
     "trigger_word": "",
-    "id": 179
+    "id": 179,
+    "prompts": [
+      "A woman with red hair, playing chess at the park, bomb going off in the background",
+      "A man holding a coffee cup, in a beanie, sitting at a cafe",
+      "Rabbit playing the guitar, on stage, singing a song, laser lights, punk rocker"
+    ]
   },
   {
     "image": "loras_images/HDR_Digital_Chaos.webp",
@@ -1563,7 +1578,12 @@
     "repo": "loras_cache/prithivMLmods_Digital-Chaos-Flux-LoRA",
     "weights": "HDR-Digital-Chaos.safetensors",
     "trigger_word": "Digital Chaos",
-    "id": 180
+    "id": 180,
+    "prompts": [
+      "Digital Chaos, An abstract painting of a hamburger. The hamburger is made up of a variety of colors, including red, orange, yellow, green, blue, and purple. The bun is adorned with sesame seeds, adding a pop of color to the painting. The background is a vibrant shade of red, purple, and blue, creating a striking contrast with the burger. The burger is positioned in the center of the frame, with the bun facing the viewer.",
+      "Digital Chaos, An abstract painting of a womans face, the womans head is covered in black hair. The womans eyes are closed, and her lips are slightly parted. The background is a mix of blue, purple, orange, and yellow, and white. The painting has splashes of white, red, and blue, and black, creating a vibrant and colorful effect.",
+      "Digital Chaos, A detailed painting of a black and white Dachshund dog. The dogs eyes are a vibrant orange, while the dogs nose is a darker shade of red. The background is a mix of pink, orange, and yellow, creating a vibrant contrast to the black dogs fur."
+    ]
   },
   {
     "image": "loras_images/Yellow_Laser.png",
@@ -1571,7 +1591,12 @@
     "repo": "loras_cache/prithivMLmods_Yellow-Laser-Flux-LoRA",
     "weights": "Yellow-Laser.safetensors",
     "trigger_word": "Yellow Lasers",
-    "id": 181
+    "id": 181,
+    "prompts": [
+      "Yellow Lasers, Captured at eye-level on a low-angle perspective, a night-time shot captures a glowing figure of a person running on a wet concrete surface. The figure is adorned with a helmet, adorned with white dots, and a long line of light trails behind it, adding a touch of movement to the scene. The background is a deep black, creating a stark contrast to the figure.",
+      "Yellow Lasers, a black and white cat stands on its hind legs, facing the left side of the frame. The cats back is facing the viewer, its front paws are raised in the air, while its tail is stretched out in front of it. The background is dark, creating a stark contrast to the cats body and the lights in the background, adding a touch of color to the scene.",
+      "Yellow Lasers, Captured from a low-angle perspective on a dark stage, a white bicycle is positioned in the center of the frame. The bicycle is adorned with two white lights, one on each side of its body and the other on the back. The bike is positioned on two metal stands, creating a stark contrast against the backdrop of the stage. Two men are standing on the left side of the image, facing away from the camera on the right side. They are dressed in dark clothing, with hats on their heads. A long black cord is stretched across the stage, adding a touch of contrast to the scene."
+    ]
   },
   {
     "image": "loras_images/Bold_Shadows.png",
@@ -1579,7 +1604,12 @@
     "repo": "loras_cache/prithivMLmods_Bold-Shadows-Flux-LoRA",
     "weights": "Bold-Shadows.safetensors",
     "trigger_word": "Bold Shadows",
-    "id": 182
+    "id": 182,
+    "prompts": [
+      "Bold Shadows, Captured in a black and white monochromatic shot, a woman stands in front of a backdrop of leaves and shadows. She is wearing a black bra, her hair cascades over her shoulders. Her eyes are squinted and her lips are pursed. Her hair is long and cascades in a ponytail, adding a touch of movement to her face. The wall behind her is made up of white tiles, creating a stark contrast to the womans body.",
+    "Bold Shadows, Captured in a black and white monochromatic shot, a woman stands in a short black dress, her long, wavy hair cascades over her shoulders. The womans left leg is bent at the knee, while her right leg is straight at the elbow. She is leaning against a wall, her left arm is resting on the wall, adding a touch of balance to the scene. The sun is shining down, creating a shadow on the right side of the image. To the left of the woman, there are tall buildings, their windows reflecting off of them.",
+    "Bold Shadows, A black and white photograph of Candlelight, in the style of street photography, with light projections casting bold shadows. The contrast between her dark attire and the stark background creates a striking visual impact. Her pose is dynamic yet confident, embodying strength amid simplicity, buildings, wide angle "
+    ]
   },
   {
     "image": "loras_images/Knitted_Character.png",
