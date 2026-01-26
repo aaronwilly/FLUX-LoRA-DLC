@@ -1960,7 +1960,12 @@
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Pov-DoorEye-LoRA",
     "weights": "look-in-2.safetensors",
     "trigger_word": "look in 2",
-    "id": 213
+    "id": 213,
+    "prompts": [
+      "look in 2, Captured at eye-level, a full view of two cartoon characters, a yellow cartoon character with big eyes and a wide mouth, stands on a gray carpeted floor. The character on the left is wearing a blue and white striped shirt, and black shoes. His arms are out to his sides, and he has a smile on his face. His head is turned to the right, and his eyes are open, as if he is looking at the camera. The creature on the right is facing the camera, and its mouth is open. They are standing in front of an elevator, which is gray in color. The elevator is surrounded by brown wooden walls, and there is a white ceiling above the elevator.",
+      "look in 2, An eye-level view of a snoopy doll wearing a pair of black headphones. The doll is sitting on top of a piece of paper with a pencil in its right hand. There is a yellow remote control to the right of the doll. Behind the doll is a wooden table with a white and brown striped curtain on it.",
+      "look in 2, Captured at eye-level, a close-up view of a blue cartoon robot with two black round eyes and a yellow plus sign on its chest. The robot is standing on a tan carpeted floor. The ceiling above the robot is illuminated by a bright white light. To the right of the robot, there is a red button with a yellow arrow pointing to the right."
+    ]
   },
   {
     "image": "loras_images/Enna_Sketch.webp",
@@ -1968,7 +1973,14 @@
     "repo": "loras_cache/alvdansen_enna-sketch-style",
     "weights": "enna_sketch_style_araminta_k.safetensors",
     "trigger_word": "sketch illustration style",
-    "id": 214
+    "id": 214,
+    "prompts": [
+      " daydreaming student with lavender hair in pigtails, surrounded by floating books and math equations, sketch illustration style",
+      "aspiring musician with vibrant blue hair, wearing headphones and a vintage band t-shirt, sketch illustration style",
+      "A young botanist with flowing green hair, wearing oversized glasses and a lab coat covered in plant doodles, sketch illustration style",
+      "a girl with short pink braids, illustration style",
+      "A determined male athlete with short, spiky orange hair, wearing workout gear and a determined expression, dark skin, sketch illustration style"
+    ]
   },
   {
     "image": "loras_images/Panorama.webp",
@@ -1976,7 +1988,13 @@
     "repo": "loras_cache/jbilcke-hf_flux-dev-panorama-lora-2",
     "weights": "flux_train_replicate.safetensors",
     "trigger_word": "HDRI panoramic view of TOK",
-    "id": 215
+    "id": 215,
+    "prompts": [
+      "HDRI panoramic view of TOK, visiting an amusement park about harry potter.",
+      "HDRI panoramic view of TOK, inside of an art gallery, very modern, luxurious stylish, with expensive marble and copper-plated stuff",
+      "HDRI panoramic view of TOK, inside of a beautiful japanese onsen with sakura tree, hot baths",
+      "HDRI panoramic view of TOK, inside of a fighter jet cockpit, flying in the air, over an aircraft carrier, in San Francisco bay"
+    ]
   },
   {
     "image": "loras_images/Micro_Landscape.jpg",
@@ -1984,7 +2002,12 @@
     "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-Micro-landscape-on-Mobile-Phone",
     "weights": "FLUX-dev-lora-micro-landscape.safetensors",
     "trigger_word": "miniature stereoscopic scene",
-    "id": 216
+    "id": 216,
+    "prompts": [
+      "This poster shows a smartphone on a black background. The iphone screen shows a miniature scene, an amusement park scene, seamlessly integrated into the phone's frame. The scene is set from the top left to the bottom right of the phone, creating a perspective that draws the viewer into the tiny world. In the middle is a huge Ferris wheel, surrounded by many amusement facilities and shops",
+      "This poster shows a smartphone on a black background. The iphone screen shows a miniature scene, a street scene, seamlessly integrated into the iphone's frame. The scene is set from the top left to the bottom right of the phone, creating a perspective that draws the viewer into the tiny world. In the middle of the picture is the apple Store, which is a glass house. It is surrounded by shopping malls and shops",
+      "This poster shows a smartphone against a dark background. The phone screen reveals a miniature stereoscopic scene of eiffel tower, Paris, seamlessly integrated into the phone’s frame"
+    ]
   },
   {
     "image": "loras_images/Ancient_Greece_Watercolor.jpg",
@@ -1992,15 +2015,12 @@
     "repo": "loras_cache/glif-loradex-trainer_goldenark__Ancient_Greece_Watercolor_Sketch_Style",
     "weights": "Ancient_Greece_Watercolor_Sketch_Style.safetensors",
     "trigger_word": "AncientWaterColorStyle",
-    "id": 217
-  },
-  {
-    "image": "loras_images/M11_PPLSNSM.jpg",
-    "title": "M11 PPLSNSM",
-    "repo": "loras_cache/glif-loradex-trainer_i12bp8_appelsiensam_mii_v1",
-    "weights": "appelsiensam_mii_v1.safetensors",
-    "trigger_word": "M11_PPLSNSM",
-    "id": 218
+    "id": 217,
+    "prompts": [
+      "Ancient Greece art style, Greek Warrior AncientWaterColorStyle",
+      "WaterColor art technique, Landscape AncientWaterColorStyle",
+      "Lineart Sketch style AncientWaterColorStyle"
+    ]
   },
   {
     "image": "loras_images/RisographPrint.jpg",
@@ -2008,7 +2028,14 @@
     "repo": "loras_cache/glif-loradex-trainer_an303042_RisographPrint_v1",
     "weights": "RisographPrint_v1.safetensors",
     "trigger_word": "rsgrf , risograph",
-    "id": 219
+    "id": 219,
+    "prompts": [
+      "wounded centaur, mythical creature rsgrf , risograph print",
+      "ruins of athens, snake rsgrf , risograph print",
+      "silver vampire sword rsgrf , risograph print",
+      "rsgrf , risograph print, poster with the word 'glif' in colorful pastels",
+      "rsgrf , risograph print, woman standing by a phone booth on a busy street corner"
+    ]
   },
   {
     "image": "loras_images/White_Background.png",
@@ -2016,7 +2043,15 @@
     "repo": "loras_cache/gokaygokay_Flux-White-Background-LoRA",
     "weights": "80cfbf52faf541d49c6abfe1ac571112_lora.safetensors",
     "trigger_word": "in the middle ,white background",
-    "id": 220
+    "id": 220,
+    "prompts": [
+      "grid of 4 3D game assets, pixar, in the middle, white background",
+      "dog, in the middle, white background",
+      "two warriors fighting, in the middle, white background",
+      "rome colosseum, in the middle, white background",
+      "tea cup, in the middle, white background",
+      "hat, in the middle, white background"
+    ]
   },
   {
     "image": "loras_images/Gesture_Draw.jpg",
@@ -2024,7 +2059,12 @@
     "repo": "loras_cache/glif_Gesture-Draw",
     "weights": "Gesture_Draw_v1.safetensors",
     "trigger_word": "gstdrw style",
-    "id": 221
+    "id": 221,
+    "prompts": [
+      "gstdrw style, A gestural, spontaneous drawing of a horse galloping, captured with a delicate combination of fine charcoal and subtle ink lines on light brown textured paper. The strokes flow fluidly, conveying the powerful energy and movement of the horse without becoming heavy or overworked. The lines are confident yet graceful, focusing on the essential gestural essence of the subject. The background remains minimal, with only soft hints of depth and smudges, allowing the expressive lines to take center stage.",
+      "gstdrw style, ww2 tank, A gestural drawing of a WWII tank, rendered with confident yet delicate pencil strokes that capture the fluid movement and power of the subject. The lines are spontaneous and expressive, emphasizing the tank's sense of momentum and energy without becoming overly heavy or detailed. Minimal background elements, such as soft smudges or hints of depth, allow the focus to remain on the tank's dynamic form. The drawing is executed on lightly textured, off-white paper, which complements the organic, gestural quality of the composition.",
+      "Isometric environment that looks like a plaza with a building with a sign with the HR letters"
+    ]
   },
   {
     "image": "loras_images/Black_of_Art.png",
@@ -2032,7 +2072,12 @@
     "repo": "loras_cache/strangerzonehf_Black-of-Art-Flux",
     "weights": "Black-of-Art.safetensors",
     "trigger_word": "Black of Art",
-    "id": 222
+    "id": 222,
+    "prompts": [
+      "Black of Art, a black and white monochromatic painting of a baseball player, dressed in a black jacket, white collared shirt, and a black baseball cap. He is holding a baseball in his right hand, and his left hand is positioned in a baseball glove. His right hand is resting on his left wrist, while his left arm is bent at the elbow. The baseball is in the air, and he is looking down at the ball. The background is a light gray, with a few birds flying in the background. The painting has a signature at the bottom right corner of the frame.",
+      "Black of Art, Captured in a sepia toned photograph, a man in a black suit and tie is standing on the left side of the frame. He is holding a phone in his right hand, while his left hand is on the phone. The man in the foreground is sitting on a chair facing a row of black phones that have numbers on them. The phones are on a long, rectangular table that is set against a white wall with small white polka dots on it. To the right of the table, there is a window that is covered in shadows.",
+      "Black of Art: A grainy, high-contrast monochrome photograph captures a jazz musician in a dimly lit club. He is hunched over his trumpet, his eyes closed as he plays. Smoke curls from a cigarette resting on the edge of a small, round table beside him. The neon glow from a sign outside the window faintly illuminates the scene, casting long, soft shadows across the checkered floor. A few empty glasses sit nearby, hinting at a long night of music and solitude."
+    ]
   },
   {
     "image": "loras_images/SIMS.jpg",
@@ -2040,7 +2085,12 @@
     "repo": "loras_cache/dvyio_flux-lora-the-sims",
     "weights": "011ed14848b3408c8d70d3ecfa14f122_lora.safetensors",
     "trigger_word": "video game screenshot in the style of THSMS",
-    "id": 223
+    "id": 223,
+    "prompts": [
+      "female construction worker, speech bubble with an orange cone, video game screenshot in the style of THSMS",
+      "Queen Elizabeth II, video game screenshot in the style of THSMS",
+      "a giraffe on the set of a music video, video game screenshot in the style of THSMS"
+    ]
   },
   {
     "image": "loras_images/Umesky.png",
@@ -2048,7 +2098,12 @@
     "repo": "loras_cache/UmeAiRT_FLUX_1-dev-LoRA-Ume_Sky",
     "weights": "ume_sky_v2.safetensors",
     "trigger_word": "umesky",
-    "id": 224
+    "id": 224,
+    "prompts": [
+      "anime,anime art,(fantastic realism,surrealism:1.2),masterpiece,perfect artwork,highly detailed,best quality,water color tones,(side view,bust painting:1.1),1girl,pretty Asian,Kpop idol face,solo,white long hair,middle breasts,cleavage,semi-transparent kimono with off-the-shoulder sleeves,(elaborate butterfly headdress,headdress made of various colorful butterfly species,predominantly monarch butterflies and white morphos,appearing to fly off,ink splatter:1.3),intricate details",
+      "landscape of a (ruined corrupted medieval castle), dark magical energy pulsing into the sky, dark magical vortex, large bloodmoon, cloudy foggy skies, heavy low ground fog, Alpine valley, glowing magic, detailmaximizer, gaming, magic frame, object",
+      "A double exposure tattoo sketch, entrenched in a dark, moody setting, the fluorescent horizon bleeding into the tableau, foreground harboring a menacing skull, headphones, adorned with the ominous signs of an old war, anything spiked, and feathered by gears of conflict adorn it, borrowed from the Punisher universe, the skull wraps itself in a hood set aside from the mortal realm, skull head"
+    ]
   },
   {
     "image": "loras_images/Realtime_Toon_Mix.png",
