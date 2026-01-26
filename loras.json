@@ -2111,7 +2111,18 @@
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Realtime-Toon-Mix",
     "weights": "toon-mix.safetensors",
     "trigger_word": "toon mix",
-    "id": 225
+    "id": 225,
+    "prompts": [
+      "Toon Mix: A young man with short black hair, dressed in a blue denim jacket over a white t-shirt, is seated on a wooden bench. He is holding a steaming cup of coffee in his hands, with a vibrant red scarf draped around his neck. His relaxed pose contrasts with the bustling city backdrop, where towering skyscrapers meet the orange hues of the sunset.",
+      "Toon mix, a tall man with sharp features and salt-and-pepper hair wears a tailored navy suit with a burgundy tie. He stands under a glowing streetlamp on a cobblestone street, holding a black umbrella against a light drizzle. Behind him, a Parisian-style café with outdoor seating creates an air of sophistication, while faint jazz music seems to float through the scene.",
+      "Toon mix, a boy with a mischievous grin and spiky black hair wears a red baseball cap tilted to the side, a bright yellow hoodie, and ripped black jeans. He is riding a vibrant green bicycle on a cobblestone path, with colorful autumn leaves scattered around. The background includes a bustling park, complete with families, dogs, and children playing on swings.",
+      "Toon mix, a tall, slender man with short blonde hair wears a loose, white shirt with rolled-up sleeves and light blue denim jeans. He is holding a skateboard under his right arm, with a splash of red graffiti on its deck. He stands on a concrete sidewalk, a graffiti-covered brick wall in the background. The setting sun casts long shadows across the scene, while a pigeon perched on the wall adds a whimsical touch.",
+      "Toon Mix: A young woman with shoulder-length blonde hair is wearing a pastel blue dress with a white belt. She holds a straw sun hat in her right hand while the other hand rests lightly on her hip. She’s adorned with a gold bracelet and a delicate necklace. The backdrop features a serene beach with gentle waves and a golden sunset that adds a warm glow to the scene.",
+      "toon mix, captured at eye-level, a medium-angle shot captures a young Asian woman with long dark brown hair, wearing a white tank top and a gray and black plaid shirt. The womans face is adorned with a black and white abstract painting, adding a pop of color to the otherwise monochromatic scene. She is standing in a field of grass, with a backdrop of trees and a clear blue sky.",
+      "toon mix, a woman with long brown hair, wearing a gray knitted cap and a black jacket, is seen in a close-up view. She is wearing a pair of white earphones in her mouth, adding a pop of color to her face. The womans face is obscured by the cap, which is adorned with a black and white speckled cap. The cap is held up by a hand, with the word 'FRIORY' written in blue letters above it. The hand is held in the air, while the other hand reaches out towards the camera. In the background, a reflection of a woman can be seen on the glass of a building, adding depth to the scene.",
+      "toon mix, a vibrant orange hat stands atop a womans head. The womans long, brown hair cascades over her shoulders, framing her face. She is wearing a black jacket, adorned with a bright orange scarf, and a yellow backpack. The background is blurred, with a few cars parked on the street, adding a touch of color to the scene.",
+      "toon mix, a medium-haired woman, dressed in a white shirt and dark-colored bikini, is adorned with a white scarf tied around her waist. She is holding a gray bottle, her right hand resting on her hip. Her left hand is wrapped around the bottle, adding a pop of color to her body. Shes wearing a pink sun visor, and her brown hair cascades over her shoulders. The backdrop, a rocky cliff, is a stark contrast to the blue sky, dotted with white stars."
+    ]
   },
   {
     "image": "loras_images/Pointcrayonstyle.png",
@@ -2119,7 +2130,21 @@
     "repo": "loras_cache/oshtz_flux-pointcrayonstyle",
     "weights": "flux-pointcrayonstyle.safetensors",
     "trigger_word": "pointcrayonstyle",
-    "id": 226
+    "id": 226,
+    "prompts": [
+      "pointcrayonstyle, underwater ballet performance featuring mermaids, whales, and bioluminescent sea creatures as the audience, with coral reefs forming the stage and schools of fish as the orchestra",
+      "pointcrayonstyle, steampunk-inspired beehive city with tiny airships buzzing between honeycombs and clockwork flowers, populated by bee-people in Victorian attire tending to gear-driven gardens",
+      "pointcrayonstyle, robotic chef preparing a gourmet meal in a kitchen made entirely of candy",
+      "pointcrayonstyle, microscopic view of a computer chip city with data streams flowing like rivers and transistors as skyscrapers, inhabited by nanobots commuting in quantum tunnels and binary code b",
+      "pointcrayonstyle, intergalactic farmer's market with alien vendors selling exotic fruits and vegetables from different planets, featuring gravity-defying display stands and holographic price tags",
+      "pointcrayonstyle, haunted amusement park where ghostly visitors ride spectral roller coasters and play with phantom cotton candy, featuring translucent carnival games and a ferris wheel that phases",
+      "pointcrayonstyle illustration, sonic the hedgehog is drawing a map to nowhere at a casino, the feeling is mysterious and enigmatic",
+      "pointcrayonstyle illustration, someone is reading a book made of leaves at a fire station, the mood is solemn and respectful",
+      "pointcrayonstyle illustration, someone is catching shadows in a butterfly net at a wine bar, the atmosphere is welcoming and friendly",
+      "pointcrayonstyle illustration, pikachu is whispering lullabies to the wind at a farmer's market, the mood is light and cheerful",
+      "pointcrayonstyle illustration, mario is building a tower out of jellybeans at a fish market, the mood is solemn and respectful",
+      "pointcrayonstyle illustration, at a lighthouse, the ambiance is exotic and mysterious"
+    ]
   },
   {
     "image": "loras_images/VSH_Box.jpeg",
