@@ -1903,36 +1903,31 @@
     ]
   },
   {
-    "image": "loras_images/Poster_Foss.png",
-    "title": "Poster Foss",
-    "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Poster-HQ-LoRA",
-    "weights": "poster-foss.safetensors",
-    "trigger_word": "poster foss",
-    "id": 207
-  },
-  {
     "image": "loras_images/Ctoon.png",
     "title": "Ctoon",
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Ctoon-LoRA",
     "weights": "ctoon.safetensors",
     "trigger_word": "ctoon",
-    "id": 208
+    "id": 208,
+    "prompts": [
+      "ctoon, A cartoon drawing of a white cat with a black sunglasses around its eyes. The cats eyes are squinted and the cats ears are a light pink color. There are two yellow stars on the wall to the right of the cat.",
+      "ctoon, A cartoon drawing of a white penguin sitting on a red chair. The penguin has a yellow beak and yellow feet. The background of the penguin is a bright blue color.",
+      "ctoon, A cartoon drawing of a cat wearing sunglasses. The cat is facing towards the left side of the image. It is holding a wine glass with wine in it. There is a bottle of wine to the right of the cat. There are two stars to the left of the animal. The background is a light beige color."
+    ]
   },
-  {
-    "image": "loras_images/C33_Design.png",
-    "title": "C33 Design",
-    "repo": "loras_cache/prithivMLmods_Flux-C33-Design-LoRA",
-    "weights": "C33.safetensors",
-    "trigger_word": "C33 Design",
-    "id": 209
-  },
+
   {
     "image": "loras_images/Indo_Realism.png",
     "title": "Indo Realism",
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Indo-Realism-LoRA",
     "weights": "indo-realism.safetensors",
     "trigger_word": "indo-realism",
-    "id": 210
+    "id": 210,
+    "prompts": [
+      "indo-realism, Purple Dreamy, a medium-angle shot of a young woman with long brown hair, wearing a pair of eye-level glasses, stands in front of a backdrop of purple and white lights. The womans eyes are closed, her lips are slightly parted, as if she is looking up at the sky. Her hair is cascading over her shoulders, framing her face. She is wearing a sleeveless bra, adorned with tiny white dots, and a gold chain necklace around her neck. Her left earrings are dangling from her ears, adding a pop of color to the scene.",
+      "indo-realism, headshot of a man, aerial view profile picture, handsome Indian man with black hair and short beard wearing an oversized dark coat in the style of soft lighting, neutral background, 35mm photography --ar 31:39",
+      "indo-realism, Super Realism, High-resolution photograph, woman, UHD, photorealistic, shot on a Sony A7III --chaos 20 --ar 1:2 --style raw --stylize 250"
+    ]
   },
   {
     "image": "loras_images/Sketch_Card.png",
@@ -1940,7 +1935,12 @@
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Sketch-Card-LoRA",
     "weights": "sketchcard.safetensors",
     "trigger_word": "sketch card",
-    "id": 211
+    "id": 211,
+    "prompts": [
+      "sketch card, a close-up of a hand holding a card with a cartoon image of Mario on it. The card has a yellow background with a red cap and a red M on it, and the character is wearing blue overalls with a yellow button on the left side of his chest. The character is waving his left hand and has a big smile on his face. To the right of the card is a small cartoon character with a blue outfit and red hat. They are standing on a table with a white tablecloth. The table is adorned with small lights, adding a pop of color to the scene.",
+      "sketch card, a hand is holding a small card with a drawing of three bears on it. The first bear is a panda, the second is a brown bear, and the third is a white bear. The bear on the left is wearing a gray and white striped shirt, while the third bear is in the middle of the three bears. The bears are facing each other, with their mouth open. The third bear has its head tilted to the left. The background is a gray wall with a row of windows in the upper left corner of the frame.",
+      "sketch card, a hand is holding a small, square, white paper with a cartoon image of a yellow minion on it. The minion faces are drawn in a cartoon-like fashion, with big, round eyes, a wide smile, and a pair of eye-level glasses. The background of the image is a light blue, with Asian characters in a foreign language. To the right of the minions face, there is a white wall with multi-colored squares on it, adding a pop of color to the scene."
+    ]
   },
   {
     "image": "loras_images/Movie_Board.png",
@@ -1948,7 +1948,11 @@
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Movie-Boards-LoRA",
     "weights": "movieboard.safetensors",
     "trigger_word": "movieboard",
-    "id": 212
+    "id": 212,
+    "prompts": [
+      "movieboard, A black and white photograph of a man in a space suit is seen on a page of a magazine. The man is wearing a white helmet on his head, and is standing in a field of tall grass. The background of the photograph is a bright yellow circle, and the word 'InterSTAR' is written in bold black letters at the top of the page. The number '20' is in the upper right corner of the frame.",
+      "movieboard, Captured on a white poster, a man in a gray jacket and black pants is holding a gray bag in his left hand. He is standing in front of a large red wave. Above the man, the word 'Joker' is written in bold black letters. To the top left of the poster, there is a rainbow colored logo."
+    ]
   },
   {
     "image": "loras_images/Door_Eye_View.png",
