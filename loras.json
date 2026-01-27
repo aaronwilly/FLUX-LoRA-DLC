@@ -472,7 +472,17 @@
     "title": "Miniature People",
     "repo": "loras_cache/iliketoasters_miniature-people",
     "trigger_word": "miniature people",
-    "id": 64
+    "id": 64,
+    "prompts": [
+    "raw photo, m1n1p3ople, a miniature bride and groom on top of a wedding cake, kissing, at a wedding reception",
+    "closeup shot of a tiny 1 inch miniature man in a yellow shirt and black pants, full beard, medium length hair, sitting on a computer keyboard, computer behind him",
+    "over the shoulder shot, raw photo, a miniature man and woman sitting on a table, they are watching a movie on a smartphone propped up on its side",
+    "raw photo, m1n1p3ople, a group of tiny miniature people having a picnic on a kitchen counter with oversized utensils",
+    "macro shot, miniature woman in a red dress standing next to a coffee mug on a wooden table, lighting highlights tiny details",
+    "raw photo, m1n1p3ople, a miniature couple dancing beside a large toy car in a garage scene",
+    "macro photography of a tiny miniature man reading a book beside a giant teacup, shallow depth of field",
+    "raw photo, m1n1p3ople, a tiny group of miniature people building a sandcastle on a beach with oversized beach toys"
+  ]
   },
   {
     "image": "loras_images/kids_Illustrations.jpg",
@@ -480,7 +490,17 @@
     "repo": "loras_cache/ampp_rough-kids-illustrations",
     "weights": "rough-kids-illustrations.safetensors",
     "trigger_word": "r0ughkids4rt",
-    "id": 65
+    "id": 65,
+    "prompts": [
+      "A person in a bustling cafe, r0ughkids4rt",
+      "a cute dinosaur at a park with lots of flowers, r0ughkids4rt",
+      "a little girl sitting on a big chair, the little girl is reading a book, r0ughkids4rt",
+      "two children playing with colorful balloons in a playground, r0ughkids4rt",
+      "a smiling kid drawing with crayons on a big sheet of paper, r0ughkids4rt",
+      "a group of kids having a picnic under a big tree, r0ughkids4rt",
+      "a happy child flying a kite on a sunny day with birds in the sky, r0ughkids4rt",
+      "a young boy building a sandcastle at the beach, r0ughkids4rt"
+    ]
   },
   {
     "image": "loras_images/TSTVCTR_Cartoon.png",
@@ -488,30 +508,34 @@
     "repo": "loras_cache/lichorosario_flux-lora-tstvctr",
     "weights": "lora.safetensors",
     "trigger_word": "TSTVCTR cartoon illustration",
-    "id": 66
+    "id": 66,
+    "prompts": [
+      "This image is a simplified, TSTVCTR vector‑style portrait of a person with distinct cartoonish features. The man is wearing a gray hat and black‑framed glasses, with a small blue flower behind his right ear",
+      "This image is a simplified, TSTVCTR vector‑style frontal portrait of a dog with distinct cartoonish features, wearing black‑framed glasses",
+      "This image is a simplified, TSTVCTR vector‑style frontal portrait of a bunny with distinct cartoonish features, wearing black‑framed glasses",
+      "TSTVCTR cartoon illustration of a chef",
+      "TSTVCTR cartoon illustration point‑and‑click game background with a small cliffside town",
+      "TSTVCTR cartoon illustration frontal portrait of a turtle character"
+    ]
   },
-  {
-    "image": "loras_images/Tosti_Vector.png",
-    "title": "Tosti Vector",
-    "repo": "loras_cache/lichorosario_flux-lora-gliff-tosti-vector-no-captions-2500s",
-    "weights": "flux_dev_tosti_vector_without_captions_000002500.safetensors",
-    "trigger_word": "",
-    "id": 67
-  },
+
   {
     "image": "loras_images/Propaganda_Poster.png",
     "title": "Propaganda Poster",
     "repo": "loras_cache/AlekseyCalvin_Propaganda_Poster_Schnell_by_doctor_diffusion",
     "weights": "propaganda_schnell_v1.safetensors",
     "trigger_word": "propaganda poster",
-    "id": 68
-  },
-  {
-    "image": "loras_images/Ringside_Portrait.png",
-    "title": "Ringside Portrait",
-    "repo": "loras_cache/WizWhite_Wiz-PunchOut_Ringside_Portrait",
-    "trigger_word": "punch0ut, ringside pixel portrait depicting",
-    "id": 69
+    "id": 68,
+    "prompts": [
+      "propaganda poster of a curious raccoon rummaging through a pile of leaves at night, its eyes shining in the moonlight as it searches for food in a quiet, suburban backyard. text reads /trash panda!/ at top",
+      "propaganda poster A wise old owl perched on a branch in a misty forest, with glowing eyes and its feathers ruffled by the wind, watching over the landscape below",
+      "propaganda poster of a heroic firefighter raising a flag while standing amidst billowing smoke and flames, bold slogans in strong block letters",
+      "propaganda poster depicting a futuristic robot worker saluting with city skyline in background, vibrant colors and dramatic text banner",
+      "propaganda poster showing a determined astronaut planting a flag on a distant planet with cheering crowd silhouettes and powerful slogan text",
+      "propaganda poster featuring a dynamic eagle soaring above mountain peaks with large bold lettering motivating unity and strength",
+      "propaganda poster of a vintage car race with stylized retro typography and dynamic motion lines conveying speed and excitement",
+      "propaganda poster illustrating a community garden harvest celebration with smiling figures, bright bold text promoting collective effort"
+    ]
   },
   {
     "image": "loras_images/Long_Exposure.jpg",
@@ -519,23 +543,34 @@
     "repo": "loras_cache/glif-loradex-trainer_kklors_flux_dev_long_exposure",
     "weights": "flux_dev_long_exposure.safetensors",
     "trigger_word": "LE",
-    "id": 70
+    "id": 70,
+    "prompts": [
+      "a young woman dancing in a club LE",
+      "cars racing on a busy road LE",
+      "an amusement park at night LE",
+      "a man riding a bike through a city LE",
+      "people celebrating a birthday LE",
+      "a fox running through a forest LE"
+    ]
   },
-  {
-    "image": "loras_images/Street_Wear.jpeg",
-    "title": "Street Wear",
-    "repo": "loras_cache/DamarJati_streetwear-flux",
-    "weights": "Streetwear.safetensors",
-    "trigger_word": "Handling Information Tshirt template",
-    "id": 71
-  },
+
   {
     "image": "loras_images/NFT_V4.png",
     "title": "NFT V4",
     "repo": "loras_cache/strangerzonehf_Flux-NFTv4-Designs-LoRA",
     "weights": "NFTv4.safetensors",
     "trigger_word": "NFT V4",
-    "id": 72
+    "id": 72,
+    "prompts": [
+      "NFT V4, Captured at eye-level, a close-up shot of a cat’s face with vibrant pink fur and yellow accents on a dark brown background, detailed NFT character design",
+      "NFT V4, a close-up shot of a spiderman cat wearing a red and black spiderman costume with white eyes, vibrant pop-art NFT style",
+      "NFT V4, A medium-sized cat wearing a maroon baseball cap, white sunglasses and a silver chain around its ears on a solid black background, stylized NFT portrait",
+      "NFT V4, A medium-sized bulldog wearing a black leather jacket and silver chain with tinted sunglasses on a deep blue background, edgy NFT character",
+      "NFT V4, A head-on close-up of a fluffy rabbit’s face with teal, purple, and white multicolored fur, round gold-rimmed glasses and black bowtie, soft gradient background",
+      "NFT V4, A playful raccoon wearing a green hoodie with a “Game Over” text and mischievous green eyes, pixelated video game landscape background",
+      "NFT V4, A stylized 3D cartoon fox in a neon jacket with glowing eyes against a futuristic city scene",
+      "NFT V4, A cyberpunk owl wearing goggles perched on a neon sign with glowing geometric background"
+    ]
   },
   {
     "image": "loras_images/Product_Design.png",
@@ -543,47 +578,31 @@
     "repo": "loras_cache/multimodalart_product-design",
     "weights": "product-design.safetensors",
     "trigger_word": "product designed by prdsgn",
-    "id": 73
+    "id": 73,
+    "prompts": [
+      "a coffee machine product designed by prdsgn",
+      "a kettle product designed by prdsgn",
+      "a meat grinder product designed by prdsgn",
+      "a modern wireless speaker product designed by prdsgn",
+      "a sleek ergonomic office chair product designed by prdsgn",
+      "a minimalist wristwatch product designed by prdsgn",
+      "a portable gaming console product designed by prdsgn",
+      "a futuristic electric bicycle product designed by prdsgn"
+    ]
   },
-  {
-    "image": "loras_images/Typography.png",
-    "title": "Typography",
-    "repo": "loras_cache/prithivMLmods_Canopus-LoRA-Flux-Typography-ASCII",
-    "weights": "Typography.safetensors",
-    "trigger_word": "Typography, ASCII Art",
-    "id": 74
-  },
-  {
-    "image": "loras_images/Mosoco.jpg",
-    "title": "Mosoco",
-    "repo": "loras_cache/mateo-19182_mosoco",
-    "weights": "mosoco.safetensors",
-    "trigger_word": "moscos0",
-    "id": 75
-  },
-  {
-    "image": "loras_images/Latent_Pop.webp",
-    "title": "Latent Pop",
-    "repo": "loras_cache/jakedahn_flux-latentpop",
-    "weights": "lora.safetensors",
-    "trigger_word": "latentpop",
-    "id": 76
-  },
-  {
-    "image": "loras_images/Dstyl3xl.jpg",
-    "title": "Dstyl3xl",
-    "repo": "loras_cache/glif-loradex-trainer_ddickinson_dstyl3xl",
-    "weights": "dstyl3xl.safetensors",
-    "trigger_word": "in the style of dstyl3xl",
-    "id": 77
-  },
+
   {
     "image": "loras_images/Retouch_FLux.png",
     "title": "Retouch FLux",
     "repo": "loras_cache/TDN-M_RetouchFLux",
     "weights": "TDNM_Retouch.safetensors",
     "trigger_word": "luxury, enhance, hdr",
-    "id": 78
+    "id": 78,
+    "prompts": [
+      "luxury hdr enhance, A young woman with bright smile and curly blonde hair, dressed in a yellow sundress with white flowers, stands amidst a vibrant farm backdrop of sunflowers, green fields, and blue skies. She gently holds a basket of freshly picked fruits and vegetables, surrounded by rustic wooden fences and lush greenery.",
+      "luxury hdr enhance, A futuristic close-up of a woman in a sleek suit, her blue hair styled in a chic bob. She is a cyborg with silver metallic plating on her arms and torso, glistening under the dim blue lighting. Her piercing green eyes gleam as she gazes directly at the camera, with neon cityscape lighting in the background.",
+      "luxury hdr enhance, A young boy sits solo, cloaked in darkness, his hood up and a mysterious black cloak draped around him. He holds an open book, the yellowed pages illuminated by the soft glow of candles arranged on a nearby stand, with eerie shadows dancing across his face."
+    ]
   },
   {
     "image": "loras_images/Block_Print.jpg",
@@ -591,47 +610,54 @@
     "repo": "loras_cache/glif_anime-blockprint-style",
     "weights": "bwmanga.safetensors",
     "trigger_word": "blockprint style",
-    "id": 79
+    "id": 79,
+    "prompts": [
+      "A young man with glasses, slightly messy hair, and a thoughtful expression, portrait, blockprint style",
+      "a small gray and white toad, blockprint style",
+      "A rock climber scaling a cliff face, surreal style, blockprint style",
+      "a flock of paper cranes emerging from a cave into the moonlight, blockprint style",
+      "a flower blooming, blockprint style",
+      "A drummer's hands in motion, captured mid-beat, blockprint style"
+    ]
   },
-  {
-    "image": "loras_images/Weird_Things_Flux.png",
-    "title": "Weird Things Flux",
-    "repo": "loras_cache/renderartist_weirdthingsflux",
-    "weights": "Weird_Things_Flux_v1_renderartist.safetensors",
-    "trigger_word": "w3irdth1ngs, illustration",
-    "id": 80
-  },
+
   {
     "image": "loras_images/Replicate_Flux_LoRA.webp",
     "title": "Replicate Flux LoRA",
     "repo": "loras_cache/lucataco_ReplicateFluxLoRA",
     "weights": "flux_train_replicate.safetensors",
     "trigger_word": "TOK",
-    "id": 81
+    "id": 81,
+    "prompts": [
+      "a boat in the style of TOK",
+      "a car in the style of TOK",
+      "a futuristic motorcycle in the style of TOK",
+      "a beautiful pastel watercolor landscape, in the style of TOK",
+      "a serene portrait of a woman on a beach, in the style of TOK",
+      "an adorable cartoon puppy sitting by a pond, in the style of TOK",
+      "a retro city skyline at sunset with vibrant lights, in the style of TOK",
+      "a detailed watercolor illustration of a dragon, in the style of TOK"
+    ]
   },
-  {
-    "image": "loras_images/Linework.png",
-    "title": "Linework",
-    "repo": "loras_cache/alvdansen_haunted_linework_flux",
-    "weights": "hauntedlinework_flux_araminta_k.safetensors",
-    "trigger_word": "hntdlnwrk style",
-    "id": 82
-  },
-  {
-    "image": "loras_images/Cassette_Futurism.png",
-    "title": "Cassette Futurism",
-    "repo": "loras_cache/fofr_flux-cassette-futurism",
-    "weights": "lora.safetensors",
-    "trigger_word": "cassette futurism",
-    "id": 83
-  },
+
+
   {
     "image": "loras_images/Mojo_Style.png",
     "title": "Mojo Style",
     "repo": "loras_cache/Wadaka_Mojo_Style_LoRA",
     "weights": "Mojo_Style_LoRA.safetensors",
     "trigger_word": "Mojo_Style",
-    "id": 84
+    "id": 84,
+    "prompts": [
+      "Mojo_style A middle-aged man with long gray hair tied back in a low ponytail stands holding a microphone and gesturing with his left hand as if giving a speech, detailed environment, Mojo_style",
+      "Mojo_style portrait of a man with rugged features standing in a surreal landscape with dramatic lighting, Mojo_style",
+      "Mojo_style image of a majestic traditional castle perched on a rocky hill with dynamic sky, Mojo_style",
+      "Mojo_style landscape of a powerful waterfall cascading into a misty river with rich textures, Mojo_style",
+      "Mojo_style image of Mount Everest towering above clouds at sunrise with sharp icy ridges, Mojo_style",
+      "Mojo_style futuristic city skyline at dusk with glowing lights and atmospheric depth",
+      "Mojo_style serene forest at golden hour with rays of light through trees and rich foliage",
+      "Mojo_style dramatic canyon landscape with winding river and steep cliffs at sunset"
+    ]
   },
   {
     "image": "loras_images/Jojoso_Style.jpg",
@@ -639,7 +665,13 @@
     "repo": "loras_cache/Norod78_JojosoStyle-flux-lora",
     "weights": "JojosoStyle_flux_lora.safetensors",
     "trigger_word": "JojosoStyle",
-    "id": 85
+    "id": 85,
+    "prompts": [
+      "JojosoStyle woman with red hair, playing chess at the park, bomb going off in the background",
+      "JojosoStyle a man holding a coffee cup, in a beanie, sitting at a cafe",
+      "JojosoStyle rabbit playing the guitar on stage singing a song, laser lights, punk rocker",
+      "JojosoStyle hipster with a beard building a chair in a wood shop"
+    ]
   },
   {
     "image": "loras_images/Huggieverse.png",
@@ -647,7 +679,14 @@
     "repo": "loras_cache/Chunte_flux-lora-Huggieverse",
     "weights": "lora.safetensors",
     "trigger_word": "HGGRE",
-    "id": 86
+    "id": 86,
+    "prompts": [
+      "HGGRE, happy star in universe",
+      "Happy, HGGRE, yellow round head playing a violin with two hands",
+      "HGGRE, Happy lemon",
+      "HGGRE, a metal shield with a cute happy face on it",
+      "HGGRE, happy starfish in ocean"
+    ]
   },
   {
     "image": "loras_images/Wallpaper_LoRA.png",
@@ -655,7 +694,17 @@
     "repo": "loras_cache/diabolic6045_Flux_Wallpaper_Lora",
     "weights": "tost-2024-09-20-07-35-44-wallpap3r5.safetensors",
     "trigger_word": "wallpap3r5",
-    "id": 87
+    "id": 87,
+    "prompts": [
+      "Space, wallpap3r5",
+      "Mountain Range, light purple tone, wallpap3r5",
+      "Space, wallpap3r5",
+      "Mountain Range, night, wallpap3r5",
+      "Ocean sunset horizon, calm sea, wallpap3r5",
+      "Neon cyberpunk city skyline at dusk, wallpap3r5",
+      "Misty forest with sunbeams through trees, wallpap3r5",
+      "Abstract colorful gradient swirls, wallpap3r5"
+    ]
   },
   {
     "image": "loras_images/Geo_Pop.png",
@@ -663,7 +712,15 @@
     "repo": "loras_cache/bingbangboom_flux_geopop",
     "weights": "geopop_NWGMTRCPOPV01.safetensors",
     "trigger_word": "illustration in the style of NWGMTRCPOPV01",
-    "id": 88
+    "id": 88,
+    "prompts": [
+      "a cat in a field of purple flowers, illustration in the style of NWGMTRCPOPV01",
+      "a girl wearing a flower crown, standing in a garden, illustration in the style of NWGMTRCPOPV01",
+      "a cat taking a nap on a work table, illustration in the style of NWGMTRCPOPV01",
+      "a majestic beautiful flamingo, in a pink pond, illustration in the style of NWGMTRCPOPV01",
+      "a white-haired young woman wearing a flower crown, a very large fiery dragon, castle in the background, illustration in the style of NWGMTRCPOPV01",
+      "a big ferocious tiger, jungle, sunset, illustration in the style of NWGMTRCPOPV01"
+    ]
   },
   {
     "image": "loras_images/Colorscape.jpg",
@@ -671,23 +728,34 @@
     "repo": "loras_cache/bingbangboom_flux_colorscape",
     "weights": "flux_colorscape.safetensors",
     "trigger_word": "illustration in the style of ASstyle001",
-    "id": 89
+    "id": 89,
+    "prompts": [
+      "a big ferocious tiger, jungle, sunset, illustration in the style of ASstyle001",
+      "a white-haired young woman wearing a flower crown, holding face of a very large fiery dragon, castle in the background, illustration in the style of ASstyle001",
+      "text on a poster that says 'flux' placed above a penguin, beautiful typography in the style of ASstyle001",
+      "a robot eating ramen in a busy cafe, illustration in the style of ASstyle001",
+      "a poster of a sci-fi film, illustrated in the style of ASstyle001",
+      "a majestic beautiful flamingo, illustration in the style of ASstyle001"
+    ]
   },
-  {
-    "image": "loras_images/Thermal_Image.jpg",
-    "title": "Thermal Image",
-    "repo": "loras_cache/dvyio_flux-lora-thermal-image",
-    "weights": "79b5004c57ef4c4390dead1c65977bbb_pytorch_lora_weights.safetensors",
-    "trigger_word": "thermal image in the style of THRML",
-    "id": 90
-  },
+
   {
     "image": "loras_images/Clothing_Flux.png",
     "title": "Clothing Flux",
     "repo": "loras_cache/prithivMLmods_Canopus-Clothing-Flux-LoRA",
     "weights": "Canopus-Clothing-Flux-Dev-Florence2-LoRA.safetensors",
     "trigger_word": "Hoodie, Clothes, Shirt, Pant",
-    "id": 91
+    "id": 91,
+    "prompts": [
+      "Blue corduroy overalls psd mockup, in the style of gothic dark and moody tones, natural materials, tinycore, use of fabric, dark white and black, unpolished authenticity, multi-layered --ar 68:101",
+      "Striped shirts, red shoes, and jeans, in the style of eco-friendly craftsmanship, white and crimson, japanese, solapunk, letterboxing, living materials, classical style --ar 70:99",
+      "Front view, urban style hoodie, technical materials, fabric small point label on text red theory, minimal design with raised collar, light red fabric, low angle to capture craftsmanship, solid grey background, studio light",
+      "A blue jumper, dark jeans and pink sweater hanging behind a coat rack, in the style of american consumer culture, light amber and brown, scoutcore, delicate washes, eye-catching tags --ar 72:103",
+      "Colorful retro striped shirt hanging on hanger, white wall background, side light, high quality photo --ar 2:3",
+      "A stack of blue jeans on a wooden chair, minimalist photography, firecore, light and airy, cluttered, environmental awareness, minimalist staging --ar 2:3",
+      "Front view, urban style pant and shirt ensemble, technical materials and neutral tones, studio lighting with soft shadows",
+      "Close-up fabric details of eco-friendly crafted clothing on mannequin with textured background, high detail, soft lighting"
+    ]
   },
   {
     "image": "loras_images/Stippled_Illustration.jpg",
@@ -695,31 +763,17 @@
     "repo": "loras_cache/dvyio_flux-lora-stippled-illustration",
     "weights": "31984be602a04a1fa296d9ccb244fb29_pytorch_lora_weights.safetensors",
     "trigger_word": "stippled illustration in the style of STPPLD",
-    "id": 92
-  },
-  {
-    "image": "loras_images/Fruitlabels.png",
-    "title": "Fruitlabels",
-    "repo": "loras_cache/wayned_fruitlabels",
-    "weights": "fruitlabels2.safetensors",
-    "trigger_word": "fruit labels",
-    "id": 93
-  },
-  {
-    "image": "loras_images/Margot_Robbie.png",
-    "title": "Margot Robbie",
-    "repo": "loras_cache/punzel_flux_margot_robbie",
-    "weights": "flux_margot_robbie.safetensors",
-    "trigger_word": "",
-    "id": 94
-  },
-  {
-    "image": "loras_images/Formula_1_Lego.png",
-    "title": "Formula 1 Lego",
-    "repo": "loras_cache/punzel_flux_margot_robbie",
-    "weights": "tost-2024-09-20-09-58-33-f1leg0s.safetensors",
-    "trigger_word": "f1leg0s",
-    "id": 95
+    "id": 92,
+    "prompts": [
+      "close-up of a man's face, stippled illustration in the style of STPPLD",
+      "Tower Bridge, stippled illustration in the style of STPPLD",
+      "a majestic deer in a forest, stippled illustration in the style of STPPLD",
+      "a vintage car driving through a rainy city street, stippled illustration in the style of STPPLD",
+      "an old lighthouse on a cliff under stormy skies, stippled illustration in the style of STPPLD",
+      "a roaring lion in detailed stippled dots, stippled illustration in the style of STPPLD",
+      "a bouquet of wildflowers drawn with detailed dots and shading, stippled illustration in the style of STPPLD",
+      "a sailing ship on a rough sea, stippled illustration in the style of STPPLD"
+    ]
   },
   {
     "image": "loras_images/Melt_Acid.png",
@@ -727,23 +781,17 @@
     "repo": "loras_cache/glif_Brain-Melt-Acid-Art",
     "weights": "Brain_Melt.safetensors",
     "trigger_word": "in an acid surrealism style, maximalism",
-    "id": 96
-  },
-  {
-    "image": "loras_images/Enso.png",
-    "title": "Enso",
-    "repo": "loras_cache/jeremytai_enso-zen",
-    "weights": "enso-zen.safetensors",
-    "trigger_word": "enso",
-    "id": 97
-  },
-  {
-    "image": "loras_images/Opus_Ascii.jpeg",
-    "title": "Opus Ascii",
-    "repo": "loras_cache/veryVANYA_opus-ascii-flux",
-    "weights": "flux_opus_ascii.safetensors",
-    "trigger_word": "opus_ascii",
-    "id": 98
+    "id": 96,
+    "prompts": [
+      "maximalism, in an acid surrealism style, Singing cactus",
+      "maximalism, in an acid surrealism style, Jammin jars",
+      "maximalism, in an acid surrealism style, Man riding elephant",
+      "maximalism, in an acid surrealism style, Wonderland",
+      "maximalism, in an acid surrealism style, Girl eating bubble gum",
+      "maximalism, in an acid surrealism style, City of evil",
+      "maximalism, in an acid surrealism style, A psychedelic mountain landscape with melting colors and fractal details",
+      "maximalism, in an acid surrealism style, A surreal carnival with floating neon creatures and melting clocks"
+    ]
   },
   {
     "image": "loras_images/Cybrpnkz.png",
@@ -751,7 +799,18 @@
     "repo": "loras_cache/crystantine_cybrpnkz",
     "weights": "cybrpnkz.safetensors",
     "trigger_word": "architecture style of CYBRPNKZ",
-    "id": 99
+    "id": 99,
+    "prompts": [
+    "A person in a bustling cafe, architecture style of CYBRPNKZ",
+    "A suburb area with the houses, architecture style of CYBRPNKZ",
+    "Audi sedan car parked in front of massive building, architecture style of CYBRPNKZ",
+    "Professional realistic photography of Mazda 3 Hatchback parked on the side of the streets, futuristic architecture style of CYBRPNKZ",
+    "Professional realistic photography, viewing half-body of a Korean woman staring into the camera. She has messy bun hair, her face is smiling with bold pretty makeups, standing in front of massive huge landmark, futuristic architecture style of CYBRPNKZ",
+    "Create a professional, ultra-realistic photograph capturing a serene moment at close-up distance. The subject is a majestic black and white cat with thick, luscious fur, perched on the edge of a sleek, modern building balcony overlooking an expansive scenery bathed in golden hour light, architecture style of CYBRPNKZ",
+    "Produce a professional, ultra-realistic photograph capturing a close-up scene where a police officer, dressed in a striking futuristic uniform, engages with the community at a bustling market with an abandoned futuristic tower in the background, architecture style of CYBRPNKZ",
+    "Create a professional, ultra-realistic photograph focusing on a close-up shot of an ultra-beautiful Korean girl with thick brown braids, captured at midnight at an elevated monorail station that stands as a beacon of futuristic architecture style of CYBRPNKZ",
+    "In the heart of the bustling downtown, a sleek Toyota SUV is parked in front of a neon-lit bar with reflective futuristic cityscape, architecture style of CYBRPNKZ"
+  ]
   },
   {
     "image": "loras_images/Pattern_Generation.jpg",
@@ -759,7 +818,8 @@
     "repo": "loras_cache/fyp1_pattern_generation",
     "weights": "flux_dev_finetune.safetensors",
     "trigger_word": "pattern",
-    "id": 100
+    "id": 100,
+    "prompts": ["A Kashmiri shawl-inspired pattern featuring delicate swirls of vines and paisleys         in soft pastel shades, woven into an intricate border design for a light,         airy, and elegant fabric."]
   },
   {
     "image": "loras_images/Caricature.png",
@@ -767,7 +827,17 @@
     "repo": "loras_cache/TheAwakenOne_caricature",
     "weights": "caricature.safetensors",
     "trigger_word": "CCTUR3",
-    "id": 101
+    "id": 101,
+    "prompts": [
+      "CCTUR3 a jovial elderly man with an oversized bald head and exaggerated smile, explaining a complex algorithm on a whiteboard, surrounded by quirky scientific objects",
+      "CCTUR3 a balding middle-aged businessman with an enormous forehead, tiny eyes, and a chin that could cut glass, struggling to balance a comically small briefcase on his oversized nose",
+      "CCTUR3 a glamorous movie star with voluminous hair twice the size of her head, eyes like saucers, and lips that take up half her face, trying to fit through a standard doorway",
+      "CCTUR3 a newlywed couple posing for a portrait — the bride with a giraffe-long neck and towering beehive hair, the groom with satellite-dish ears and an ear-to-ear grin",
+      "CCTUR3 a basketball player with an oversized head and exaggerated grin, dunking a ball that looks like a pea in his massive hands",
+      "CCTUR3 adorable couple with caricatured features sharing a loving moment, her voluminous blonde hair and wide eyes complementing his gentle smile and branded cap",
+      "CCTUR3 enthusiastic Iron-Man fan with an exaggerated head, beaming with joy, merging his cartoonishly large head with a dynamic superhero pose",
+      "CCTUR3 quirky female with fiery red hair and oversized glasses smirks knowingly, holding a coffee in both hands, sporting a funny graphic tee"
+    ]
   },
   {
     "image": "loras_images/3DXLC1.png",
@@ -775,7 +845,13 @@
     "repo": "loras_cache/strangerzonehf_Flux-3DXL-Partfile-C0001",
     "weights": "3DXLC1.safetensors",
     "trigger_word": "3DXLC1",
-    "id": 102
+    "id": 102,
+    "prompts": [
+      "3DXLC1, A close-up portrait of a man in a black tuxedo with a white collared shirt and a black bow tie. The mans hair is short and dark, and he has a slight smile on his face. His eyes are blue, and his lips are pink. The backdrop is a light gray, and the mans shadow is cast on the left side of the image.",
+      "3DXLC1, a beautiful young woman with long dark brown hair, wearing a black bikini, is stunning against a backdrop of blue water and a blurred blurred background. The womans gaze is directed towards the left side of the frame, her lips pursed with red lipstick. Her left hand is resting on her hip, adding a touch of contrast to her body. The sky is a muted blue, with a few wispy clouds in the distance.",
+      "3DXLC1, a medium-sized man stands against a stark white backdrop. He is dressed in a black tuxedo, adorned with a white collared shirt and a black bow tie. His hair is styled in a short bob, adding a pop of color to his attire. His eyes are a piercing blue, and his lips are a pinkish-pink. His eyebrows are a darker shade of brown, and he has a slight smile on his face.",
+      "3DXLC1, A close-up shot of a woman with long dark brown hair and blue eyes. She is wearing a black halter top with a black collar around her neck. Her lips are painted with red lipstick. Her right hand is visible on the right side of the image. The background is blurred out of focus. The sky is blue."
+    ]
   },
   {
     "image": "loras_images/Neon.jpeg",
@@ -783,23 +859,32 @@
     "repo": "loras_cache/Purz_neon-sign",
     "weights": "purz-n30n_51gn.safetensors",
     "trigger_word": "n30n_51gn",
-    "id": 103
+    "id": 103,
+    "prompts": [
+      "n30n_51gn, a neon sign that says \"Civitai\"",
+      "n30n_51gn, a yellow neon sign that says \"Stack That Buzz\"",
+      "n30n_51gn, a neon sign of a donut with sprinkles",
+      "n30n_51gn, a neon sign an uzi",
+      "n30n_51gn, a neon sign of red lips kissing",
+      "n30n_51gn, a neon sign of a donut with sprinkles, sign that says \"The Donut Hole\""
+    ]
   },
-  {
-    "image": "loras_images/Vintage_Sardine_Tins.jpeg",
-    "title": "Vintage Sardine Tins",
-    "repo": "loras_cache/WizWhite_wizard-s-vintage-sardine-tins",
-    "weights": "Wiz-SardineTins_Flux.safetensors",
-    "trigger_word": "Vintage Sardine Tin, Tinned Fish, vintage xyz tin",
-    "id": 104
-  },
+
   {
     "image": "loras_images/Float_Ballon_Character.png",
     "title": "Float Ballon Character",
     "repo": "loras_cache/TheAwakenOne_mtdp-balloon-character",
     "weights": "mtdp-balloon-character.safetensors",
     "trigger_word": "FLOAT",
-    "id": 105
+    "id": 105,
+    "prompts": [
+      "FLOAT a giant Pikachu balloon soaring through the city streets, its bright yellow color and cheerful expression captivating the crowd, accompanied by Eevee in a Poké Ball‑themed sleigh",
+      "FLOAT a large inflatable balloon in the shape of a cartoon character, The mischievous Homer Simpson, with his signature beer belly, floating through the skyscrapers holding a beer",
+      "FLOAT Spider‑Man swinging high above the city as a balloon, his classic red and blue suit glistening in the sunlight with a dynamic pose",
+      "FLOAT an enormous dragon balloon with vibrant red and orange scales, fierce eyes and a wide grin gliding above the parade route, creating excitement",
+      "FLOAT a giant Bart Simpson balloon doing skateboarding tricks above the city streets, its bright signature outfit and cheerful expression captivating the crowd",
+      "FLOAT a giant turkey in a military uniform balloon soaring through the city streets, its big grin expression while holding a sign that reads \"No Gobble\" captivating the crowd"
+    ]
   },
   {
     "image": "loras_images/Golden_Haggadah.jpg",
@@ -807,48 +892,17 @@
     "repo": "loras_cache/glif_golden-haggadah",
     "weights": "golden_haggadah.safetensors",
     "trigger_word": "golden haggadah style",
-    "id": 106
+    "id": 106,
+    "prompts": [
+      "A close up robot face, golden haggadah style",
+      "a panda eating cake, golden haggadah style",
+      "A black cat with a white patch on its chest, golden haggadah style",
+      "A lionfish swimming in the ocean, golden haggadah style",
+      "a unicorn, golden haggadah style",
+      "The cathedral of Norwich in Norfolk, golden haggadah style"
+    ]
   },
-  {
-    "image": "loras_images/Ftw_Balaclava.jpg",
-    "title": "Ftw Balaclava",
-    "repo": "loras_cache/glif-loradex-trainer_usernametaken420__oz_ftw_balaclava",
-    "weights": "oz_ftw_balaclava.safetensors",
-    "trigger_word": "ftw balaclava",
-    "id": 107
-  },
-  {
-    "image": "loras_images/Undraw.webp",
-    "title": "Undraw",
-    "repo": "loras_cache/AlloReview_flux-lora-undraw",
-    "weights": "lora.safetensors",
-    "trigger_word": "in the style of UndrawPurple",
-    "id": 108
-  },
-  {
-    "image": "loras_images/Anime_Test.png",
-    "title": "Anime Test",
-    "repo": "loras_cache/Disra_lora-anime-test-02",
-    "weights": "pytorch_lora_weights.safetensors",
-    "trigger_word": "anime",
-    "id": 109
-  },
-  {
-    "image": "loras_images/Black_Myth_Wukong.jpg",
-    "title": "Black Myth Wukong",
-    "repo": "loras_cache/wanghaofan_Black-Myth-Wukong-FLUX-LoRA",
-    "weights": "pytorch_lora_weights.safetensors",
-    "trigger_word": "wukong",
-    "id": 110
-  },
-  {
-    "image": "loras_images/Pastelcomic.png",
-    "title": "Pastelcomic",
-    "repo": "loras_cache/nerijs_pastelcomic-flux",
-    "weights": "pastelcomic_v1.safetensors",
-    "trigger_word": "",
-    "id": 111
-  },
+
   {
     "image": "loras_images/Children_Simple_Sketch.jpg",
     "title": "Children Simple Sketch",
