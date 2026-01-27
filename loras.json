@@ -2146,14 +2146,7 @@
       "pointcrayonstyle illustration, at a lighthouse, the ambiance is exotic and mysterious"
     ]
   },
-  {
-    "image": "loras_images/VSH_Box.jpeg",
-    "title": "VSH Box",
-    "repo": "loras_cache/Purz_vhs-box",
-    "weights": "purz-vhs_box.safetensors",
-    "trigger_word": "vhs_box",
-    "id": 227
-  },
+
   {
     "image": "loras_images/Prettyshot.png",
     "title": "Prettyshot",
@@ -2168,7 +2161,15 @@
     "repo": "loras_cache/glif-loradex-trainer_insectagon_pipo_hippo1",
     "weights": "pipo_hippo1.safetensors",
     "trigger_word": "pipo_meme",
-    "id": 229
+    "id": 229,
+    "prompts": [
+      "A cartoon Jedi with green lightsaber [pipo_meme]",
+      "CARS [pipo_meme]",
+      "AN ACTION SCENE [pipo_meme]",
+      "A CAT [pipo_meme]",
+      "SPIDERMAN IN NYC [pipo_meme]",
+      "A MAN WITH LOTS OF CASH [pipo_meme]"
+    ]
   },
   {
     "image": "loras_images/Polaroid_Plus.png",
@@ -2176,7 +2177,12 @@
     "repo": "loras_cache/prithivMLmods_Flux-Polaroid-Plus",
     "weights": "polaroid-plus.safetensors",
     "trigger_word": "Polaroid Collage",
-    "id": 230
+    "id": 230,
+    "prompts": [
+      "Polaroid Collage, a collage of photographs of the New York City is displayed on a white surface. The photographs are arranged in a grid-like pattern, with a variety of buildings and skyscrapers visible. The buildings are lit up, creating a stark contrast against the blue sky. The photograph is taken from a low angle, adding a touch of depth to the composition.",
+      "Polaroid Collage, a collage of black and white photographs is displayed on a white surface. The photographs are arranged in a grid-like pattern, with a variety of shapes and sizes. Some of the photographs feature mountains, trees, and a body of water. The mountains are covered in snow, and the sky is filled with clouds, adding a touch of warmth to the scene.",
+      "Polaroid Collage, Captured in a black and white collage, a cats face is featured prominently in the center of the frame. The cats eyes are a piercing blue, and its whiskers are long and white, adding a pop of color to the otherwise monochromatic image. The background is a stark white, creating a stark contrast to the cats fur."
+    ]
   },
   {
     "image": "loras_images/Product_Ad.png",
@@ -2184,23 +2190,25 @@
     "repo": "loras_cache/prithivMLmods_Flux-Product-Ad-Backdrop",
     "weights": "Prod-Ad.safetensors",
     "trigger_word": "Product Ad",
-    "id": 231
+    "id": 231,
+    "prompts": [
+      "Product Ad, Captured at eye-level, a close-up shot captures a pile of fried chicken wings in a white paper cup. The chicken wings are a vibrant brown color, adding a pop of color to the scene. The cup is placed on a light brown wooden table, creating a stark contrast with the vibrant blue sky in the background. To the right of the chicken wings, a slice of lemon, a red onion, and a red radish are placed on the table. The radish, and red onions are arranged in a circular pattern, adding depth to the composition. The backdrop is blurred, suggesting a fair day.",
+      "Product Ad, a blue and silver electric razor is soaring through the air. The razor is positioned in the middle of a grassy field, with a backdrop of a mountain range that is covered in snow. The sky is a deep blue, dotted with white clouds, adding a pop of color to the scene. The blades of the razor are splashing in the air, adding texture to the image.",
+      "Product Ad,Vegan Snacks, in the style of an outdoors product hero shot in motion, dynamic magazine ad image, photorealism, 4k Raw, --v6"
+    ]
   },
-  {
-    "image": "loras_images/Nightmare_99.png",
-    "title": "Nightmare 99",
-    "repo": "loras_cache/prithivMLmods_Flux-Art-Nightmare-99",
-    "weights": "nm99.safetensors",
-    "trigger_word": "nm99",
-    "id": 232
-  },
+
   {
     "image": "loras_images/Frosted_Container.png",
     "title": "Frosted Container",
     "repo": "loras_cache/prithivMLmods_Flux_1-Dev-Frosted-Container-LoRA",
     "weights": "frosted-gc.safetensors",
     "trigger_word": "frosted GC",
-    "id": 233
+    "id": 233,
+    "prompts": [
+      "frosted GC, a pristine white jar, adorned with a silver lid, is adorned with the words 'Spirulina' in bold black lettering. The jar is set against a light blue backdrop, creating a stark contrast to the jars contents. A barcode is visible on the jar, adding a pop of color to the composition.",
+      "frosted GC, A medium shot of a white jar with a yellow lid. The jar has the words 'Yellow' and 'Fish Oil Bottle Mockup' written on it in black letters. There is a white background behind the jar."
+    ]
   },
   {
     "image": "loras_images/Magenta_Kuki_Roblox.jpg",
@@ -2208,7 +2216,12 @@
     "repo": "loras_cache/glif-loradex-trainer_swap_magenta_kuki_roblox",
     "weights": "magenta_kuki_roblox.safetensors",
     "trigger_word": "kuki_magenta, roblox",
-    "id": 234
+    "id": 234,
+    "prompts": [
+      "getting angry kuki_magenta, roblox",
+      "eating pizza kuki_magenta, roblox",
+      "dancing kuki_magenta, roblox"
+    ]
   },
   {
     "image": "loras_images/Plein_Air.jpg",
@@ -2216,7 +2229,12 @@
     "repo": "loras_cache/glif-loradex-trainer_maxxd4240_PleinAir",
     "weights": "PleinAir.safetensors",
     "trigger_word": "P1e!n",
-    "id": 235
+    "id": 235,
+    "prompts": [
+      "rice fields P1e!n",
+      "italian cafe P1e!n",
+      "hindu temple P1e!n"
+    ]
   },
   {
     "image": "loras_images/GArt.png",
@@ -2224,7 +2242,12 @@
     "repo": "loras_cache/prithivMLmods_Flux-GArt-LoRA",
     "weights": "GArt.safetensors",
     "trigger_word": "GArt",
-    "id": 236
+    "id": 236,
+    "prompts": [
+      "GArt, a man in a blue jacket and blue jeans is riding a brown horse down a dirt road in the middle of a desert. The man is wearing a black cowboy hat, a blue long sleeved shirt, and black boots. The horse is facing the left side of the road, and the sun is setting in the background, casting a shadow on the road. The road is divided into two sections, each section having a yellow line painted on it. To the left and right of the image, there are cactus plants with yellow flowers growing on the ground. In the distance, there is a mountain range. The sky is a deep orange, with a few wispy clouds in the sky.",
+      "GArt, Captured at night, a vibrant orange van is parked on a sandy beach. The van is facing the viewer, with its door open, revealing the interior of the van. A fire is burning on the beach, creating a warm glow. Two folding chairs are positioned in front of the fire, adding a pop of color to the scene. The sky is a deep blue, dotted with white stars, and a mountain range can be seen in the background.",
+      "GArt, Captured from a high-angle perspective on a sunny day, a view of a baseball stadium is seen. The stadium is surrounded by lush green grass and trees, with a winding track running along the center of the field. The field is adorned with a few people playing a game of tennis, and there are a few empty stands on either side of the track. In the distance, a city can be seen, with tall buildings and a mountain range in the background. The sky is a deep blue, dotted with white clouds."
+    ]
   },
   {
     "image": "loras_images/Capybara_HF.png",
@@ -2232,7 +2255,12 @@
     "repo": "loras_cache/strangerzonehf_Flux-Super-Capybara-HF",
     "weights": "capybara-hf.safetensors",
     "trigger_word": "capybara hf",
-    "id": 237
+    "id": 237,
+    "prompts": [
+      "capybara hf, A cartoon drawing of a brown bear sitting in front of a laptop. The bear is facing to the right and has a smiley face on the screen of the laptop. Above the bear is a white bear with a black nose and a black mouth. The background is a light beige color.",
+      "capybara hf, A cartoon drawing of a brown bear wearing sunglasses with a yellow circle at the top of the eyes. The bears eyes are tinted black, and the bears body is a light brown color. He is holding a pink money in his right hand. The money has a black border around it, and there are two yellow smiley faces on the eyes of the bear. The background is a solid white color.",
+      "capybara hf, A cartoon drawing of a brown bear with a black hat on its head. The bear is wearing a black shirt with a pink collar. The bears face is brown and the bears mouth is black. There is a smiley face in the bottom right corner of the image. There are white clouds in the background."
+    ]
   },
   {
     "image": "loras_images/Fine_Detail.png",
@@ -2240,7 +2268,12 @@
     "repo": "loras_cache/prithivMLmods_Flux-Fine-Detail-LoRA",
     "weights": "Fine-Detail.safetensors",
     "trigger_word": "Super Detail",
-    "id": 238
+    "id": 238,
+    "prompts": [
+      "Super Detail, A close-up shot of a man with a brown hat on his head. His eyes are blue and he has brown hair. His hair is wet from the rain. The background is blurred.",
+      "Super Detail, A close-up shot of a womans face, taken from a low-angle perspective. The womans eyes are a piercing of turquoise, and her hair is a vibrant shade of brown. Her lips are painted a deep red, with a slight smile. Her eyebrows are a light brown, adding a touch of texture to her face. The background is dark, creating a stark contrast to the womans skin.",
+      "Super Detail, a close-up shot of a womans head and shoulders is seen against a vibrant red backdrop. The womans face is adorned with a white face, adorned with blue eyes, and her brown hair cascades over her shoulders. She is wearing a red turtleneck, with a ribbed collar. Her lips are painted a vibrant shade of red, adding a pop of color to her face. Her eyebrows are a darker shade of blue, adding depth to the composition."
+    ]
   },
   {
     "image": "loras_images/Digital_Backgrounds.jpg",
