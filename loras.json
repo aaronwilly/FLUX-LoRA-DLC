@@ -850,44 +850,22 @@
     "id": 111
   },
   {
-    "image": "loras_images/Moonman.png",
-    "title": "Moonman",
-    "repo": "loras_cache/RareConcepts_Flux_1-dev-LoKr-Moonman",
-    "weights": "pytorch_lora_weights.safetensors",
-    "trigger_word": "moonman",
-    "id": 112
-  },
-  {
-    "image": "loras_images/Ascii_Flux.jpeg",
-    "title": "Ascii Flux",
-    "repo": "loras_cache/martintomov_ascii-flux-v1",
-    "weights": "ascii-art-v1.safetensors",
-    "trigger_word": "ASCII art",
-    "id": 113
-  },
-  {
-    "image": "loras_images/Ascii_Flux.jpeg",
-    "title": "Ascii Flux",
-    "repo": "loras_cache/Omarito2412_Stars-Galaxy-Flux",
-    "weights": "Stars_Galaxy_Flux.safetensors",
-    "trigger_word": "mlkwglx",
-    "id": 114
-  },
-  {
-    "image": "loras_images/Pencil_V2.jpeg",
-    "title": "Pencil V2",
-    "repo": "loras_cache/brushpenbob_flux-pencil-v2",
-    "weights": "Flux_Pencil_v2_r1.safetensors",
-    "trigger_word": "evang style",
-    "id": 115
-  },
-  {
     "image": "loras_images/Children_Simple_Sketch.jpg",
     "title": "Children Simple Sketch",
     "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-Children-Simple-Sketch",
     "weights": "FLUX-dev-lora-children-simple-sketch.safetensors",
     "trigger_word": "sketched style",
-    "id": 116
+    "id": 116,
+    "prompts": [
+      "sketched style, A stick-figure-style robot, and some sci-fi machines, with pastel colors, highlight the innocence and romance of children",
+      "sketched style, A joyful girl with balloons floats above a city wearing a hat and striped pants",
+      "sketched style, Some happy children stand ready to take pictures",
+      "sketched style, Three kids drawing chalk art on a sunny sidewalk with bright pastel tones",
+      "sketched style, A child flying a kite in a grassy park with fluffy clouds in the sky",
+      "sketched style, Two children building a sandcastle on the beach, simple and whimsical lines",
+      "sketched style, A smiling kid holding a teddy bear under a rainbow, simple playful sketch",
+      "sketched style, A group of children playing hide and seek around trees in pastel sketch style"
+    ]
   },
   {
     "image": "loras_images/Contemporarink.png",
@@ -895,7 +873,14 @@
     "repo": "loras_cache/victor_contemporarink",
     "weights": "inky-colors.safetensors",
     "trigger_word": "ECACX",
-    "id": 117
+    "id": 117,
+    "prompts": [
+      "ECACX, futuristic city in style of ECACX",
+      "ECACX, Beautiful city of Tokyo in style of ECACX",
+      "ECACX, A shop in the jungle in the style of ECACX",
+      "ECACX, ninja in the style of ECACX, black and red colors",
+      "ECACX, flying cloud city in style of ECACX"
+    ]
   },
   {
     "image": "loras_images/OverlordStyle.png",
@@ -903,7 +888,17 @@
     "repo": "loras_cache/wavymulder_OverlordStyleFLUX",
     "weights": "ovld_style_overlord_wavymulder.safetensors",
     "trigger_word": "ovld style anime",
-    "id": 118
+    "id": 118,
+    "prompts": [
+      "ovld style anime, a dwarven blacksmith giving a happy thumbs up in front of his Weapons Store, the store has a large decorative sign that says RUNECRAFT",
+      "ovld style anime, a spacefarer in a futuristic spaceship interior hallway, they are charming with brilliant white hair and wearing a jumpsuit with futuristic technology",
+      "ovld style anime, a cool Owl Wizard with a magical staff in the mystical woods",
+      "ovld style anime, a beautiful 30 year old woman wearing classical Victorian Edwardian clothing, finely kempt, in the royal gardens with the estate mansion in the background on a sunny day with teal and scarlet color scheme",
+      "ovld style anime, a futuristic cyberpunk sprawling city with glorious clouds in the sky",
+      "ovld style anime, a cute elf girl with heterochromia, one green eye and one blue eye, short tomboyish hair wearing a red shirt with a white sleeveless vest and large brown gloves",
+      "ovld style anime, a cute vampire woman with purple eyes, transfixing",
+      "ovld style anime, a cute anime girl with massive fluffy fennec ears and a big fluffy tail, blonde messy long hair and blue eyes wearing a maid outfit with long black gold leaf pattern dress and white apron, placing a fancy black forest cake with candles on top of a dinner table in an old dark Victorian mansion lit by candlelight with a bright window to the foggy forest and expensive decor"
+    ]
   },
   {
     "image": "loras_images/Canny_quest.jpeg",
@@ -911,7 +906,12 @@
     "repo": "loras_cache/marceloxp_canny-quest",
     "weights": "Canny_Quest-000004.safetensors",
     "trigger_word": "blonde, silver silk dress, perfectly round sunglasses, pearl necklace",
-    "id": 119
+    "id": 119,
+    "prompts": [
+      "silver silk dress, solo, simple background, perfectly round sunglasses, upper body, cannyquest, 1girl, standing straight",
+      "upper body, 1girl, cannyquest, standing straight, perfectly round sunglasses, silver silk dress, simple background, solo",
+      "perfectly round sunglasses, upper body, standing straight, cannyquest, simple background, 1girl, solo, silver silk dress"
+    ]
   },
   {
     "image": "loras_images/Building_Flux.jpg",
@@ -919,7 +919,28 @@
     "repo": "loras_cache/busetolunay_building_flux_lora_v1",
     "weights": "building_flux_lora_v4.safetensors",
     "trigger_word": "a0ce",
-    "id": 120
+    "id": 120,
+    "prompts": [
+      "a0ce coffee shop building, architectural style, detailed facade, outdoor scene",
+      "a0ce summerhouse building with a front porch, cozy wood exterior, lush garden",
+      "a0ce glass greenhouse, transparent structure with plants inside, bright natural light",
+      "a0ce art museum building, modern design with large glass panels and sculptures outside",
+      "a0ce egyptian themed house, pyramid roof elements, sandstone texture",
+      "a0ce egyptian pyramid, monumental stone structure in desert lighting",
+      "a0ce bungalow, tropical setting with palm trees and porch",
+      "a0ce church, classic architecture with stained glass windows and steeple",
+      "a0ce courthouse building, formal columns and stone steps",
+      "a0ce barn, rustic red wood with open doors",
+      "a0ce library building, grand entrance and rows of windows",
+      "a0ce lighthouse, tall coastal tower with light beacon",
+      "a0ce tent, simple canvas structure pitched on grass",
+      "a0ce cottage house, quaint rustic cottage with smoke from chimney",
+      "a0ce doghouse, small peaked roof dog shelter",
+      "a0ce treehouse, wooden platform house nestled in branches",
+      "a0ce mansion building, luxury estate with landscaped grounds",
+      "a0ce waffle house building, diner style with signage",
+      "a0ce halloween themed house, spooky decorations and moonlit sky"
+    ]
   },
   {
     "image": "loras_images/Tinker_Bell_Flux.png",
@@ -927,7 +948,17 @@
     "repo": "loras_cache/Omarito2412_Tinker-Bell-Flux",
     "weights": "TinkerBellV2-FLUX.safetensors",
     "trigger_word": "TinkerWaifu, blue eyes, single hair bun",
-    "id": 121
+    "id": 121,
+    "prompts": [
+      "TinkerWaifu, fairy wings, blue eyes, green dress, single hair bun, a magical fairy flying over a moonlit forest with sparkling lights and whimsical glowing particles",
+      "TinkerWaifu, fairy wings, blue eyes, green dress, single hair bun, a dynamic portrait of a fairy casting sparkles in a lush enchanted garden with mist and soft golden lighting",
+      "TinkerWaifu, fairy wings, blue eyes, green dress, single hair bun, a close-up portrait of a fairy with delicate wings and glittering stardust around her in a twilight clearing",
+      "TinkerWaifu, fairy wings, blue eyes, green dress, single hair bun, a magical scene of a fairy sitting on a mossy tree branch surrounded by floating fireflies at dusk",
+      "TinkerWaifu, fairy wings, blue eyes, green dress, single hair bun, a whimsical illustration of a fairy dancing above a sparkling river under a starry sky",
+      "TinkerWaifu, fairy wings, blue eyes, green dress, single hair bun, a fairy holding a glowing orb of light in a mystical forest glade with soft ethereal lighting",
+      "TinkerWaifu, fairy wings, blue eyes, green dress, single hair bun, a high-detail fantasy portrait of a fairy with glittering wings and enchanted forest elements in the background",
+      "TinkerWaifu, fairy wings, blue eyes, green dress, single hair bun, a dynamic action scene of a fairy flying through swirling magical dust and flowers in a dawn landscape"
+    ]
   },
   {
     "image": "loras_images/Playful_Metropolis.jpg",
@@ -935,7 +966,12 @@
     "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-playful-metropolis",
     "weights": "FLUX-dev-lora-playful_metropolis.safetensors",
     "trigger_word": "",
-    "id": 122
+    "id": 122,
+    "prompts": [
+      "A giant tiger dressed in retro clothing strolls between the skyscrapers of Tokyo. The tiger's eyes, peering through sunglasses, exude a cool vibe. On its back are a few cartoon-style birds playing small instruments, providing a soundtrack for the tiger's walk,",
+      "In a London subway station, a blue octopus with multiple eyes is holding a pile of books that have fallen out of a subway car. Its tentacles are busy flipping through each book, while the passengers inside the station are both surprised and curious about the scene,",
+      "On a bustling beach, a giant cartoon alligator with bright turquoise skin is carrying a surfboard under its arm, towering over the sunbathing beachgoers. The alligator is wearing black sunglasses and a relaxed expression, blending in with the beach vibes. Palm trees and people enjoying the sun surround the scene, creating a playful juxtaposition of scale and reality,"
+    ]
   },
   {
     "image": "loras_images/Character_Polygon.webp",
@@ -943,7 +979,19 @@
     "repo": "loras_cache/prithivMLmods_Castor-Character-Polygon-Flux-LoRA",
     "weights": "Castor-Character-Polygon-LoRA.safetensors",
     "trigger_word": "3D Polygon",
-    "id": 123
+    "id": 123,
+    "prompts": [
+      "3D Polygon Character, Create a hyper-realistic polygon 3D portrait of a young man in his late 20s with short, dark hair, deep blue eyes, and light stubble. He wears a red cap and a casual t-shirt, neutral expression, gritty industrial background, focused gaze, lighting highlights detailed facial textures",
+      "3D Polygon Character, Create a hyper-realistic 3D polygon portrait of an elegant woman in her early 30s with long, wavy blonde hair wearing a vibrant red evening gown and delicate earrings, poised and confident expression, soft-focus dark background",
+      "3D Polygon Character, Create a realistic 3D polygon portrait of a woman in her late 20s with dark brown wet hair slicked back, golden-brown eyes, minimal makeup, subtle freckles, neutral expression, gray gradient background with soft even lighting",
+      "3D Polygon Character, Create a 3D polygon character portrait of a woman in her early 30s with short tousled platinum blonde hair, piercing blue eyes, black leather jacket and white t-shirt, confident smirk, dramatic lighting with night cityscape background",
+      "3D Polygon Character, Create a hyper-realistic 3D polygon portrait of a man in his mid-30s with brown hair, full beard, black-rimmed glasses and navy suit, serious yet approachable expression, blurred modern office background",
+      "3D Polygon Character, Create a 3D polygon portrait of a young athletic man in his early 20s with short curly black hair, dark brown eyes, sleeveless workout shirt, muscular build with sweat glow, gym setting background with dynamic lighting",
+      "3D Polygon Character, Create a 3D polygon portrait of a woman in her mid-30s with sleek black hair in a low bun, deep brown eyes, high-neck dark blue blouse, soft elegant lighting with minimalist background",
+      "3D Polygon Character, Generate multiple side-angle shots of a realistic 3D polygon portrait of a woman with dark brown slicked-back hair, fair skin, full lips and defined eyebrows, neutral simple background to accentuate contours",
+      "3D Polygon Character, Create a realistic 3D polygon portrait of a woman with blonde wavy hair, light skin and green eyes wearing elegant drop earrings and a red dress, soft natural lighting with dark simple background",
+      "3D Polygon Character, Create a detailed 3D polygon portrait of a young man with piercing blue-green eyes, light stubble, fair skin, backward red cap and hoop earrings, serious expression, dark blurry background"
+    ]
   },
   {
     "image": "loras_images/GTA_6_Theme.webp",
@@ -951,7 +999,13 @@
     "repo": "loras_cache/prithivMLmods_Castor-Gta6-Theme-Flux-LoRA",
     "weights": "Gta6.safetensors",
     "trigger_word": "GTA 6 Theme, World of GTA 6",
-    "id": 124
+    "id": 124,
+    "prompts": [
+      "GTA 6 Theme, World of GTA 6, (Masterpiece, best quality:1.2), (Masterpiece, best quality:1.2), landscape, perspective aerial view, tropical mountains, landscape indigo accent, mythology, cinematic, detailed, atmospheric, backlit, epic, cinematic, understanding art, matte painting, beautiful scenery, realistic lighting, masterpiece, good quality, nice graphics, high level of detail, ultra detailed, cinematic lighting, HDR, illustration --v6",
+      "GTA 6 Theme, World of GTA 6, crumbling city, unreal engine, Greg Rutkowski, Loish, Rhads, Beeple, Makoto Shinkai and Lois van Baarle, Ilya Kuvshinov, RossDraws, Tom Bagshaw, Alphonse Mucha, global illumination, detailed and intricate environment",
+      "GTA 6 Theme, World of GTA 6, post-apocalyptic jungle with bio-mechanical flora and fauna, cinematic, 4K, epic Steven Spielberg movie still, sharp focus, emitting diodes, smoke, artillery, sparks, racks, system unit, motherboard, by Pascal Blanche, Rutkowski, Repin, ArtStation hyperrealism painting concept art of detailed character design, matte painting, 4K resolution, Blade Runner",
+      "World of GTA 6, captured at eye-level on a high-angle shot of a highway at sunset. The sky is a vibrant pink, with a few wispy clouds scattered across. The sun is setting, casting a warm glow over the scene. In the foreground, a bridge stretches over a body of water dotted with trees and a few cars. The bridge is adorned with a white truck with a red sign on the side, adding a pop of color to the scene, GTA 6 Theme"
+    ]
   },
   {
     "image": "loras_images/GTA_Character_Concept.webp",
@@ -959,7 +1013,15 @@
     "repo": "loras_cache/prithivMLmods_Castor-Flux-Concept-Gta6-Character-Design",
     "weights": "Gta6-Concept-Charecter.safetensors",
     "trigger_word": "Jason, Lucia, GTA 6",
-    "id": 125
+    "id": 125,
+    "prompts": [
+      "Castor GTA6 Character Design, A dynamic duo portrait of Jason and Lucia in GTA 6 style, captured in a cinematic, low-angle shot. Jason, with his piercing blue eyes, dark brown beard, and silver chain necklace, stands confidently beside Lucia, whose fierce expression matches her sleek look. Lucias dark hair flows against her leather jacket, and her bold makeup contrasts with Jasons rugged features. Both wear matching silver earrings, reflecting the urban, street-smart vibe of the game. The background is a neon-lit cityscape, slightly blurred to focus on the characters, giving a vibrant, edgy feel typical of GTA 6's gritty world", 
+      "Castor GTA6 Character Design, Lucia rides through the winding roads of the city on her sleek motorcycle, her dark hair flowing behind her like a banner of freedom. Dressed in a leather jacket and fitted jeans, she exudes confidence and rebellion. As she speeds through the vibrant streets, her piercing gaze focuses ahead, determined to chase her dreams and outrun her past. The rush of wind and the roar of the engine create a thrilling backdrop in the chaotic GTA 6 world", 
+      "Castor GTA6 Character Design, Lucia stands atop a skyscraper, the bustling city below illuminated by neon lights and the sounds of nightlife. Her dark hair billows in the wind, and her striking features are accentuated by the glow of moonlight. Dressed in a sleek, stylish outfit, she gazes thoughtfully over the edge. In one hand, she holds a small gadget, a symbol of her tech-savvy nature and resourcefulness in the vibrant chaos of the GTA 6 world", 
+      "Castor GTA6 Character Design, This is a photograph of Lucia sitting and leaning back on a set of stairs to a brick building. Long brunette hair has been pulled back into a messy ponytail. Her light-colored eyes stare at the viewer. Her yellow tube top is form-fitting and accentuates her busty chest. Her fit midriff is exposed. The designer jeans she is wearing are torn. Open-toe sandals can be seen on her feet. The midday sun illuminates the scene", 
+      "Castor GTA6 Character Design, HDR photo of Lucia with spiral curls and long auburn hair, (freckles:0.6), beautiful low-cut blouse, long skirt, sitting on a chair in a dark room, amazing smile, perfect eyes. High dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, highly detailed", 
+      "Castor GTA6 Character Design, A beautiful Lucia with brown hair on a white background, princesscore aesthetic, elegant and expressive features with a high-fashion vibe"
+    ]
   },
   {
     "image": "loras_images/3D_Sketchfab.png",
@@ -967,16 +1029,14 @@
     "repo": "loras_cache/prithivMLmods_Castor-3D-Sketchfab-Flux-LoRA",
     "weights": "Castor-3D-Sketchfab-Flux-LoRA.safetensors",
     "trigger_word": "3D Sketchfab",
-    "id": 126
+    "id": 126,
+    "prompts": [
+      "3D Sketchfab, A low-angle view of a brown military tank on a bright yellow background. The tank has a red number \"88\" on the side of it. There is a black X on the top of the tank. There are two black wheels on the bottom of it and a black stripe on the right side of the front of the left side of this tank", 
+      "3D Sketchfab, An eye-level view of a small red building with a green sign on the front of it. The building is surrounded by a small patch of brown dirt. There is a brown roof on the right side of the building and a red door on the left side. There are small green plants on the ground around the building. A black telephone pole is in the center of the image. A white dish is on the roof of the house", 
+      "3D Sketchfab, A vibrant orange box adorned with a fish sculpture. The fish sculpture is a vibrant shade of blue, with a striped pattern on its body. It is positioned on a light purple background, with the fish head facing towards the right side of the frame. A knife with a black handle is positioned to the left of the fish sculpture on top of the box"
+    ]
   },
-  {
-    "image": "loras_images/In_Image_Collage.webp",
-    "title": "In Image Collage",
-    "repo": "loras_cache/prithivMLmods_Castor-Collage-Dim-Flux-LoRA",
-    "weights": "Castor-Collage-Dim-Flux-LoRA.safetensors",
-    "trigger_word": "collage",
-    "id": 127
-  },
+
   {
     "image": "loras_images/Anime_Journey.jpeg",
     "title": "Anime Journey",
@@ -991,47 +1051,45 @@
     "repo": "loras_cache/glif-loradex-trainer_maxxd4240_minimalistPastel",
     "weights": "minimalistPastel.safetensors",
     "trigger_word": "minimalistPastel",
-    "id": 129
+    "id": 129,
+    "prompts": [
+      "minimalistPastel, wounded centaur, mythical creature minimalistPastel",
+      "minimalistPastel, ruins of athens, snake minimalistPastel",
+      "minimalistPastel, silver vampire sword minimalistPastel"
+    ]
   },
-  {
-    "image": "loras_images/RDR2.webp",
-    "title": "RDR2",
-    "repo": "loras_cache/prithivMLmods_Castor-Red-Dead-Redemption-2-Flux-LoRA",
-    "weights": "Castor-Red-Dead-Redemption-2-Flux-LoRA.safetensors",
-    "trigger_word": "Red Dead Redemption 2",
-    "id": 130
-  },
+
   {
     "image": "loras_images/Paper_Model.jpeg",
     "title": "Paper Model",
     "repo": "loras_cache/WizWhite_wizard-s-paper-model-universe",
     "weights": "Wiz-Paper_Model_Universe.safetensors",
     "trigger_word": "A paper model",
-    "id": 131
+    "id": 131,
+    "prompts": [
+      "A paper model cutout of colorful and quirky letters that spell \"Wizard's Paper Model Universe\", with characters interacting with it: A mountain climber ascending the letters, a ballerina dancing on the top, an old lady planting flowers at the base, with a pink and teal confetti explosion in the background, made of paper",
+      "A paper model cutout depicting a town crier and janitor devouring a bowl of spaghetti in Anchorage, made of paper",
+      "A paper model cutout of a pirate ship sailing in stormy seas, high waves crashing on the side of the ship, made of paper",
+      "A highly detailed paper model cutout diorama of a group of honeybees buzzing around a flower garden, observed by a lurking praying mantis, intricate paper craft peephole box masterpiece, made of paper",
+      "A paper model cutout depicting a tivoli stall with a lottery wheel. The sign says \"THIS LoRA STINKS!\" in a bold carnival style font. Wizard Whitebeard standing inside the booth wearing a robe and wide-brimmed hat, with vibrant red, blue and white colors, made of paper",
+      "A highly detailed paper model cutout diorama depicting terraforming machines altering a planet's landscape, intricate paper craft peephole box masterpiece, made of paper",
+      "A paper model cutout depicting a busy Portobello Road in Notting Hill, London, with colorful shops and happy people walking the streets, made of paper",
+      "A paper model of a Lamborghini Countach LP400 made of cardboard, detailed paper craft"
+    ]
   },
-  {
-    "image": "loras_images/Retrocomic_Flux.png",
-    "title": "Retrocomic Flux",
-    "repo": "loras_cache/renderartist_retrocomicflux",
-    "weights": "Retro_Comic_Flux_v1_renderartist.safetensors",
-    "trigger_word": "comic book panel",
-    "id": 132
-  },
-  {
-    "image": "loras_images/Halloween_Flux.webp",
-    "title": "Halloween Flux",
-    "repo": "loras_cache/prithivMLmods_Castor-Happy-Halloween-Flux-LoRA",
-    "weights": "Castor-Happy-Halloween-Flux-LoRA.safetensors",
-    "trigger_word": "happy halloween",
-    "id": 133
-  },
+
   {
     "image": "loras_images/Castor-3D-Portrait.webp",
     "title": "Castor-3D-Portrait",
     "repo": "loras_cache/prithivMLmods_Castor-3D-Portrait-Flux-LoRA",
     "weights": "Castor-3D-Portrait-Flux-LoRA.safetensors",
     "trigger_word": "3D Portrait",
-    "id": 134
+    "id": 134,
+    "prompts": [
+      "3D Portrait, A 3D Portrait cartoon depiction of a woman with long dark brown hair and brown eyes stands in front of a window. She is wearing a gray turtleneck, with her left hand resting on her head. Her right hand is touching her face, adding a touch of warmth to the scene. The background is a stark white wall, with a window on the left side of the image",
+      "3D Portrait, A 3D cartoon-style portrait of a man with short, wavy black hair and blue eyes, standing against a soft pastel-colored background. He is wearing a casual navy blue hoodie, with his right arm crossed over his chest, and his left hand raised to touch his chin thoughtfully. The background includes a large, arched window with light streaming through, creating a warm, cozy atmosphere",
+      "3D Portrait, A 3D cartoon-style portrait of a young woman with medium-length blonde hair and green eyes, sitting in a cozy cafe. She is wearing a light pink sweater and holding a warm cup of coffee close to her face with both hands, creating a peaceful vibe. The background shows a wooden table and a window with raindrops, giving a cozy, rainy-day feel"
+    ]
   },
   {
     "image": "loras_images/Coloring_book_flux.png",
@@ -1039,7 +1097,15 @@
     "repo": "loras_cache/renderartist_coloringbookflux",
     "weights": "c0l0ringb00k_Flux_v1_renderartist.safetensors",
     "trigger_word": "c0l0ringb00k, coloring book, coloring book page",
-    "id": 135
+    "id": 135,
+    "prompts": [
+      "c0l0ringb00k coloring book page, simple cute rocket, white background",
+      "c0l0ringb00k, simple coloring book easy to color, soda can with the word \"FLUX\" on it in cursive style font",
+      "c0l0ringb00k, simple coloring book easy for toddlers to color, a sword",
+      "c0l0ringb00k coloring book page, simple cute legos, white background",
+      "c0l0ringb00k coloring book page, cute lizard riding a skateboard, white background",
+      "c0l0ringb00k coloring book page, cute sheep, white background"
+    ]
   },
   {
     "image": "loras_images/Uncoloured_Polygon.webp",
@@ -1047,7 +1113,17 @@
     "repo": "loras_cache/prithivMLmods_Uncoloured-Polygon-Flux-LoRA",
     "weights": "Uncoloured-3D-Polygon.safetensors",
     "trigger_word": "uncoloured polygon",
-    "id": 136
+    "id": 136,
+    "prompts": [
+      "uncoloured polygon, A close-up shot of a person's face in grayscale polygon style, minimalistic with abstract facets and no bright colors, focusing on geometric shapes",
+      "uncoloured polygon, A medium-sized polygonal sculpture of an elephant, depicted in monochrome tones with intricate facets and sharp edges against a plain background",
+      "uncoloured polygon, A low-angle portrait of a man with a polygonal yellow mohawk, his facial features in grayscale with strong geometric lines and a stark black backdrop",
+      "uncoloured polygon, Abstract polygonal city skyline at dusk, buildings rendered in grayscale facets with subtle shadows and light contrasts",
+      "uncoloured polygon, A polygonal wolf head in grayscale, eyes rendered with slight contrast, and sharp geometric planes emphasizing angular fur patterns",
+      "uncoloured polygon, An abstract polygonal tree with blocky branches and leaves in varying shades of gray, set against a solid black background",
+      "uncoloured polygon, A polygonal vintage camera in grayscale, showing detailed geometric shapes and facets, placed on a simple neutral surface",
+      "uncoloured polygon, Polygonal geometric pattern forming an intricate mandala composed of gray tones and sharp edge lines"
+    ]
   },
   {
     "image": "loras_images/Past_Present_Mix.webp",
@@ -1055,7 +1131,12 @@
     "repo": "loras_cache/prithivMLmods_Past-Present-Deep-Mix-Flux-LoRA",
     "weights": "Past-Present-Deep-Mix-Flux-LoRA.safetensors",
     "trigger_word": "Mixing Past and Present",
-    "id": 137
+    "id": 137,
+    "prompts": [
+      "Mixing Past and Present, a human hand is holding a small, square, black-and-white photograph of a cityscape. The photograph is taken from a low angle, looking up at the viewer. The hand is positioned in front of a gray road with white lines painted on it. To the left of the photograph is a black metal fence, and to the right of the fence is a tall brick building with balconies. The building is a light brown color, and there are cars parked on the street. The sky is blue, dotted with white clouds, adding a pop of color to the scene", 
+      "Mixing Past and Present, a person's hand is holding a photograph of a train station. The photograph depicts a large group of men in suits and hats, standing in a line with their luggage. To the left of the photograph, a train is parked on the tracks, and to the right of the train is a platform with a sign that reads \"London\" in orange letters", 
+      "Mixing Past and Present, a person's hand is holding a small, square-shaped piece of paper in their left hand. The paper is held up in front of the camera, revealing a group of children sitting on a wooden floor. The children are dressed in dark gray shirts and dark gray pants. A man in a black suit is standing on the right side of the frame. The room is filled with desks and chairs, and the walls are adorned with white boards and white chalkboards"
+    ]
   },
   {
     "image": "loras_images/Double_Exposure.jpg",
@@ -1063,7 +1144,17 @@
     "repo": "loras_cache/gokaygokay_Flux-Double-Exposure-LoRA",
     "weights": "double_exposure.safetensors",
     "trigger_word": "dblxpsr",
-    "id": 138
+    "id": 138,
+    "prompts": [
+      "dblxpsr, combining a person's profile silhouette with a dramatic cityscape. The person should be gazing contemplatively to the right, with their facial features subtly visible but not too detailed. Overlay this with an urban landscape featuring towering skyscrapers, preferably at sunset or sunrise to add warm orange and purple hues to the sky. The buildings should appear to emerge from within the silhouette, creating an ethereal blend where architecture and human form become one. Add a slight haze or fog effect to soften the transitions between the two images",
+      "dblxpsr, dblxpsr, An astronaut's helmet reflects not space, but an underwater realm where bioluminescent creatures swim through cosmic clouds. Coral reefs form constellations, and schools of fish move like galaxies. The visor's edge blends seamlessly between deep space and ocean depths, questioning which is which",
+      "dblxpsr, double exposure, A woman's face merging with ocean waves, her hair becoming seafoam and her thoughts turning to swirling whirlpools. Deep sea creatures swim through the darker portions of her silhouette",
+      "dblxpsr, An old book's pages transform into a reader's portrait, where words flow like rivers across their features. Stories emerge as tangible things, paper boats sail across their brow, while origami birds take flight from dog-eared pages. Their eyes hold libraries of unread adventures, and their smile curves like a well-loved spine",
+      "dblxpsr, double exposure, A sleeping child's dreams spill into reality, their profile filled with fantastical creatures and floating islands. Miniature dragons weave between cotton candy clouds, while crystalline castles rise from their thoughts. Stardust sparkles throughout the composition, suggesting magic in every corner",
+      "dblxpsr, double exposure, A musician's silhouette dissolves into visible sound waves, their instrument creating ripples of color that transform into exotic birds taking flight. The birds trail musical notes behind them like cosmic dust, and their wings paint aurora-like streams across a deep indigo sky. The entire scene pulses with rhythmic energy",
+      "dblxpsr, double exposure, A mountain range forming the crown of a sleeping face, while northern lights dance across their closed eyes. Snow-capped peaks blend seamlessly with flowing hair",
+      "dblxpsr, double exposure, A phoenix rising from abstract flames, its feathers dissolving into autumn leaves. The transformation creates a fiery spectrum from deep crimson to brilliant gold"
+    ]
   },
   {
     "image": "loras_images/Seamless_Texture.jpg",
@@ -1071,7 +1162,24 @@
     "repo": "loras_cache/gokaygokay_Flux-Seamless-Texture-LoRA",
     "weights": "seamless_texture.safetensors",
     "trigger_word": "smlstxtr",
-    "id": 139
+    "id": 139,
+    "prompts": [
+      "smlstxtr, A pattern of crystalline formations in amethyst purple, seamless texture",
+      "smlstxtr, A surface of rough sandstone with wind-carved ripples, seamless texture",
+      "smlstxtr, A pattern of interlocked gears in various sizes and brass finish, seamless texture",
+      "smlstxtr, A surface of bubbling mud with earthy brown tones, seamless texture",
+      "smlstxtr, A network of tree bark with deep furrows and moss patches, seamless texture",
+      "smlstxtr, A dense cluster of white snowflakes on dark blue background, seamless texture",
+      "smlstxtr, A pattern of overlapping dragon scales in metallic green, seamless texture",
+      "smlstxtr, A surface of brushed aluminum with linear scratches, seamless texture",
+      "smlstxtr, A collection of colorful beach pebbles packed tightly together, seamless texture",
+      "smlstxtr, A field of tall grass swaying in multiple directions, seamless texture",
+      "smlstxtr, A weathered concrete wall with exposed aggregate and cracks, seamless texture",
+      "smlstxtr, A network of glowing green circuit board traces on black, seamless texture",
+      "smlstxtr, A dense carpet of autumn leaves in red and orange hues, seamless texture",
+      "smlstxtr, A mosaic pattern of iridescent glass tiles in turquoise and purple, seamless texture",
+      "smlstxtr, A rusty metal surface with peeling paint and corrosion spots, seamless texture"
+    ]
   },
   {
     "image": "loras_images/Mockup_Texture.webp",
@@ -1079,7 +1187,12 @@
     "repo": "loras_cache/prithivMLmods_Mockup-Texture-Flux-LoRA",
     "weights": "Mockup-Texture.safetensors",
     "trigger_word": "Mockup",
-    "id": 140
+    "id": 140,
+    "prompts": [
+      "Mockup, a pristine white sweatshirt is prominently displayed against a stark white backdrop. The sweatshirt has a long-sleeved button-down collar and a zipper on the right side of the chest. The sleeves of the sweatshirt are rolled up at the elbow, adding a touch of texture to the image.",
+      "Mockup, A medium-angle shot of a white t-shirt with a black collar and short sleeves. The shirt is positioned in front of a gray backdrop. The front of the shirt is turned to the left, and the sleeves are rolled up to the right. The sleeves have a slight curve at the neckline, adding a touch of texture to the shirt. The t-shirts are positioned in a way that creates a stark contrast to the gray backdrop, making the shirt the focal point of the image.",
+      "Mockup, A medium-angle shot of a womans white t-shirt with a short-sleeved red collar is displayed against a gray backdrop. The shirts front is facing the left side of the frame, and the sleeves are rolled up to the right. The sleeves are short, with a red stripe running down the center of the neckline. The t-shirts are made of a soft, smooth, smooth white material. The rims of the sleeves and sleeves are a vibrant red, adding a pop of color to the otherwise monochromatic image."
+    ]
   },
   {
     "image": "loras_images/Tarot_Cards.webp",
@@ -1087,7 +1200,11 @@
     "repo": "loras_cache/prithivMLmods_Ton618-Tarot-Cards-Flux-LoRA",
     "weights": "Tarot-card.safetensors",
     "trigger_word": "Tarot card",
-    "id": 141
+    "id": 141,
+    "prompts": [
+      "Tarot Card, An artistic painting of the Grand Canyon National Park, taken from the bottom right corner of the frame. The painting is a vibrant orange, with the word 'MARS' in bold white letters at the bottom. The background is a dark green, with white stars scattered across the sky. The mountains in the distance are a mix of brown and orange, and the sun is shining down on the mountains. The rocks on the left and right are a reddish-brown color, while the mountains on the far left are a lighter shade of brown. The sky is a deep blue, with a few wispy clouds.",
+      "Tarot Card, A poster of a man standing on the edge of a cliff. The man is facing a body of water that is surrounded by mountains and trees. The sun is setting in the background and the sun is casting a shadow on the left side of the image. The mountains are covered in snow and the sky is a light blue color. There are white clouds in the upper right corner of the sun. The bottom of the poster is black with white text that reads 'explore the uncharted' in white letters."
+    ]
   },
   {
     "image": "loras_images/Amxtoon.webp",
@@ -2281,7 +2398,8 @@
     "repo": "loras_cache/gokaygokay_Flux-Digital-Backgrounds-LoRA",
     "weights": "digital_background_lora.safetensors",
     "trigger_word": "dgtlbg",
-    "id": 239
+    "id": 239,
+    "prompts": ["dgtlbg, a painting of nature. In this image there are rocks in the river, trees and grass on both sides. The sun is rising from behind these mountains, clouds can be seen above it which has golden sunlight falling upon them, background"]
   },
   {
     "image": "loras_images/Realistic_Backgrounds.jpg",
@@ -2289,7 +2407,8 @@
     "repo": "loras_cache/gokaygokay_Flux-Realistic-Backgrounds-LoRA",
     "weights": "realistic_background_lora.safetensors",
     "trigger_word": "rlstcbg",
-    "id": 240
+    "id": 240,
+    "prompts": ["rlstcbg, a colorful illustration depicting an urban landscape with skyscrapers, water bodies and trees. The colors used are mainly warm tones of pinkish-orange and purplish-blue in the sky, which suggests either dawn or dusk, background"]
   },
   {
     "image": "loras_images/LEGO.png",
@@ -2297,7 +2416,12 @@
     "repo": "loras_cache/prithivMLmods_Flux-Lego-Ref-LoRA",
     "weights": "Lego.safetensors",
     "trigger_word": "lego --fref --89890",
-    "id": 241
+    "id": 241,
+    "prompts": [
+      "lego --fref --89890, a Lego Star Wars figure stands in a pile of snow. The figure is adorned with a white snow-covered hat, a white coat, and a black and white striped jacket. The face of the figure is yellow, and the eyes are blue. The background is a grayish-gray color, and there are small white dots dotting the top of the image.",
+      "lego --fref --89890, a toy robot is soaring through the air. The robot is dressed in a red jumpsuit, adorned with a black helmet and goggles. The toy is holding a small camera in its right hand. The camera has a black lens, and a yellow handle. The sky is a deep blue, dotted with white clouds, adding a pop of color to the scene.",
+      "lego --fref --89890, a lego robot is soaring through the air on a dirt bike. The robot is wearing a white helmet, a white shirt, and a brown and orange vest. The bike is soaring over a pile of brown rocks, with a body of water in the background. The sky is filled with clouds, and the sun is peeking through the clouds, adding a warm glow to the scene."
+    ]
   },
   {
     "image": "loras_images/Qd-Sketch.png",
@@ -2305,6 +2429,12 @@
     "repo": "loras_cache/strangerzonehf_Qd-Sketch",
     "weights": "Qd Sketch.safetensors",
     "trigger_word": "Qd-Sketch",
-    "id": 242
+    "id": 242,
+    "prompts": [
+      "Qd Sketch, An abstract painting of a woman in a green t-shirt and black pants. The woman is facing the left side of the frame, her left hand is covering her face with her right hand. Her right hand is positioned in front of her face. Her hair is a dark shade of black, and her eyes are a light brown. Her lips are a darker shade of brown. The background is a peach color, and the womans shirt is a vibrant green.",
+      "Qd Sketch, An animated image of a woman with long black hair, a white shirt, and a black skirt. The woman is standing in front of a wall that has brown stripes on it. There is a white line running across the womans right side of the image. The shadow of the woman is on the wall behind the woman.",
+      "Qd Sketch, A medium-sized painting of a womans face is depicted in a stark contrast of red and white. The womans head is angled towards the left side of the frame, her eyes are wide open, and her lips are pursed. Her hair is a dark shade of blue, with a few wispy bangs protruding from the top of her head. She is wearing a white sleeveless shirt with a red collar and a red line running down the center of her chest. The shirt has a white collar with three red circles on it. The background is a vibrant red, creating a striking contrast with the womans features.",
+      "Qd Sketch, An abstract image of a woman in a white sundress with pink polka dots, standing on the edge of a wooden dock by a lake. The water reflects the soft hues of a sunset, ranging from orange to purple. Her short black bob haircut sways slightly in the breeze, and she is looking down at her bare feet. In the background, tall trees surround the lake, their dark green leaves creating a contrasting frame."
+    ]
   }
 ]
