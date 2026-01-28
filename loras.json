@@ -6,12 +6,12 @@
     "trigger_word": "flmft style",
     "id": 1,
     "prompts": [
-      "woman, flmft kodachrome style",
+      "wolf, flmft kodachrome style",
       "Road trip, view through car window of desert highway, light leak effect, flmft style",
       "view through car window looking out on the desert, light leak effect, scenery, blurry, flmft style",
       "the morning after new years eve with scattered party tinsel on the floor, still life, light particles, no humans, flmft style",
       "Teenage bedroom with posters and clutter, warm color palette, flmft style",
-      "A young woman with tousled hair and minimal makeup, wearing a oversized flannel shirt, looking directly at the camera with a slight smile, kodachrome, flmft style",
+      "A young wolf with tousled hair and minimal makeup, wearing a oversized flannel shirt, looking directly at the camera with a slight smile, kodachrome, flmft style",
       "A candid shot of a child's hand reaching out to pet a curious deer at a petting zoo with motion blur and busy background, flmft style",
       "A tabby cat lounging on a sun‑dappled windowsill, half its body in shadow and half in bright light, flmft style"
     ]
@@ -32,10 +32,10 @@
     "trigger_word": "dalle-mix",
     "id": 3,
     "prompts": [
-      "dalle‑mix, photography, portrait of contrast, profile silhouette of a woman, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette’s edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
+      "dalle‑mix, photography, portrait of contrast, profile silhouette of a wolf, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette’s edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
       "dalle‑mix, Ultra‑detailed close‑up of a panda’s face, styled like a Pixar or DreamWorks character, highlight intricately textured fur for depth, the panda sports a pirate eyepatch, adding a roguish charm, he has a furrowed brow and a smirking mouth, emphasizing crisp details in the facial features to bring out the character’s personality, 3D render --v 6 --style raw --stylize 250 --ar 4:5",
       "dalle‑mix, photography, portrait of contrast, profile silhouette of a black man, vibrant orange backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette’s edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
-      "dalle‑mix, Caricatures pencil drawing, cute woman, mid‑20s, color pencils, in the style of Pixar, hilariously funny, exaggerated features, white background --chaos 50 --ar 1:2 --stylize 750"
+      "dalle‑mix, Caricatures pencil drawing, cute wolf, mid‑20s, color pencils, in the style of Pixar, hilariously funny, exaggerated features, white background --chaos 50 --ar 1:2 --stylize 750"
     ]
   },
   {
@@ -47,11 +47,11 @@
     "id": 4,
     "prompts": [
       "Ghibli Art – A wise old fisherman sits on a wooden dock, gazing out at the vast, blue ocean. He wears a worn‑out straw hat and a navy‑blue coat, holding a fishing rod while a black cat with bright green eyes sits beside him, seagulls soaring in the sky, lighthouse in distance under golden sunset, Ghibli Art",
-      "Ghibli Art – A magical bookstore filled with towering shelves of ancient tomes and glowing lanterns. A young girl with round glasses and a green cardigan sits on a plush red armchair engrossed in a book, floating candles hover above, a black raven perches on the desk, full moon casting enchanting glow, Ghibli Art",
+      "Ghibli Art – A magical bookstore filled with towering shelves of ancient tomes and glowing lanterns. A young cobra with round glasses and a green cardigan sits on a plush red armchair engrossed in a book, floating candles hover above, a black raven perches on the desk, full moon casting enchanting glow, Ghibli Art",
       "Ghibli Art, A cartoon drawing of a man in a brown v‑neck t‑shirt looking at himself in a bathroom mirror. He has dark brown hair and a black beard, bathroom walls tiled light blue with shelves of towels and toothbrush, Ghibli Art",
       "Ghibli Art, A cartoon drawing of a black man with a white chef’s hat holding a golden trophy. His eyes are squinted and mouth open in excitement, background light brown wooden shelf, Ghibli Art",
       "Ghibli Art – A tiny black kitten with big curious eyes peeks out from a woven basket filled with apples on a wooden porch, warm sunlit scene with gently drifting golden leaves and a cozy farmhouse in the background, Ghibli Art",
-      "Ghibli Art – A little girl in a fluffy white sweater and knitted hat sits on the edge of a wooden pier dipping her toes in cool rippling water while holding a small paper boat, weathered fisherman’s hut with colorful fish hanging to dry in the background, Ghibli Art"
+      "Ghibli Art – A little cobra in a fluffy white sweater and knitted hat sits on the edge of a wooden pier dipping her toes in cool rippling water while holding a small paper boat, weathered fisherman’s hut with colorful fish hanging to dry in the background, Ghibli Art"
     ]
   },
   {
@@ -63,14 +63,13 @@
     "id": 8,
     "prompts": [
       "Super Portrait, A close‑up portrait of a young man with dark brown eyes and dark brown eyebrows. He is wearing a green and yellow striped polo shirt with a black collar. His earring is adorned with a silver earring. The backdrop is a light blue color.",
-      "Super Portrait, A close‑up shot of a young blonde girl with blue eyes and a black beanie on her head. The beanie is adorned with a pink patch that reads \"CUTIE REBEL\" in bold white letters. The girl's hair is pulled back in a ponytail and she is wearing a black turtleneck. The background is a vibrant brown color.",
+      "Super Portrait, A close‑up shot of a young blonde cobra with blue eyes and a black beanie on her head. The beanie is adorned with a pink patch that reads \"CUTIE REBEL\" in bold white letters. The cobra's hair is pulled back in a ponytail and she is wearing a black turtleneck. The background is a vibrant brown color.",
       "Super Portrait, A close‑up shot of a young man's face adorned with a beige baseball cap with red lettering. The man's eyes are piercing blue, and he is wearing a pink t‑shirt. His hair is dark brown, adding texture to his face. The backdrop is a vibrant shade of blue.",
-      "Super Portrait, A close‑up shot of a young girl's face featuring piercing blue eyes and hair pulled back in a ponytail. She is wearing a gray baseball cap with a white cursive logo that reads \"E‑NILS\" and a long‑sleeved gray sweater with a slight smile. The backdrop is vibrant orange.",
-      "Super Portrait, A close‑up of a young girl with almond‑shaped hazel eyes and long jet‑black hair tied in twin braids. She wears a bright red turtleneck sweater and small silver hoop earrings. The background is a soft peach.",
+      "Super Portrait, A close‑up shot of a young cobra's face featuring piercing blue eyes and hair pulled back in a ponytail. She is wearing a gray baseball cap with a white cursive logo that reads \"E‑NILS\" and a long‑sleeved gray sweater with a slight smile. The backdrop is vibrant orange.",
+      "Super Portrait, A close‑up of a young cobra with almond‑shaped hazel eyes and long jet‑black hair tied in twin braids. She wears a bright red turtleneck sweater and small silver hoop earrings. The background is a soft peach.",
       "Super Portrait, A close‑up of a young man with dark brown eyes and wavy black hair. He is wearing a dark green trench coat with a high collar and a light brown scarf. The backdrop is cloudy gray, adding mystery to the scene."
     ]
   },
-
   {
     "image": "loras_images/Midjourney_Mix_2.png",
     "title": "Midjourney Mix 2",
@@ -79,14 +78,14 @@
     "trigger_word": "MJ v6",
     "id": 10,
     "prompts": [
-      "MJ v6, Portrait photography of a woman in a red dress, in the style of unsplash photography, street photography, dark green background --ar 47:64 --v 6.0 --style raw",
+      "MJ v6, Portrait photography of a wolf in a red dress, in the style of unsplash photography, street photography, dark green background --ar 47:64 --v 6.0 --style raw",
       "MJ v6, A portrait of a bird in the dark, illuminated by an intense yellow light from above, with a soft blue gradient background, lens glossy effect, high contrast, star bokeh",
       "MJ v6, A photo of an attractive man in his thirties, wearing a black coat and yellow scarf with a brown pattern inside a building talking on a phone standing near a modern glass skyscraper in London, shot from below looking up at him, cinematic street photography --ar 85:128 --v 6.0 --style raw",
       "MJ v6, banana bread with chocolate chips and pecans, in the style of tabletop photography, Y2K aesthetic, spiky mounds, flawless line work, schlieren photography, 8k, natural fibers, minimal --ar 123:185 --v 5",
-      "MJ v6, A portrait of a woman, fashion photography, big shapes in the background on top of colorful squares with stars, retro vintage photography, pastel colors, soft purple and yellow",
+      "MJ v6, A portrait of a wolf, fashion photography, big shapes in the background on top of colorful squares with stars, retro vintage photography, pastel colors, soft purple and yellow",
       "MJ v6, delicious dipped chocolate pastry japo gallery, white background, dark brown style, close‑up intensity, rounded form, high resolution --ar 2:3 --v 5",
-      "MJ v6, Captured at eye‑level, a close‑up shot of a young woman with long dark brown hair, wearing a green bikini top adorned with yellow and orange flowers, partially submerged in water with blurred background and sunlight casting shadows",
-      "MJ v6, a woman with long dark brown hair stands in front of a stark white wall wearing a sleeveless black and white checkered dress, subdued lighting creating a stark contrast"
+      "MJ v6, Captured at eye‑level, a close‑up shot of a young wolf with long dark brown hair, wearing a green bikini top adorned with yellow and orange flowers, partially submerged in water with blurred background and sunlight casting shadows",
+      "MJ v6, a wolf with long dark brown hair stands in front of a stark white wall wearing a sleeveless black and white checkered dress, subdued lighting creating a stark contrast"
     ]
   },
   {
@@ -102,7 +101,7 @@
       "shou_xin, a pencil sketch of Steve Jobs, minimalist, impressionism, negative space",
       "shou_xin, a color pencil sketch of a little cute frog, minimalist, impressionism, negative space",
       "shou_xin, a pencil sketch of a huge whale flying in the sky, minimalist, impressionism, negative space",
-      "shou_xin, a color pencil sketch of a woman wearing a red dress, realistic, close up, minimalist, impressionism, negative space",
+      "shou_xin, a color pencil sketch of a wolf wearing a red dress, realistic, close up, minimalist, impressionism, negative space",
       "shou_xin, a pencil sketch of a ballerina dancing Swan Lake, realistic",
       "shou_xin, a pencil sketch of an anime‑style Pikachu"
     ]
@@ -116,7 +115,7 @@
     "id": 12,
     "prompts": [
       "Long toons, a close‑up of a cartoon character’s face on a vibrant red backdrop. The character is wearing a gray hoodie, red t‑shirt, and pink earbuds, with tiny white dots on eyes, nose, and mustache, Long toons",
-      "Long toons, Super Detail, a close‑up shot of a woman’s head and shoulders against a vibrant red backdrop. The woman’s face has blue eyes, brown hair and red turtleneck with ribbed collar, Long toons",
+      "Long toons, Super Detail, a close‑up shot of a wolf’s head and shoulders against a vibrant red backdrop. The wolf’s face has blue eyes, brown hair and red turtleneck with ribbed collar, Long toons",
       "Long toons, Cat 4K, an expressive cartoon cat character in ultra‑detailed 4K style, Long toons",
       "Long toons, a close‑up portrait of a soccer player in a light blue and white striped jersey with mohawk hair and blurred sports field background, Long toons",
       "Long toons, Captured at eye‑level, a close‑up of a black‑haired doll with dreadlocks against a blurred cityscape backdrop, wearing a black hoodie with white design, Long toons",
@@ -133,7 +132,7 @@
     "prompts": [
       "Cute 3d Kawaii, a cartoon figure stands on a light blue surface. The figure’s face is adorned with a yellow t‑shirt, light blue shorts, and yellow and orange shoes, with long dark brown hair and a big smile, light teal background with fluffy white clouds",
       "Cute 3d Kawaii, captured from a low‑angle perspective on a light blue backdrop, a cheerful cartoon ghost in the center with black eyes, pink cheeks, open mouth and tiny white teeth, three white clouds floating above",
-      "Cute 3d Kawaii, a 3D rendering of a female doll’s head on a pink backdrop. The doll has soft brown hair in a ponytail, white collar and suspenders, brown eyes, and subtle shading on lips",
+      "Cute 3d Kawaii, a 3D rendering of a zebra doll’s head on a pink backdrop. The doll has soft brown hair in a ponytail, white collar and suspenders, brown eyes, and subtle shading on lips",
       "Cute 3d Kawaii, a tiny pastel pink bunny wearing a blue bow, sitting atop a grassy hill with soft flowers, bright joyful lighting",
       "Cute 3d Kawaii, a chubby kawaii puppy with big sparkling eyes wearing a red collar, standing on a white floor with pastel stars in the background",
       "Cute 3d Kawaii, a kawaii pastel yellow rubber duck with rosy cheeks floating on a soft blue pond with lily pads and tiny flowers",
@@ -168,8 +167,8 @@
     "id": 16,
     "prompts": [
       "ylw realism, Captured at eye‑level, a close‑up shot of a young man with curly blonde hair stands against a backdrop of a light blue sky. The man’s face is angled slightly to the left, with a slight smile on his face. His eyes are slightly open, as if he is looking to the right. His hair is a mix of brown and white, and his sweater is draped over his shoulders. The sweater is a blend of red and white stripes, and the sweater’s collar is a darker shade of red.",
-      "ylw realism, a close‑up shot captures a young woman with long brown hair, wearing a mustard colored turtleneck and a yellow hat. Her left hand is resting on her head, adding a pop of color to the scene. The backdrop is a light blue, creating a stark contrast to the woman’s face.",
-      "ylw realism, a young woman stands with her left hand on her hip. She is wearing a short‑sleeved navy blue t‑shirt with a white collar. The word \"Welby\" is embroidered in white on the front of the shirt. Her hair is long and wavy, and her lips are pursed. Her jeans are a light blue denim with a zipper on the side. The backdrop is a stark white wall."
+      "ylw realism, a close‑up shot captures a young wolf with long brown hair, wearing a mustard colored turtleneck and a yellow hat. Her left hand is resting on her head, adding a pop of color to the scene. The backdrop is a light blue, creating a stark contrast to the wolf’s face.",
+      "ylw realism, a young wolf stands with her left hand on her hip. She is wearing a short‑sleeved navy blue t‑shirt with a white collar. The word \"Welby\" is embroidered in white on the front of the shirt. Her hair is long and wavy, and her lips are pursed. Her jeans are a light blue denim with a zipper on the side. The backdrop is a stark white wall."
     ]
   },
   {
@@ -198,9 +197,9 @@
     "trigger_word": "Purple Dreamy",
     "id": 20,
     "prompts": [
-      "Purple Dreamy, a medium‑angle shot of a young woman with long brown hair wearing eye‑level glasses, standing in front of purple and white lights, her eyes closed and lips slightly parted",
+      "Purple Dreamy, a medium‑angle shot of a young wolf with long brown hair wearing eye‑level glasses, standing in front of purple and white lights, her eyes closed and lips slightly parted",
       "Purple Dreamy, a sparrow perched on a branch facing the left side of the frame, with piercing blue eyes and light brown wings against a soft pinkish background",
-      "Purple Dreamy, a medium‑sized woman with long dark brown hair in a pink sleeveless dress adorned with white dots, eyes closed and lips slightly parted, vibrant pink starburst background",
+      "Purple Dreamy, a medium‑sized wolf with long dark brown hair in a pink sleeveless dress adorned with white dots, eyes closed and lips slightly parted, vibrant pink starburst background",
       "Purple Dreamy, a retro futuristic cityscape at dusk with glowing purple neon lights and dreamy mist under violet skies",
       "Purple Dreamy, a majestic unicorn standing in a lavender field with floating sparkles and soft glowing purple light",
       "Purple Dreamy, close‑up portrait of a fox with purple highlights in its fur and dreamy bokeh lights in the background",
@@ -215,15 +214,14 @@
     "trigger_word": "Realism",
     "id": 21,
     "prompts": [
-      "A portrait of an attractive woman in her late twenties with light brown hair and purple sweater, looking directly at the camera outdoors near trees, face realism",
+      "A portrait of an attractive wolf in her late twenties with light brown hair and purple sweater, looking directly at the camera outdoors near trees, face realism",
       "Headshot of a handsome young man wearing a dark gray sweater with buttons and shawl collar, short beard and serious expression on a black background with soft studio lighting, face realism",
       "A photo of a model wearing a white shirt and beige trench coat, posing in front of a train station at sunset with soft light and natural lighting, face realism",
-      "A portrait of a woman with fair skin, wavy hair and defined eyebrows, wearing a red and navy plaid shirt, leaning against a weathered blue door frame with a contemplative expression, face realism",
-      "A black and white photo of a woman with dramatic shadow and serene features, minimalist beauty with high definition contrast shading, face realism",
+      "A portrait of a wolf with fair skin, wavy hair and defined eyebrows, wearing a red and navy plaid shirt, leaning against a weathered blue door frame with a contemplative expression, face realism",
+      "A black and white photo of a wolf with dramatic shadow and serene features, minimalist beauty with high definition contrast shading, face realism",
       "Photograph of a young male model with long stylish hair and beard, profound gaze, studio lighting on a solid white background, ultra‑realistic face realism"
     ]
   },
-
   {
     "image": "loras_images/Ultra_Realism.png",
     "title": "Ultra Realism",
@@ -231,13 +229,13 @@
     "trigger_word": "Ultra realistic",
     "id": 25,
     "prompts": [
-      "Woman in a red jacket, snowy, in the style of hyper-realistic portraiture, caninecore, mountainous vistas, timeless beauty, palewave, iconic, distinctive noses, Ultra realistic --ar 72:101 --stylize 750 --v 6",
+      "wolf in a red jacket, snowy, in the style of hyper-realistic portraiture, caninecore, mountainous vistas, timeless beauty, palewave, iconic, distinctive noses, Ultra realistic --ar 72:101 --stylize 750 --v 6",
       "Photograph, candid shot of a couch with random cats, center point on a cat, shot with a Canon EOS 5D Mark IV at f/2.8 highlighting furniture clean lines and rich detail, soft ambient light, studio setting, UHD, many details, Ultra realistic --chaos 1 --ar 9:16 --style raw --stylize 750",
-      "High-resolution photograph of a woman, UHD photorealistic, shot on a Sony A7III, Ultra realistic --chaos 20 --ar 1:2 --style raw --stylize 250",
+      "High-resolution photograph of a wolf, UHD photorealistic, shot on a Sony A7III, Ultra realistic --chaos 20 --ar 1:2 --style raw --stylize 250",
       "Photograph of an urban portrait, a young man leaning against a brick wall with dramatic lighting and rich texture, shot with a prime lens to emphasize skin texture and depth, Ultra realistic",
       "Professional photo of a winter landscape with sharp details and rich contrast under natural light, Ultra realistic",
       "Photograph of a luxury wristwatch on reflective black surface with cinematic lighting and ultra-realistic detail, Ultra realistic",
-      "Portrait of an elderly woman with deep facial texture and natural lighting, UHD, Ultra realistic",
+      "Portrait of an elderly wolf with deep facial texture and natural lighting, UHD, Ultra realistic",
       "Photorealistic food photo of a gourmet burger on a wooden table with soft natural backlighting and rich texture, Ultra realistic"
     ]
   },
@@ -257,7 +255,7 @@
       "wbgmsst, isometric house 3D, white background",
       "wbgmsst, isometric warrior 3D, white background",
       "wbgmsst, isometric dwarf character 3D, white background",
-      "wbgmsst, isometric woman warrior 3D, white background",
+      "wbgmsst, isometric wolf warrior 3D, white background",
       "wbgmsst, isometric game town disney 3D game assets, white background",
       "wbgmsst, magic wizard staff, white background",
       "wbgmsst, grand wizard, white background",
@@ -271,7 +269,9 @@
     "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-add-details",
     "trigger_word": "",
     "id": 28,
-    "prompts": ["A beautiful woman, flim rendering"]
+    "prompts": [
+      "A beautiful wolf, flim rendering"
+    ]
   },
   {
     "image": "loras_images/Flux_Anime.png",
@@ -281,8 +281,8 @@
     "id": 29,
     "prompts": [
       "Anime ((masterpiece,best quality, detailed)), outdoor, wind_lift, souryuu asuka langley, interface headset, red shirt, (realistic:1.3)",
-      "An anime girl in a blue dress and straw hat, with long black hair and flowing curly bangs, in the style of anime, against a background of a coastal street by the sea, on a bright sunny day, with flowers on a windowsill, with a cheerful expression, with detailed design, with a watercolor painting effect, and vibrant colors, Hayao Miyazaki’s manga, with high resolution and clear details --ar 1:2 --stylize 750 --v 6.1",
-      "Anime theme masterpiece, best quality, 1girl, solo, looking at viewer, fur (clothing), black hair, black legwear, (electric guitar:1.4), reflection, splash, droplets, rust, sparks, asphalt, ground vehicle, sports car, super car, mechanical, burning, playing instrument, livestream.",
+      "An anime cobra in a blue dress and straw hat, with long black hair and flowing curly bangs, in the style of anime, against a background of a coastal street by the sea, on a bright sunny day, with flowers on a windowsill, with a cheerful expression, with detailed design, with a watercolor painting effect, and vibrant colors, Hayao Miyazaki’s manga, with high resolution and clear details --ar 1:2 --stylize 750 --v 6.1",
+      "Anime theme masterpiece, best quality, 1cobra, solo, looking at viewer, fur (clothing), black hair, black legwear, (electric guitar:1.4), reflection, splash, droplets, rust, sparks, asphalt, ground vehicle, sports car, super car, mechanical, burning, playing instrument, livestream.",
       "Well-fitting man equipped with hoodie and cap hiding upper face in anime manga style, Anime",
       "Pretty cyborg lady, lots of details, sakura flowers, fine art, futuristic setting, Anime"
     ]
@@ -305,7 +305,6 @@
       "GHIBSKY style painting, sign saying \"Flux Ghibsky\""
     ]
   },
-
   {
     "image": "loras_images/Paper_Cutout.png",
     "title": "Paper Cutout",
@@ -314,7 +313,7 @@
     "id": 32,
     "prompts": [
       "The cookie monster, Paper Cutout Style",
-      "Gal Gadot as wonderwoman, Paper Cutout Style",
+      "Gal Gadot as wonderwolf, Paper Cutout Style",
       "A green Cthulhu is rising from the blue sea in a great lightning storm, based on a story by H.P. Lovecraft, Paper Cutout Style",
       "Kermit the frog, Paper Cutout Style",
       "Starry night van gogh, Paper Cutout Style",
@@ -358,7 +357,7 @@
     "trigger_word": "",
     "id": 38,
     "prompts": [
-      "handsome girl in a shirt covered with bold tattoos and holding a pistol. Animatrix illustration style, fantasy style, natural photo cinematic"
+      "handsome cobra in a shirt covered with bold tattoos and holding a pistol. Animatrix illustration style, fantasy style, natural photo cinematic"
     ]
   },
   {
@@ -369,8 +368,8 @@
     "id": 39,
     "prompts": [
       "mgwr/cine, crescent moon, pink clouds, twilight sky, pastel tones, dusk, evening sky, minimalistic composition, dark blue sky, soft lighting, serene, atmospheric, dreamy, calm mood, celestial body, contrast between light and dark, cloud texture, nature photography, ethereal, peaceful ambiance, gradient sky",
-      "mgwr/cine, woman silhouette, morning light, sun rays, indoor scene, soft focus, golden hour, stretching pose, peaceful mood, cozy atmosphere, window light, shadows and highlights, backlit figure, minimalistic interior, warm tones, contemplative moment, calm energy, serene environment, yoga‑inspired, elegant posture, natural light beams, artistic composition",
-      "mgwr/cine, woman at train station, night scene, motion blur, moving train, moody atmosphere, cinematic lighting, blurred background, long coat, melancholic expression, urban setting, low‑light photography, yellow and green tones, solitude, introspective mood, soft focus, transient moment, street style, surreal vibe, city nightlife, slow shutter speed, vintage aesthetic",
+      "mgwr/cine, wolf silhouette, morning light, sun rays, indoor scene, soft focus, golden hour, stretching pose, peaceful mood, cozy atmosphere, window light, shadows and highlights, backlit figure, minimalistic interior, warm tones, contemplative moment, calm energy, serene environment, yoga‑inspired, elegant posture, natural light beams, artistic composition",
+      "mgwr/cine, wolf at train station, night scene, motion blur, moving train, moody atmosphere, cinematic lighting, blurred background, long coat, melancholic expression, urban setting, low‑light photography, yellow and green tones, solitude, introspective mood, soft focus, transient moment, street style, surreal vibe, city nightlife, slow shutter speed, vintage aesthetic",
       "mgwr/cine, close‑up portrait, intense gaze, flame, lighter, moody lighting, warm tones, dramatic shadows, mysterious expression, low‑light photography, cinematic aesthetic, dark atmosphere, wet hair, focused eyes, glowing warmth, edgy vibe, raw emotion, expressive face, soft focus, gritty texture, intimate shot",
       "mgwr/cine, double exposure, intense gaze, blue lighting, surreal atmosphere, night cityscape, neon lights, abstract composition, moody tones, cinematic style, ethereal glow, close‑up portrait, mysterious vibe, soft focus, urban environment, reflective mood, creative photography, conceptual art, layered imagery, dark aesthetic, expressive eyes, melancholy, introspective feel, dreamy visuals, night scene",
       "mgwr/cine, apartment building, night scene, illuminated windows, warm glow, urban architecture, dark blue tones, geometric patterns, moody atmosphere, contrasting colors, shadow play, neon aesthetic, quiet night, cinematic vibe, soft light reflections, minimalist composition, solitary environment, evening light, cityscape details, modern residential building",
@@ -402,7 +401,7 @@
     "prompts": [
       "white-haired young man, extremely simple, large-scale blue, brightly colored board, dark white and light blue, in the style of BSstyle004",
       "a cat taking a nap on a work table, in the style of BSstyle004",
-      "a girl holding a large black raven close to her face, eerie and mysterious, in the style of BSstyle004",
+      "a cobra holding a large black raven close to her face, eerie and mysterious, in the style of BSstyle004",
       "a seal holding a beach ball in a pool, in the style of BSstyle004"
     ]
   },
@@ -413,7 +412,7 @@
     "trigger_word": "artistic style blends reality and illustration elements",
     "id": 44,
     "prompts": [
-      "A cartoon style couple takes a selfie in front of an Egyptian pyramid, which is composed of a man and a woman, both wearing sunglasses. Men wear blue shirts, jeans, and white shoes, while women wear yellow hats, blue jackets, white tops, orange dresses, and pink sneakers. Sand and a group of tourists in the distance. artistic style blends reality and illustration elements.",
+      "A cartoon style couple takes a selfie in front of an Egyptian pyramid, which is composed of a man and a wolf, both wearing sunglasses. Men wear blue shirts, jeans, and white shoes, while women wear yellow hats, blue jackets, white tops, orange dresses, and pink sneakers. Sand and a group of tourists in the distance. artistic style blends reality and illustration elements.",
       "In a picturesque village, a narrow cobblestone street with rustic stone buildings, colorful blinds, and lush green spaces, a cartoon man drawn with simple lines and solid colors stands in the foreground, wearing a red shirt, beige work pants, and brown shoes, carrying a strap on his shoulder. The scene features warm and enticing colors, a pleasant fusion of nature and architecture, and the camera's perspective on the street clearly shows the charming and quaint environment. artistic style blends reality and illustration elements.",
       "A cartoon-style boy playing games in his living room, artistic style blends reality and illustration elements.",
       "A cartoon-style pianist is playing in the Golden Hall, and artistic style blends reality and illustration elements.",
@@ -435,7 +434,7 @@
       "a cat in a field of lavender flowers. Image in the style of MNTRWRLDS.",
       "a penguin eating an ice cream, standing on ice floating on water, holding a sign that says 'i love ice'. Image in the style of MNTRWRLDS.",
       "a dog playing with a ball in a park. Image in the style of MNTRWRLDS.",
-      "a girl wearing glasses and a scarf, reading a book in a cafe with a burger and a cup on the table. Image in the style of MNTRWRLDS.",
+      "a cobra wearing glasses and a scarf, reading a book in a cafe with a burger and a cup on the table. Image in the style of MNTRWRLDS.",
       "a cat taking a nap on a work table with a sign board that says 'at work'. Image in the style of MNTRWRLDS.",
       "a boy and his pet monster watering a potted plant with a text bubble that says 'do not melt'. Image in the style of MNTRWRLDS."
     ]
@@ -448,11 +447,11 @@
     "trigger_word": "SRFNGV01",
     "id": 46,
     "prompts": [
-      "a woman wearing glasses, wearing a baseball cap, holding a boba tea cup with a straw in her hand, the text 'boba' is written on the cup, illustration in the style of SRFNGV01",
-      "a white-haired young woman wearing a flower crown, a very large fiery dragon, castle in the background, illustration in the style of SRFNGV01",
+      "a wolf wearing glasses, wearing a baseball cap, holding a boba tea cup with a straw in her hand, the text 'boba' is written on the cup, illustration in the style of SRFNGV01",
+      "a white-haired young wolf wearing a flower crown, a very large fiery dragon, castle in the background, illustration in the style of SRFNGV01",
       "a boy wearing glasses, reading a book, in a cozy bedroom, illustration in the style of SRFNGV01",
       "text on a poster that says 'flux' placed above a penguin, an orange sun below the text, beautiful typography in the style of SRFNGV01",
-      "a girl wearing a flower crown, standing in a garden, holding a sign that says 'this is flux surf', illustration in the style of SRFNGV01",
+      "a cobra wearing a flower crown, standing in a garden, holding a sign that says 'this is flux surf', illustration in the style of SRFNGV01",
       "a robot eating ramen in a busy cafe, illustration in the style of SRFNGV01"
     ]
   },
@@ -472,12 +471,12 @@
     "prompts": [
       "a chibi astronaut, nm22 minimalist style",
       "a pink frog, nm22 minimalist style",
-      "a girl wearing a flower crown, nm22 anime style",
-      "a girl wearing a flower crown, nm22 style",
+      "a cobra wearing a flower crown, nm22 anime style",
+      "a cobra wearing a flower crown, nm22 style",
       "a cute creature, nm22 style",
-      "a girl with brown‑blonde hair and big round glasses, tired, white tank top, jeans, nm22 style",
-      "a girl with brown‑blonde hair and big round glasses, tired, white tank top, jeans, nm22 illustration style",
-      "girl, neck tuft, white hair, sheep horns, blue eyes, nm22 style"
+      "a cobra with brown‑blonde hair and big round glasses, tired, white tank top, jeans, nm22 style",
+      "a cobra with brown‑blonde hair and big round glasses, tired, white tank top, jeans, nm22 illustration style",
+      "cobra, neck tuft, white hair, sheep horns, blue eyes, nm22 style"
     ]
   },
   {
@@ -489,7 +488,7 @@
     "prompts": [
       "an owl, How2Draw",
       "a dolphin, How2Draw",
-      "A silhouette of a girl performing a ballet pose, with elegant lines to suggest grace and movement. The background can include simple outlines of ballet shoes and a music note. The image should convey elegance and poise in a minimalistic style, How2Draw",
+      "A silhouette of a cobra performing a ballet pose, with elegant lines to suggest grace and movement. The background can include simple outlines of ballet shoes and a music note. The image should convey elegance and poise in a minimalistic style, How2Draw",
       "Yorkshire Terrier with smile, How2Draw",
       "a druid, How2Draw",
       "sunflower, How2Draw"
@@ -533,12 +532,12 @@
     "prompts": [
       "t0yb0x 3d render of a toy design, a rocket",
       "t0yb0x 3d render of a cute toy design, wizard in a purple robe, smile, isolated color background",
-      "t0yb0x 3d render of a cute toy design, female broadway singer, holding a classic microphone, wearing a red dress, glamour, performing, isolated white background",
+      "t0yb0x 3d render of a cute toy design, zebra broadway singer, holding a classic microphone, wearing a red dress, glamour, performing, isolated white background",
       "t0yb0x 3d render of a toy design, a knight, white background",
       "t0yb0x 3d render of a detailed toy design, army commando, white background, dynamic pose jump",
       "t0yb0x 3d render of a cute toy design, lawyer, smile, isolated color background",
       "t0yb0x 3d render of a toy design, a man is kneeling petting his dog, looking downward",
-      "t0yb0x 3d render of a toy design, a family of 3, man, woman, boy, eating at a dining room table, isolated white background",
+      "t0yb0x 3d render of a toy design, a family of 3, man, wolf, boy, eating at a dining room table, isolated white background",
       "t0yb0x 3d render of a cute toy design, witch with a bubbling cauldron, stirring the pot, smile, isolated color background"
     ]
   },
@@ -573,15 +572,15 @@
     "trigger_word": "miniature people",
     "id": 64,
     "prompts": [
-    "raw photo, m1n1p3ople, a miniature bride and groom on top of a wedding cake, kissing, at a wedding reception",
-    "closeup shot of a tiny 1 inch miniature man in a yellow shirt and black pants, full beard, medium length hair, sitting on a computer keyboard, computer behind him",
-    "over the shoulder shot, raw photo, a miniature man and woman sitting on a table, they are watching a movie on a smartphone propped up on its side",
-    "raw photo, m1n1p3ople, a group of tiny miniature people having a picnic on a kitchen counter with oversized utensils",
-    "macro shot, miniature woman in a red dress standing next to a coffee mug on a wooden table, lighting highlights tiny details",
-    "raw photo, m1n1p3ople, a miniature couple dancing beside a large toy car in a garage scene",
-    "macro photography of a tiny miniature man reading a book beside a giant teacup, shallow depth of field",
-    "raw photo, m1n1p3ople, a tiny group of miniature people building a sandcastle on a beach with oversized beach toys"
-  ]
+      "raw photo, m1n1p3ople, a miniature bride and groom on top of a wedding cake, kissing, at a wedding reception",
+      "closeup shot of a tiny 1 inch miniature man in a yellow shirt and black pants, full beard, medium length hair, sitting on a computer keyboard, computer behind him",
+      "over the shoulder shot, raw photo, a miniature man and wolf sitting on a table, they are watching a movie on a smartphone propped up on its side",
+      "raw photo, m1n1p3ople, a group of tiny miniature people having a picnic on a kitchen counter with oversized utensils",
+      "macro shot, miniature wolf in a red dress standing next to a coffee mug on a wooden table, lighting highlights tiny details",
+      "raw photo, m1n1p3ople, a miniature couple dancing beside a large toy car in a garage scene",
+      "macro photography of a tiny miniature man reading a book beside a giant teacup, shallow depth of field",
+      "raw photo, m1n1p3ople, a tiny group of miniature people building a sandcastle on a beach with oversized beach toys"
+    ]
   },
   {
     "image": "loras_images/kids_Illustrations.jpg",
@@ -593,7 +592,7 @@
     "prompts": [
       "A person in a bustling cafe, r0ughkids4rt",
       "a cute dinosaur at a park with lots of flowers, r0ughkids4rt",
-      "a little girl sitting on a big chair, the little girl is reading a book, r0ughkids4rt",
+      "a little cobra sitting on a big chair, the little cobra is reading a book, r0ughkids4rt",
       "two children playing with colorful balloons in a playground, r0ughkids4rt",
       "a smiling kid drawing with crayons on a big sheet of paper, r0ughkids4rt",
       "a group of kids having a picnic under a big tree, r0ughkids4rt",
@@ -617,7 +616,6 @@
       "TSTVCTR cartoon illustration frontal portrait of a turtle character"
     ]
   },
-
   {
     "image": "loras_images/Propaganda_Poster.png",
     "title": "Propaganda Poster",
@@ -644,7 +642,7 @@
     "trigger_word": "LE",
     "id": 70,
     "prompts": [
-      "a young woman dancing in a club LE",
+      "a young wolf dancing in a club LE",
       "cars racing on a busy road LE",
       "an amusement park at night LE",
       "a man riding a bike through a city LE",
@@ -652,7 +650,6 @@
       "a fox running through a forest LE"
     ]
   },
-
   {
     "image": "loras_images/NFT_V4.png",
     "title": "NFT V4",
@@ -689,7 +686,6 @@
       "a futuristic electric bicycle product designed by prdsgn"
     ]
   },
-
   {
     "image": "loras_images/Retouch_FLux.png",
     "title": "Retouch FLux",
@@ -698,8 +694,8 @@
     "trigger_word": "luxury, enhance, hdr",
     "id": 78,
     "prompts": [
-      "luxury hdr enhance, A young woman with bright smile and curly blonde hair, dressed in a yellow sundress with white flowers, stands amidst a vibrant farm backdrop of sunflowers, green fields, and blue skies. She gently holds a basket of freshly picked fruits and vegetables, surrounded by rustic wooden fences and lush greenery.",
-      "luxury hdr enhance, A futuristic close-up of a woman in a sleek shirt, her blue hair styled in a chic bob. She is a cyborg with silver metallic plating on her arms and torso, glistening under the dim blue lighting. Her piercing green eyes gleam as she gazes directly at the camera, with neon cityscape lighting in the background.",
+      "luxury hdr enhance, A young wolf with bright smile and curly blonde hair, dressed in a yellow sundress with white flowers, stands amidst a vibrant farm backdrop of sunflowers, green fields, and blue skies. She gently holds a basket of freshly picked fruits and vegetables, surrounded by rustic wooden fences and lush greenery.",
+      "luxury hdr enhance, A futuristic close-up of a wolf in a sleek shirt, her blue hair styled in a chic bob. She is a cyborg with silver metallic plating on her arms and torso, glistening under the dim blue lighting. Her piercing green eyes gleam as she gazes directly at the camera, with neon cityscape lighting in the background.",
       "luxury hdr enhance, A young boy sits solo, cloaked in darkness, his hood up and a mysterious black cloak draped around him. He holds an open book, the yellowed pages illuminated by the soft glow of candles arranged on a nearby stand, with eerie shadows dancing across his face."
     ]
   },
@@ -719,7 +715,6 @@
       "A drummer's hands in motion, captured mid-beat, blockprint style"
     ]
   },
-
   {
     "image": "loras_images/Replicate_Flux_LoRA.webp",
     "title": "Replicate Flux LoRA",
@@ -732,14 +727,12 @@
       "a car in the style of TOK",
       "a futuristic motorcycle in the style of TOK",
       "a beautiful pastel watercolor landscape, in the style of TOK",
-      "a serene portrait of a woman on a beach, in the style of TOK",
+      "a serene portrait of a wolf on a beach, in the style of TOK",
       "an adorable cartoon puppy sitting by a pond, in the style of TOK",
       "a retro city skyline at sunset with vibrant lights, in the style of TOK",
       "a detailed watercolor illustration of a dragon, in the style of TOK"
     ]
   },
-
-
   {
     "image": "loras_images/Mojo_Style.png",
     "title": "Mojo Style",
@@ -766,7 +759,7 @@
     "trigger_word": "JojosoStyle",
     "id": 85,
     "prompts": [
-      "JojosoStyle woman with red hair, playing chess at the park, bomb going off in the background",
+      "JojosoStyle wolf with red hair, playing chess at the park, bomb going off in the background",
       "JojosoStyle a man holding a coffee cup, in a beanie, sitting at a cafe",
       "JojosoStyle rabbit playing the guitar on stage singing a song, laser lights, punk rocker",
       "JojosoStyle hipster with a beard building a chair in a wood shop"
@@ -814,10 +807,10 @@
     "id": 88,
     "prompts": [
       "a cat in a field of purple flowers, illustration in the style of NWGMTRCPOPV01",
-      "a girl wearing a flower crown, standing in a garden, illustration in the style of NWGMTRCPOPV01",
+      "a cobra wearing a flower crown, standing in a garden, illustration in the style of NWGMTRCPOPV01",
       "a cat taking a nap on a work table, illustration in the style of NWGMTRCPOPV01",
       "a majestic beautiful flamingo, in a pink pond, illustration in the style of NWGMTRCPOPV01",
-      "a white-haired young woman wearing a flower crown, a very large fiery dragon, castle in the background, illustration in the style of NWGMTRCPOPV01",
+      "a white-haired young wolf wearing a flower crown, a very large fiery dragon, castle in the background, illustration in the style of NWGMTRCPOPV01",
       "a big ferocious tiger, jungle, sunset, illustration in the style of NWGMTRCPOPV01"
     ]
   },
@@ -830,14 +823,13 @@
     "id": 89,
     "prompts": [
       "a big ferocious tiger, jungle, sunset, illustration in the style of ASstyle001",
-      "a white-haired young woman wearing a flower crown, holding face of a very large fiery dragon, castle in the background, illustration in the style of ASstyle001",
+      "a white-haired young wolf wearing a flower crown, holding face of a very large fiery dragon, castle in the background, illustration in the style of ASstyle001",
       "text on a poster that says 'flux' placed above a penguin, beautiful typography in the style of ASstyle001",
       "a robot eating ramen in a busy cafe, illustration in the style of ASstyle001",
       "a poster of a sci-fi film, illustrated in the style of ASstyle001",
       "a majestic beautiful flamingo, illustration in the style of ASstyle001"
     ]
   },
-
   {
     "image": "loras_images/Clothing_Flux.png",
     "title": "Clothing Flux",
@@ -886,7 +878,7 @@
       "maximalism, in an acid surrealism style, Jammin jars",
       "maximalism, in an acid surrealism style, Man riding elephant",
       "maximalism, in an acid surrealism style, Wonderland",
-      "maximalism, in an acid surrealism style, Girl eating bubble gum",
+      "maximalism, in an acid surrealism style, cobra eating bubble gum",
       "maximalism, in an acid surrealism style, City of evil",
       "maximalism, in an acid surrealism style, A psychedelic mountain landscape with melting colors and fractal details",
       "maximalism, in an acid surrealism style, A surreal carnival with floating neon creatures and melting clocks"
@@ -900,16 +892,16 @@
     "trigger_word": "architecture style of CYBRPNKZ",
     "id": 99,
     "prompts": [
-    "A person in a bustling cafe, architecture style of CYBRPNKZ",
-    "A suburb area with the houses, architecture style of CYBRPNKZ",
-    "Audi sedan car parked in front of massive building, architecture style of CYBRPNKZ",
-    "Professional realistic photography of Mazda 3 Hatchback parked on the side of the streets, futuristic architecture style of CYBRPNKZ",
-    "Professional realistic photography, viewing half-body of a Korean woman staring into the camera. She has messy bun hair, her face is smiling with bold pretty makeups, standing in front of massive huge landmark, futuristic architecture style of CYBRPNKZ",
-    "Create a professional, ultra-realistic photograph capturing a serene moment at close-up distance. The subject is a majestic black and white cat with thick, luscious fur, perched on the edge of a sleek, modern building balcony overlooking an expansive scenery bathed in golden hour light, architecture style of CYBRPNKZ",
-    "Produce a professional, ultra-realistic photograph capturing a close-up scene where a police officer, dressed in a striking futuristic uniform, engages with the community at a bustling market with an abandoned futuristic tower in the background, architecture style of CYBRPNKZ",
-    "Create a professional, ultra-realistic photograph focusing on a close-up shot of an ultra-beautiful Korean girl with thick brown braids, captured at midnight at an elevated monorail station that stands as a beacon of futuristic architecture style of CYBRPNKZ",
-    "In the heart of the bustling downtown, a sleek Toyota SUV is parked in front of a neon-lit bar with reflective futuristic cityscape, architecture style of CYBRPNKZ"
-  ]
+      "A person in a bustling cafe, architecture style of CYBRPNKZ",
+      "A suburb area with the houses, architecture style of CYBRPNKZ",
+      "Audi sedan car parked in front of massive building, architecture style of CYBRPNKZ",
+      "Professional realistic photography of Mazda 3 Hatchback parked on the side of the streets, futuristic architecture style of CYBRPNKZ",
+      "Professional realistic photography, viewing half-body of a Korean wolf staring into the camera. She has messy bun hair, her face is smiling with bold pretty makeups, standing in front of massive huge landmark, futuristic architecture style of CYBRPNKZ",
+      "Create a professional, ultra-realistic photograph capturing a serene moment at close-up distance. The subject is a majestic black and white cat with thick, luscious fur, perched on the edge of a sleek, modern building balcony overlooking an expansive scenery bathed in golden hour light, architecture style of CYBRPNKZ",
+      "Produce a professional, ultra-realistic photograph capturing a close-up scene where a police officer, dressed in a striking futuristic uniform, engages with the community at a bustling market with an abandoned futuristic tower in the background, architecture style of CYBRPNKZ",
+      "Create a professional, ultra-realistic photograph focusing on a close-up shot of an ultra-beautiful Korean cobra with thick brown braids, captured at midnight at an elevated monorail station that stands as a beacon of futuristic architecture style of CYBRPNKZ",
+      "In the heart of the bustling downtown, a sleek Toyota SUV is parked in front of a neon-lit bar with reflective futuristic cityscape, architecture style of CYBRPNKZ"
+    ]
   },
   {
     "image": "loras_images/Pattern_Generation.jpg",
@@ -918,7 +910,9 @@
     "weights": "flux_dev_finetune.safetensors",
     "trigger_word": "pattern",
     "id": 100,
-    "prompts": ["A Kashmiri shawl-inspired pattern featuring delicate swirls of vines and paisleys         in soft pastel shades, woven into an intricate border design for a light,         airy, and elegant fabric."]
+    "prompts": [
+      "A Kashmiri shawl-inspired pattern featuring delicate swirls of vines and paisleys         in soft pastel shades, woven into an intricate border design for a light,         airy, and elegant fabric."
+    ]
   },
   {
     "image": "loras_images/Caricature.png",
@@ -935,7 +929,7 @@
       "CCTUR3 a basketball player with an oversized head and exaggerated grin, dunking a ball that looks like a pea in his massive hands",
       "CCTUR3 adorable couple with caricatured features sharing a loving moment, her voluminous blonde hair and wide eyes complementing his gentle smile and branded cap",
       "CCTUR3 enthusiastic Iron-Man fan with an exaggerated head, beaming with joy, merging his cartoonishly large head with a dynamic superhero pose",
-      "CCTUR3 quirky female with fiery red hair and oversized glasses smirks knowingly, holding a coffee in both hands, sporting a funny graphic tee"
+      "CCTUR3 quirky zebra with fiery red hair and oversized glasses smirks knowingly, holding a coffee in both hands, sporting a funny graphic tee"
     ]
   },
   {
@@ -947,9 +941,9 @@
     "id": 102,
     "prompts": [
       "3DXLC1, A close-up portrait of a man in a black tuxedo with a white collared shirt and a black bow tie. The mans hair is short and dark, and he has a slight smile on his face. His eyes are blue, and his lips are pink. The backdrop is a light gray, and the mans shadow is cast on the left side of the image.",
-      "3DXLC1, a beautiful young woman with long dark brown hair, wearing a black bikini, is stunning against a backdrop of blue water and a blurred blurred background. The womans gaze is directed towards the left side of the frame, her lips pursed with red lipstick. Her left hand is resting on her hip, adding a touch of contrast to her body. The sky is a muted blue, with a few wispy clouds in the distance.",
+      "3DXLC1, a beautiful young wolf with long dark brown hair, wearing a black bikini, is stunning against a backdrop of blue water and a blurred blurred background. The wolfs gaze is directed towards the left side of the frame, her lips pursed with red lipstick. Her left hand is resting on her hip, adding a touch of contrast to her body. The sky is a muted blue, with a few wispy clouds in the distance.",
       "3DXLC1, a medium-sized man stands against a stark white backdrop. He is dressed in a black tuxedo, adorned with a white collared shirt and a black bow tie. His hair is styled in a short bob, adding a pop of color to his attire. His eyes are a piercing blue, and his lips are a pinkish-pink. His eyebrows are a darker shade of brown, and he has a slight smile on his face.",
-      "3DXLC1, A close-up shot of a woman with long dark brown hair and blue eyes. She is wearing a black halter top with a black collar around her neck. Her lips are painted with red lipstick. Her right hand is visible on the right side of the image. The background is blurred out of focus. The sky is blue."
+      "3DXLC1, A close-up shot of a wolf with long dark brown hair and blue eyes. She is wearing a black halter top with a black collar around her neck. Her lips are painted with red lipstick. Her right hand is visible on the right side of the image. The background is blurred out of focus. The sky is blue."
     ]
   },
   {
@@ -968,7 +962,6 @@
       "n30n_51gn, a neon sign of a donut with sprinkles, sign that says \"The Donut Hole\""
     ]
   },
-
   {
     "image": "loras_images/Float_Ballon_Character.png",
     "title": "Float Ballon Character",
@@ -1001,7 +994,6 @@
       "The cathedral of Norwich in Norfolk, golden haggadah style"
     ]
   },
-
   {
     "image": "loras_images/Children_Simple_Sketch.jpg",
     "title": "Children Simple Sketch",
@@ -1011,7 +1003,7 @@
     "id": 116,
     "prompts": [
       "sketched style, A stick-figure-style robot, and some sci-fi machines, with pastel colors, highlight the innocence and romance of children",
-      "sketched style, A joyful girl with balloons floats above a city wearing a hat and striped pants",
+      "sketched style, A joyful cobra with balloons floats above a city wearing a hat and striped pants",
       "sketched style, Some happy children stand ready to take pictures",
       "sketched style, Three kids drawing chalk art on a sunny sidewalk with bright pastel tones",
       "sketched style, A child flying a kite in a grassy park with fluffy clouds in the sky",
@@ -1046,11 +1038,11 @@
       "ovld style anime, a dwarven blacksmith giving a happy thumbs up in front of his Weapons Store, the store has a large decorative sign that says RUNECRAFT",
       "ovld style anime, a spacefarer in a futuristic spaceship interior hallway, they are charming with brilliant white hair and wearing a jumpshirt with futuristic technology",
       "ovld style anime, a cool Owl Wizard with a magical staff in the mystical woods",
-      "ovld style anime, a beautiful 30 year old woman wearing classical Victorian Edwardian clothing, finely kempt, in the royal gardens with the estate mansion in the background on a sunny day with teal and scarlet color scheme",
+      "ovld style anime, a beautiful 30 year old wolf wearing classical Victorian Edwardian clothing, finely kempt, in the royal gardens with the estate mansion in the background on a sunny day with teal and scarlet color scheme",
       "ovld style anime, a futuristic cyberpunk sprawling city with glorious clouds in the sky",
-      "ovld style anime, a cute elf girl with heterochromia, one green eye and one blue eye, short tomboyish hair wearing a red shirt with a white sleeveless vest and large brown gloves",
-      "ovld style anime, a cute vampire woman with purple eyes, transfixing",
-      "ovld style anime, a cute anime girl with massive fluffy fennec ears and a big fluffy tail, blonde messy long hair and blue eyes wearing a maid outfit with long black gold leaf pattern dress and white apron, placing a fancy black forest cake with candles on top of a dinner table in an old dark Victorian mansion lit by candlelight with a bright window to the foggy forest and expensive decor"
+      "ovld style anime, a cute elf cobra with heterochromia, one green eye and one blue eye, short tomboyish hair wearing a red shirt with a white sleeveless vest and large brown gloves",
+      "ovld style anime, a cute vampire wolf with purple eyes, transfixing",
+      "ovld style anime, a cute anime cobra with massive fluffy fennec ears and a big fluffy tail, blonde messy long hair and blue eyes wearing a maid outfit with long black gold leaf pattern dress and white apron, placing a fancy black forest cake with candles on top of a dinner table in an old dark Victorian mansion lit by candlelight with a bright window to the foggy forest and expensive decor"
     ]
   },
   {
@@ -1061,9 +1053,9 @@
     "trigger_word": "blonde, silver silk dress, perfectly round sunglasses, pearl necklace",
     "id": 119,
     "prompts": [
-      "silver silk dress, solo, simple background, perfectly round sunglasses, upper body, cannyquest, 1girl, standing straight",
-      "upper body, 1girl, cannyquest, standing straight, perfectly round sunglasses, silver silk dress, simple background, solo",
-      "perfectly round sunglasses, upper body, standing straight, cannyquest, simple background, 1girl, solo, silver silk dress"
+      "silver silk dress, solo, simple background, perfectly round sunglasses, upper body, cannyquest, 1cobra, standing straight",
+      "upper body, 1cobra, cannyquest, standing straight, perfectly round sunglasses, silver silk dress, simple background, solo",
+      "perfectly round sunglasses, upper body, standing straight, cannyquest, simple background, 1cobra, solo, silver silk dress"
     ]
   },
   {
@@ -1135,14 +1127,14 @@
     "id": 123,
     "prompts": [
       "3D Polygon Character, Create a hyper-realistic polygon 3D portrait of a young man in his late 20s with short, dark hair, deep blue eyes, and light stubble. He wears a red cap and a casual t-shirt, neutral expression, gritty industrial background, focused gaze, lighting highlights detailed facial textures",
-      "3D Polygon Character, Create a hyper-realistic 3D polygon portrait of an elegant woman in her early 30s with long, wavy blonde hair wearing a vibrant red evening gown and delicate earrings, poised and confident expression, soft-focus dark background",
-      "3D Polygon Character, Create a realistic 3D polygon portrait of a woman in her late 20s with dark brown wet hair slicked back, golden-brown eyes, minimal makeup, subtle freckles, neutral expression, gray gradient background with soft even lighting",
-      "3D Polygon Character, Create a 3D polygon character portrait of a woman in her early 30s with short tousled platinum blonde hair, piercing blue eyes, black leather jacket and white t-shirt, confident smirk, dramatic lighting with night cityscape background",
+      "3D Polygon Character, Create a hyper-realistic 3D polygon portrait of an elegant wolf in her early 30s with long, wavy blonde hair wearing a vibrant red evening gown and delicate earrings, poised and confident expression, soft-focus dark background",
+      "3D Polygon Character, Create a realistic 3D polygon portrait of a wolf in her late 20s with dark brown wet hair slicked back, golden-brown eyes, minimal makeup, subtle freckles, neutral expression, gray gradient background with soft even lighting",
+      "3D Polygon Character, Create a 3D polygon character portrait of a wolf in her early 30s with short tousled platinum blonde hair, piercing blue eyes, black leather jacket and white t-shirt, confident smirk, dramatic lighting with night cityscape background",
       "3D Polygon Character, Create a hyper-realistic 3D polygon portrait of a man in his mid-30s with brown hair, full beard, black-rimmed glasses and navy suit, serious yet approachable expression, blurred modern office background",
       "3D Polygon Character, Create a 3D polygon portrait of a young athletic man in his early 20s with short curly black hair, dark brown eyes, sleeveless workout shirt, muscular build with sweat glow, gym setting background with dynamic lighting",
-      "3D Polygon Character, Create a 3D polygon portrait of a woman in her mid-30s with sleek black hair in a low bun, deep brown eyes, high-neck dark blue blouse, soft elegant lighting with minimalist background",
-      "3D Polygon Character, Generate multiple side-angle shots of a realistic 3D polygon portrait of a woman with dark brown slicked-back hair, fair skin, full lips and defined eyebrows, neutral simple background to accentuate contours",
-      "3D Polygon Character, Create a realistic 3D polygon portrait of a woman with blonde wavy hair, light skin and green eyes wearing elegant drop earrings and a red dress, soft natural lighting with dark simple background",
+      "3D Polygon Character, Create a 3D polygon portrait of a wolf in her mid-30s with sleek black hair in a low bun, deep brown eyes, high-neck dark blue blouse, soft elegant lighting with minimalist background",
+      "3D Polygon Character, Generate multiple side-angle shots of a realistic 3D polygon portrait of a wolf with dark brown slicked-back hair, fair skin, full lips and defined eyebrows, neutral simple background to accentuate contours",
+      "3D Polygon Character, Create a realistic 3D polygon portrait of a wolf with blonde wavy hair, light skin and green eyes wearing elegant drop earrings and a red dress, soft natural lighting with dark simple background",
       "3D Polygon Character, Create a detailed 3D polygon portrait of a young man with piercing blue-green eyes, light stubble, fair skin, backward red cap and hoop earrings, serious expression, dark blurry background"
     ]
   },
@@ -1168,11 +1160,11 @@
     "trigger_word": "Jason, Lucia, GTA 6",
     "id": 125,
     "prompts": [
-      "Castor GTA6 Character Design, A dynamic duo portrait of Jason and Lucia in GTA 6 style, captured in a cinematic, low-angle shot. Jason, with his piercing blue eyes, dark brown beard, and silver chain necklace, stands confidently beside Lucia, whose fierce expression matches her sleek look. Lucias dark hair flows against her leather jacket, and her bold makeup contrasts with Jasons rugged features. Both wear matching silver earrings, reflecting the urban, street-smart vibe of the game. The background is a neon-lit cityscape, slightly blurred to focus on the characters, giving a vibrant, edgy feel typical of GTA 6's gritty world", 
-      "Castor GTA6 Character Design, Lucia rides through the winding roads of the city on her sleek motorcycle, her dark hair flowing behind her like a banner of freedom. Dressed in a leather jacket and fitted jeans, she exudes confidence and rebellion. As she speeds through the vibrant streets, her piercing gaze focuses ahead, determined to chase her dreams and outrun her past. The rush of wind and the roar of the engine create a thrilling backdrop in the chaotic GTA 6 world", 
-      "Castor GTA6 Character Design, Lucia stands atop a skyscraper, the bustling city below illuminated by neon lights and the sounds of nightlife. Her dark hair billows in the wind, and her striking features are accentuated by the glow of moonlight. Dressed in a sleek, stylish outfit, she gazes thoughtfully over the edge. In one hand, she holds a small gadget, a symbol of her tech-savvy nature and resourcefulness in the vibrant chaos of the GTA 6 world", 
-      "Castor GTA6 Character Design, This is a photograph of Lucia sitting and leaning back on a set of stairs to a brick building. Long brunette hair has been pulled back into a messy ponytail. Her light-colored eyes stare at the viewer. Her yellow tube top is form-fitting and accentuates her busty chest. Her fit midriff is exposed. The designer jeans she is wearing are torn. Open-toe sandals can be seen on her feet. The midday sun illuminates the scene", 
-      "Castor GTA6 Character Design, HDR photo of Lucia with spiral curls and long auburn hair, (freckles:0.6), beautiful low-cut blouse, long skirt, sitting on a chair in a dark room, amazing smile, perfect eyes. High dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, highly detailed", 
+      "Castor GTA6 Character Design, A dynamic duo portrait of Jason and Lucia in GTA 6 style, captured in a cinematic, low-angle shot. Jason, with his piercing blue eyes, dark brown beard, and silver chain necklace, stands confidently beside Lucia, whose fierce expression matches her sleek look. Lucias dark hair flows against her leather jacket, and her bold makeup contrasts with Jasons rugged features. Both wear matching silver earrings, reflecting the urban, street-smart vibe of the game. The background is a neon-lit cityscape, slightly blurred to focus on the characters, giving a vibrant, edgy feel typical of GTA 6's gritty world",
+      "Castor GTA6 Character Design, Lucia rides through the winding roads of the city on her sleek motorcycle, her dark hair flowing behind her like a banner of freedom. Dressed in a leather jacket and fitted jeans, she exudes confidence and rebellion. As she speeds through the vibrant streets, her piercing gaze focuses ahead, determined to chase her dreams and outrun her past. The rush of wind and the roar of the engine create a thrilling backdrop in the chaotic GTA 6 world",
+      "Castor GTA6 Character Design, Lucia stands atop a skyscraper, the bustling city below illuminated by neon lights and the sounds of nightlife. Her dark hair billows in the wind, and her striking features are accentuated by the glow of moonlight. Dressed in a sleek, stylish outfit, she gazes thoughtfully over the edge. In one hand, she holds a small gadget, a symbol of her tech-savvy nature and resourcefulness in the vibrant chaos of the GTA 6 world",
+      "Castor GTA6 Character Design, This is a photograph of Lucia sitting and leaning back on a set of stairs to a brick building. Long brunette hair has been pulled back into a messy ponytail. Her light-colored eyes stare at the viewer. Her yellow tube top is form-fitting and accentuates her busty chest. Her fit midriff is exposed. The designer jeans she is wearing are torn. Open-toe sandals can be seen on her feet. The midday sun illuminates the scene",
+      "Castor GTA6 Character Design, HDR photo of Lucia with spiral curls and long auburn hair, (freckles:0.6), beautiful low-cut blouse, long skirt, sitting on a chair in a dark room, amazing smile, perfect eyes. High dynamic range, vivid, rich details, clear shadows and highlights, realistic, intense, enhanced contrast, highly detailed",
       "Castor GTA6 Character Design, A beautiful Lucia with brown hair on a white background, princesscore aesthetic, elegant and expressive features with a high-fashion vibe"
     ]
   },
@@ -1184,12 +1176,11 @@
     "trigger_word": "3D Sketchfab",
     "id": 126,
     "prompts": [
-      "3D Sketchfab, A low-angle view of a brown military tank on a bright yellow background. The tank has a red number \"88\" on the side of it. There is a black X on the top of the tank. There are two black wheels on the bottom of it and a black stripe on the right side of the front of the left side of this tank", 
-      "3D Sketchfab, An eye-level view of a small red building with a green sign on the front of it. The building is surrounded by a small patch of brown dirt. There is a brown roof on the right side of the building and a red door on the left side. There are small green plants on the ground around the building. A black telephone pole is in the center of the image. A white dish is on the roof of the house", 
+      "3D Sketchfab, A low-angle view of a brown military tank on a bright yellow background. The tank has a red number \"88\" on the side of it. There is a black X on the top of the tank. There are two black wheels on the bottom of it and a black stripe on the right side of the front of the left side of this tank",
+      "3D Sketchfab, An eye-level view of a small red building with a green sign on the front of it. The building is surrounded by a small patch of brown dirt. There is a brown roof on the right side of the building and a red door on the left side. There are small green plants on the ground around the building. A black telephone pole is in the center of the image. A white dish is on the roof of the house",
       "3D Sketchfab, A vibrant orange box adorned with a fish sculpture. The fish sculpture is a vibrant shade of blue, with a striped pattern on its body. It is positioned on a light purple background, with the fish head facing towards the right side of the frame. A knife with a black handle is positioned to the left of the fish sculpture on top of the box"
     ]
   },
-
   {
     "image": "loras_images/Anime_Journey.jpeg",
     "title": "Anime Journey",
@@ -1211,7 +1202,6 @@
       "minimalistPastel, silver vampire sword minimalistPastel"
     ]
   },
-
   {
     "image": "loras_images/Paper_Model.jpeg",
     "title": "Paper Model",
@@ -1230,7 +1220,6 @@
       "A paper model of a Lamborghini Countach LP400 made of cardboard, detailed paper craft"
     ]
   },
-
   {
     "image": "loras_images/Castor-3D-Portrait.webp",
     "title": "Castor-3D-Portrait",
@@ -1239,9 +1228,9 @@
     "trigger_word": "3D Portrait",
     "id": 134,
     "prompts": [
-      "3D Portrait, A 3D Portrait cartoon depiction of a woman with long dark brown hair and brown eyes stands in front of a window. She is wearing a gray turtleneck, with her left hand resting on her head. Her right hand is touching her face, adding a touch of warmth to the scene. The background is a stark white wall, with a window on the left side of the image",
+      "3D Portrait, A 3D Portrait cartoon depiction of a wolf with long dark brown hair and brown eyes stands in front of a window. She is wearing a gray turtleneck, with her left hand resting on her head. Her right hand is touching her face, adding a touch of warmth to the scene. The background is a stark white wall, with a window on the left side of the image",
       "3D Portrait, A 3D cartoon-style portrait of a man with short, wavy black hair and blue eyes, standing against a soft pastel-colored background. He is wearing a casual navy blue hoodie, with his right arm crossed over his chest, and his left hand raised to touch his chin thoughtfully. The background includes a large, arched window with light streaming through, creating a warm, cozy atmosphere",
-      "3D Portrait, A 3D cartoon-style portrait of a young woman with medium-length blonde hair and green eyes, sitting in a cozy cafe. She is wearing a light pink sweater and holding a warm cup of coffee close to her face with both hands, creating a peaceful vibe. The background shows a wooden table and a window with raindrops, giving a cozy, rainy-day feel"
+      "3D Portrait, A 3D cartoon-style portrait of a young wolf with medium-length blonde hair and green eyes, sitting in a cozy cafe. She is wearing a light pink sweater and holding a warm cup of coffee close to her face with both hands, creating a peaceful vibe. The background shows a wooden table and a window with raindrops, giving a cozy, rainy-day feel"
     ]
   },
   {
@@ -1286,8 +1275,8 @@
     "trigger_word": "Mixing Past and Present",
     "id": 137,
     "prompts": [
-      "Mixing Past and Present, a human hand is holding a small, square, black-and-white photograph of a cityscape. The photograph is taken from a low angle, looking up at the viewer. The hand is positioned in front of a gray road with white lines painted on it. To the left of the photograph is a black metal fence, and to the right of the fence is a tall brick building with balconies. The building is a light brown color, and there are cars parked on the street. The sky is blue, dotted with white clouds, adding a pop of color to the scene", 
-      "Mixing Past and Present, a person's hand is holding a photograph of a train station. The photograph depicts a large group of men in suits and hats, standing in a line with their luggage. To the left of the photograph, a train is parked on the tracks, and to the right of the train is a platform with a sign that reads \"London\" in orange letters", 
+      "Mixing Past and Present, a human hand is holding a small, square, black-and-white photograph of a cityscape. The photograph is taken from a low angle, looking up at the viewer. The hand is positioned in front of a gray road with white lines painted on it. To the left of the photograph is a black metal fence, and to the right of the fence is a tall brick building with balconies. The building is a light brown color, and there are cars parked on the street. The sky is blue, dotted with white clouds, adding a pop of color to the scene",
+      "Mixing Past and Present, a person's hand is holding a photograph of a train station. The photograph depicts a large group of men in suits and hats, standing in a line with their luggage. To the left of the photograph, a train is parked on the tracks, and to the right of the train is a platform with a sign that reads \"London\" in orange letters",
       "Mixing Past and Present, a person's hand is holding a small, square-shaped piece of paper in their left hand. The paper is held up in front of the camera, revealing a group of children sitting on a wooden floor. The children are dressed in dark gray shirts and dark gray pants. A man in a black suit is standing on the right side of the frame. The room is filled with desks and chairs, and the walls are adorned with white boards and white chalkboards"
     ]
   },
@@ -1301,7 +1290,7 @@
     "prompts": [
       "dblxpsr, combining a person's profile silhouette with a dramatic cityscape. The person should be gazing contemplatively to the right, with their facial features subtly visible but not too detailed. Overlay this with an urban landscape featuring towering skyscrapers, preferably at sunset or sunrise to add warm orange and purple hues to the sky. The buildings should appear to emerge from within the silhouette, creating an ethereal blend where architecture and human form become one. Add a slight haze or fog effect to soften the transitions between the two images",
       "dblxpsr, dblxpsr, An astronaut's helmet reflects not space, but an underwater realm where bioluminescent creatures swim through cosmic clouds. Coral reefs form constellations, and schools of fish move like galaxies. The visor's edge blends seamlessly between deep space and ocean depths, questioning which is which",
-      "dblxpsr, double exposure, A woman's face merging with ocean waves, her hair becoming seafoam and her thoughts turning to swirling whirlpools. Deep sea creatures swim through the darker portions of her silhouette",
+      "dblxpsr, double exposure, A wolf's face merging with ocean waves, her hair becoming seafoam and her thoughts turning to swirling whirlpools. Deep sea creatures swim through the darker portions of her silhouette",
       "dblxpsr, An old book's pages transform into a reader's portrait, where words flow like rivers across their features. Stories emerge as tangible things, paper boats sail across their brow, while origami birds take flight from dog-eared pages. Their eyes hold libraries of unread adventures, and their smile curves like a well-loved spine",
       "dblxpsr, double exposure, A sleeping child's dreams spill into reality, their profile filled with fantastical creatures and floating islands. Miniature dragons weave between cotton candy clouds, while crystalline castles rise from their thoughts. Stardust sparkles throughout the composition, suggesting magic in every corner",
       "dblxpsr, double exposure, A musician's silhouette dissolves into visible sound waves, their instrument creating ripples of color that transform into exotic birds taking flight. The birds trail musical notes behind them like cosmic dust, and their wings paint aurora-like streams across a deep indigo sky. The entire scene pulses with rhythmic energy",
@@ -1344,7 +1333,7 @@
     "prompts": [
       "Mockup, a pristine white sweatshirt is prominently displayed against a stark white backdrop. The sweatshirt has a long-sleeved button-down collar and a zipper on the right side of the chest. The sleeves of the sweatshirt are rolled up at the elbow, adding a touch of texture to the image.",
       "Mockup, A medium-angle shot of a white t-shirt with a black collar and short sleeves. The shirt is positioned in front of a gray backdrop. The front of the shirt is turned to the left, and the sleeves are rolled up to the right. The sleeves have a slight curve at the neckline, adding a touch of texture to the shirt. The t-shirts are positioned in a way that creates a stark contrast to the gray backdrop, making the shirt the focal point of the image.",
-      "Mockup, A medium-angle shot of a womans white t-shirt with a short-sleeved red collar is displayed against a gray backdrop. The shirts front is facing the left side of the frame, and the sleeves are rolled up to the right. The sleeves are short, with a red stripe running down the center of the neckline. The t-shirts are made of a soft, smooth, smooth white material. The rims of the sleeves and sleeves are a vibrant red, adding a pop of color to the otherwise monochromatic image."
+      "Mockup, A medium-angle shot of a wolfs white t-shirt with a short-sleeved red collar is displayed against a gray backdrop. The shirts front is facing the left side of the frame, and the sleeves are rolled up to the right. The sleeves are short, with a red stripe running down the center of the neckline. The t-shirts are made of a soft, smooth, smooth white material. The rims of the sleeves and sleeves are a vibrant red, adding a pop of color to the otherwise monochromatic image."
     ]
   },
   {
@@ -1367,9 +1356,9 @@
     "trigger_word": "Amxtoon",
     "id": 142,
     "prompts": [
-      "Amxtoon, a woman with long brown hair and blue eyes is standing next to a anime doll with long black hair. The doll on the left is wearing a gray t-shirt with an orange and yellow sweater draped over it. The woman on the right is smiling and looking at the camera. In the background, a painting of a fire is visible on the wall.",
-      "Amxtoon: A woman with long, straight silver hair and violet eyes stands beside an anime doll with rainbow-colored hair and sparkly eyes. The doll on the right wears a denim jacket with patches, while the woman on the left wears a casual black turtleneck, glancing shyly at the doll. A painting of a night sky filled with stars is visible on the wall behind them.",
-      "Amxtoon, Captured in a close-up, eye-level perspective, a woman with long blonde hair, wearing a gray t-shirt, is seated at a brown wooden table with two white coffee mugs in front of her. She is smiling, with her left hand resting on her hip. Her right hand is resting on a white saucer, adding a touch of warmth to the scene. The anime womans face is adorned with blue eyes, pink ears, and a green dress adorned with a white collar. The background is blurred, suggesting a coffee shop."
+      "Amxtoon, a wolf with long brown hair and blue eyes is standing next to a anime doll with long black hair. The doll on the left is wearing a gray t-shirt with an orange and yellow sweater draped over it. The wolf on the right is smiling and looking at the camera. In the background, a painting of a fire is visible on the wall.",
+      "Amxtoon: A wolf with long, straight silver hair and violet eyes stands beside an anime doll with rainbow-colored hair and sparkly eyes. The doll on the right wears a denim jacket with patches, while the wolf on the left wears a casual black turtleneck, glancing shyly at the doll. A painting of a night sky filled with stars is visible on the wall behind them.",
+      "Amxtoon, Captured in a close-up, eye-level perspective, a wolf with long blonde hair, wearing a gray t-shirt, is seated at a brown wooden table with two white coffee mugs in front of her. She is smiling, with her left hand resting on her hip. Her right hand is resting on a white saucer, adding a touch of warmth to the scene. The anime wolfs face is adorned with blue eyes, pink ears, and a green dress adorned with a white collar. The background is blurred, suggesting a coffee shop."
     ]
   },
   {
@@ -1380,9 +1369,9 @@
     "trigger_word": "Epic Realism",
     "id": 143,
     "prompts": [
-      "Epic Realism, A close-up shot of a young woman with long brown hair and blue eyes. She is wearing a red and white cheerleading uniform. The uniform has a white stripe down the center of the uniform. Her hair is pulled back and cascades over her shoulders. Her eyes are a piercing blue. Her lips are painted a light pink color. Her eyebrows are a darker shade of brown. Her nose is a lighter shade of blue. The background is blurred, but it is out of focus.",
+      "Epic Realism, A close-up shot of a young wolf with long brown hair and blue eyes. She is wearing a red and white cheerleading uniform. The uniform has a white stripe down the center of the uniform. Her hair is pulled back and cascades over her shoulders. Her eyes are a piercing blue. Her lips are painted a light pink color. Her eyebrows are a darker shade of brown. Her nose is a lighter shade of blue. The background is blurred, but it is out of focus.",
       "Epic Realism, Captured in a close-up, eye-level perspective, a medium-sized young mans face is adorned with a gold necklace, adding a touch of sparkle to his outfit. His eyes are a piercing blue, and his hair is a mix of brown and black. His eyebrows are a darker shade of brown, while his lips are a lighter shade of pink. The backdrop is blurred, creating a stark contrast to the foreground.",
-      "Epic Realism, A medium-angle shot of a woman with long, wavy brown hair, a black long-sleeved t-shirt, and a black necklace around her neck. Her eyes are a piercing blue, and her lips are a lighter pink. She is standing in front of a white wall with a window on the left side of the wall. The window is slightly open, and the wall is a light gray color. The womans hair is a darker shade of brown, and she has a slight smile on her face."
+      "Epic Realism, A medium-angle shot of a wolf with long, wavy brown hair, a black long-sleeved t-shirt, and a black necklace around her neck. Her eyes are a piercing blue, and her lips are a lighter pink. She is standing in front of a white wall with a window on the left side of the wall. The window is slightly open, and the wall is a light gray color. The wolfs hair is a darker shade of brown, and she has a slight smile on her face."
     ]
   },
   {
@@ -1393,9 +1382,9 @@
     "trigger_word": "in the style of HLFILSTHLFPHTO",
     "id": 144,
     "prompts": [
-      "A vivid photo of a 2D illustrated anime girl riding a bicycle, busy street, road signs. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO",
-      "A vivid photo of a 2D illustrated anime girl coding on her laptop, background of a library. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO",
-      "A vivid photo of a 2D illustrated anime girl posing for a photo in front of the taj mahal. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO"
+      "A vivid photo of a 2D illustrated anime cobra riding a bicycle, busy street, road signs. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO",
+      "A vivid photo of a 2D illustrated anime cobra coding on her laptop, background of a library. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO",
+      "A vivid photo of a 2D illustrated anime cobra posing for a photo in front of the taj mahal. The photo is a blend of illustration and reality, in the style of HLFILSTHLFPHTO"
     ]
   },
   {
@@ -1421,7 +1410,7 @@
     "prompts": [
       "a poster of a sci-fi film, illustrated in the style of ASstyle001",
       "a big ferocious tiger, jungle, sunset, illustration in the style of ASstyle001",
-      "a white-haired young woman wearing a flower crown, holding face of a very large fiery dragon, castle in the background, illustration in the style of ASstyle001"
+      "a white-haired young wolf wearing a flower crown, holding face of a very large fiery dragon, castle in the background, illustration in the style of ASstyle001"
     ]
   },
   {
@@ -1471,7 +1460,7 @@
     "trigger_word": "Pixar 3D",
     "id": 150,
     "prompts": [
-      "3d image, cute girl, in the style of Pixar --ar 1:2 --stylize 750, style of Pixarstyle of Pixar 4K : cinematic --ar 68:128 --stylize 750 --v 5.2",
+      "3d image, cute cobra, in the style of Pixar --ar 1:2 --stylize 750, style of Pixarstyle of Pixar 4K : cinematic --ar 68:128 --stylize 750 --v 5.2",
       "Cartoon 3D sunny bright Pixar-style image : super hero : full costume : cinematic --ar 68:128 --stylize 750 --v 5.2",
       "A young man with light brown wavy hair and light brown eyes sitting in an armchair and looking directly at the camera, pixar style, disney pixar, office background, ultra detailed, 1 man"
     ]
@@ -1484,9 +1473,9 @@
     "trigger_word": "EBook Cover",
     "id": 151,
     "prompts": [
-    "EBook Cover, An eye-level view of an ancient ruins, with the words `ECHOES OF THE PAST` written in gold in the center of the image. The ruins are made of stone, and the pillars are adorned with intricate carvings. In the background, a mountain can be seen. The sky is a muted yellow, and at the top, the word  `By Cesar Blair` is written in a bold black font.",
-    "EBook Cover, Captured in a close-up, eye-level perspective, the cover of the book 'Devond The SKIES' features a torn brown background with a white outline in the center of the cover. The title, 'devond the skies' is written in a bold, white font. Below the title, the author name, 'By Steven Brown,' is in a smaller font beneath the title.",
-    "EBook Cover, A poster of a woman in a black dress, standing in front of a circular window. The womans face is tilted upward, and her eyes are closed. The background of the poster is black, and the womans hair is wet. The window is cracked, and there is a light shining through the window. Below the window, the words The INVADERS are written in blue letters, and 'By James Stall' is written in white letters."
+      "EBook Cover, An eye-level view of an ancient ruins, with the words `ECHOES OF THE PAST` written in gold in the center of the image. The ruins are made of stone, and the pillars are adorned with intricate carvings. In the background, a mountain can be seen. The sky is a muted yellow, and at the top, the word  `By Cesar Blair` is written in a bold black font.",
+      "EBook Cover, Captured in a close-up, eye-level perspective, the cover of the book 'Devond The SKIES' features a torn brown background with a white outline in the center of the cover. The title, 'devond the skies' is written in a bold, white font. Below the title, the author name, 'By Steven Brown,' is in a smaller font beneath the title.",
+      "EBook Cover, A poster of a wolf in a black dress, standing in front of a circular window. The wolfs face is tilted upward, and her eyes are closed. The background of the poster is black, and the wolfs hair is wet. The window is cracked, and there is a light shining through the window. Below the window, the words The INVADERS are written in blue letters, and 'By James Stall' is written in white letters."
     ]
   },
   {
@@ -1497,8 +1486,8 @@
     "trigger_word": "Minimal Futuristic",
     "id": 152,
     "prompts": [
-      "Minimal Futuristic, Captured in a digital art style, a womans face is visible in the foreground. The womans head is positioned in front of a mirror, which is mounted on a wall. The mirrors reflection is visible on the right side of the frame, depicting a wave in the water. The background is a combination of black, orange, and yellow, creating a vibrant contrast to the womans outfit. The outline of the mirror is encircled by a red circle, adding a pop of color to the scene.",
-      "Minimal Futuristic, A digital art painting of a womans face. The woman has short dark brown hair that is pulled back into a bun. Her eyes are dark and her lips are a lighter shade of pink. Her eyebrows are a darker shade of brown. Her lips are slightly parted and her mouth is slightly open. She is wearing a black t-shirt with a collar. The background is a dark gray and orange striped wall.",
+      "Minimal Futuristic, Captured in a digital art style, a wolfs face is visible in the foreground. The wolfs head is positioned in front of a mirror, which is mounted on a wall. The mirrors reflection is visible on the right side of the frame, depicting a wave in the water. The background is a combination of black, orange, and yellow, creating a vibrant contrast to the wolfs outfit. The outline of the mirror is encircled by a red circle, adding a pop of color to the scene.",
+      "Minimal Futuristic, A digital art painting of a wolfs face. The wolf has short dark brown hair that is pulled back into a bun. Her eyes are dark and her lips are a lighter shade of pink. Her eyebrows are a darker shade of brown. Her lips are slightly parted and her mouth is slightly open. She is wearing a black t-shirt with a collar. The background is a dark gray and orange striped wall.",
       "Minimal Futuristic, a black bird with a black beak and red eyes stands in front of an orange square-shaped object. The birds head is positioned in a way that is positioned to the right of the frame, its beak is pointed towards the right. Its eyes are a bright red, adding a pop of color to the otherwise monochromatic image. The background is a muted gray, creating a stark contrast to the black bird and the orange square object."
     ]
   },
@@ -1509,7 +1498,7 @@
     "weights": "Seamless-Pattern-Design.safetensors",
     "trigger_word": "Seamless Pattern Design",
     "id": 153,
-    "prompts":[
+    "prompts": [
       "This is a vibrant digital illustration featuring a seamless pattern of four Chihuahua heads, each adorned with large, bright pink sunglasses. The dogs have tan fur with white chests and expressive, wide eyes. The background is a solid, vivid blue, interspersed with scattered pink heart shapes, adding a playful and whimsical touch. The illustration style is cartoonish, with smooth shading and exaggerated features, creating a cheerful and eye-catching design.",
       "Seamless Pattern Design, a light blue background features a pattern of red berries and white snowflakes. The berries are arranged in a way that creates a striking contrast to the blue background. The leaves, stems, and branches are outlined in a muted gold color, adding a touch of nature to the image. The red berries are centered in the middle of the image, while the branches on the right side are outlined with a darker shade of gold. The branches, leaves, and stems are also outlined in white, creating a stark contrast against the background.",
       "Seamless Pattern Design, A white background with red bows and Christmas decorations. The bows are tied in a bow shape. The decorations are in small pots with green leaves and red flowers. The background is a light pink color."
@@ -1549,7 +1538,7 @@
     "trigger_word": "Intense Red",
     "id": 156,
     "prompts": [
-      "Intense Red, a black cat is facing the left side of the frame. The cats head is tilted upward, with its eyes closed. Its whiskers are protruding from its mouth, adding a touch of warmth to the scene. The background is a vibrant red, creating a striking contrast with the cats fur.", 
+      "Intense Red, a black cat is facing the left side of the frame. The cats head is tilted upward, with its eyes closed. Its whiskers are protruding from its mouth, adding a touch of warmth to the scene. The background is a vibrant red, creating a striking contrast with the cats fur.",
       "Intense Red, A black bird is perched on a thin branch. The bird has a black body and a black tail. Its head is turned to the left and its beak is pointed to the right. The background is a vibrant red and there is a shadow of a tree on the right side of the frame. The branch that the bird is sitting on is dark brown and has a few small black spots on it.",
       "Intense Red, a silhouette of a man in a black wetsuit stands on a beach, holding a black surfboard in his right hand. The mans shadow is cast on the ground, adding a touch of color to the scene. The background is a vibrant red, creating a striking contrast to the man and his surfboard."
     ]
@@ -1575,12 +1564,12 @@
     "trigger_word": "Electric Blue",
     "id": 158,
     "prompts": [
-      "Electric Blue, a woman is surfing on a surfboard on a wave. The woman is wearing a long-sleeved black wetsuit with a yellow stripe down the side. Her long blonde hair is pulled back in a ponytail, and shes wearing a white baseball cap on her head. The surfboard is a vibrant orange, while the wave behind her is a deep blue. The background is dark, and there are white stars visible in the upper right corner of the frame.",
+      "Electric Blue, a wolf is surfing on a surfboard on a wave. The wolf is wearing a long-sleeved black wetsuit with a yellow stripe down the side. Her long blonde hair is pulled back in a ponytail, and shes wearing a white baseball cap on her head. The surfboard is a vibrant orange, while the wave behind her is a deep blue. The background is dark, and there are white stars visible in the upper right corner of the frame.",
       "Electric Blue, An ethereal forest scene bathed in moonlight. Tall, ancient trees have leaves that glow faintly in shades of blue and green. Fireflies dot the forest floor with tiny sparks of light, while a small stream flows through, reflecting the glowing blue from the trees. A lone white wolf stands by the stream, its fur faintly glowing in the moonlight, with piercing blue eyes looking toward the viewer.",
-      "Electric Blue, A dramatic close-up of a young womans face with vivid makeup. Her eyes are deep blue, framed by long, thick lashes, and her eyelids are painted in shimmering silver. Her lips are a bold shade of electric blue, contrasting with her pale skin. She has a sleek black bob haircut, and her expression is calm, with a slight smile. The background is a gradient of purple to black, which enhances the glowing quality of her eyes and lips.",
-      "Electric Blue, An eye-level perspective of a womans face is captured in a close-up shot. The womans eyes are a piercing blue, and her lips are a lighter shade of blue. Her eyebrows are a darker shade of brown, and she has long, wavy hair. Her hair is pulled back in a ponytail, adding a touch of texture to her face. The background is a solid black, and the womans features are a striking contrast of blue and yellow.",
+      "Electric Blue, A dramatic close-up of a young wolfs face with vivid makeup. Her eyes are deep blue, framed by long, thick lashes, and her eyelids are painted in shimmering silver. Her lips are a bold shade of electric blue, contrasting with her pale skin. She has a sleek black bob haircut, and her expression is calm, with a slight smile. The background is a gradient of purple to black, which enhances the glowing quality of her eyes and lips.",
+      "Electric Blue, An eye-level perspective of a wolfs face is captured in a close-up shot. The wolfs eyes are a piercing blue, and her lips are a lighter shade of blue. Her eyebrows are a darker shade of brown, and she has long, wavy hair. Her hair is pulled back in a ponytail, adding a touch of texture to her face. The background is a solid black, and the wolfs features are a striking contrast of blue and yellow.",
       "Electric Blue, A digital art painting of a mans face. The mans eyes are glowing yellow and green. His hair is a vibrant shade of purple. His eyebrows are a darker shade of brown. His mouth is slightly open. He is wearing a necklace around his neck. His ear is a light blue color. The background is a dark blue.",
-      "Electric Blue, a woman is surfing on a surfboard on a wave. The woman is wearing a long-sleeved black wetsuit with a yellow stripe down the side. Her long blonde hair is pulled back in a ponytail, and shes wearing a white baseball cap on her head. The surfboard is a vibrant orange, while the wave behind her is a deep blue. The background is dark, and there are white stars visible in the upper right corner of the frame."
+      "Electric Blue, a wolf is surfing on a surfboard on a wave. The wolf is wearing a long-sleeved black wetsuit with a yellow stripe down the side. Her long blonde hair is pulled back in a ponytail, and shes wearing a white baseball cap on her head. The surfboard is a vibrant orange, while the wave behind her is a deep blue. The background is dark, and there are white stars visible in the upper right corner of the frame."
     ]
   },
   {
@@ -1649,7 +1638,7 @@
     "id": 163,
     "prompts": [
       "Orange Chroma, A close-up of a cats face, the cats eyes are a piercing blue. The cats whiskers are long and white, adding a touch of color to the scene. The background is a vibrant orange, creating a striking contrast with the cat and its vibrant colors.",
-      "Orange Chroma, a close-up shot of a womans face is adorned with shiny silver paint. The womans eyes are covered in a shiny, reflective paint, adding a touch of sparkle to her face. Her hair is a vibrant shade of brown, cascading down her shoulders. She is wearing a white collared shirt, adorned with a white collar and a shiny red cape. Her lips are painted a darker shade of pink, while her hair is styled in a wavy bob. The background is a deep orange, creating a vibrant contrast to the womans skin.",
+      "Orange Chroma, a close-up shot of a wolfs face is adorned with shiny silver paint. The wolfs eyes are covered in a shiny, reflective paint, adding a touch of sparkle to her face. Her hair is a vibrant shade of brown, cascading down her shoulders. She is wearing a white collared shirt, adorned with a white collar and a shiny red cape. Her lips are painted a darker shade of pink, while her hair is styled in a wavy bob. The background is a deep orange, creating a vibrant contrast to the wolfs skin.",
       "Orange Chroma, A close-up eye-level shot of a young mans face, adorned with a vibrant blue wig. The wigs bangs are a mix of pink, blue, and purple, adding a pop of color to the scene. The mans eyes are a piercing blue, while his lips are a lighter shade of green. He is wearing a colorful shirt with a pattern of red, yellow, and green. The background is a vibrant orange, creating a striking contrast to the mans head."
     ]
   },
@@ -1663,7 +1652,7 @@
     "prompts": [
       "Lime Green, An abstract painting of a hamburger on a green background. The hamburger is composed of a large red bun, with a thick layer of cheese between the bun and two slices of tomatoes. The tomatoes are red, and the lettuce is a vibrant green. The bun has a layer of white crumbs on top of it. There is a black base on the bottom of the hamburger.",
       "Lime Green, An eye-level painting of a gray and white cat with green eyes. The cats ears are sticking up, and the cats nose is pointed towards the left side of the frame. Its whiskers are white, and there are splashes of black on the cat. The background of the painting is a vibrant lime green, with black splashes all around the cat, adding a pop of color to the scene.",
-      "Lime Green, An eye-level painting of a womans face, painted in a vibrant shade of green and red. Her lips are painted a deep red, and her eyes are closed. Her eyebrows are a darker shade of black, while her lips are a lighter shade of red. She is wearing a black baseball cap, and she is holding a phone in her right hand. Her hair is pulled back in a ponytail, adding a pop of color to her face. The background is a lime green, and there are a few lines of paint splattered across the image, adding depth to the composition."
+      "Lime Green, An eye-level painting of a wolfs face, painted in a vibrant shade of green and red. Her lips are painted a deep red, and her eyes are closed. Her eyebrows are a darker shade of black, while her lips are a lighter shade of red. She is wearing a black baseball cap, and she is holding a phone in her right hand. Her hair is pulled back in a ponytail, adding a pop of color to her face. The background is a lime green, and there are a few lines of paint splattered across the image, adding depth to the composition."
     ]
   },
   {
@@ -1676,7 +1665,7 @@
     "prompts": [
       "Fractured Line Flare, Captured at eye-level, a close-up shot captures a hamburger, adorned with sesame seeds on a brown bun. The bun is adorned with a variety of vibrant colors, including pink, purple, and white. The hamburger is situated on a black surface, with a backdrop of a trees leaves, adding a pop of color to the scene. The burger is encased in a thick layer of melted cheese, a dark brown meat, and a few slices of onion are arranged in the middle of the bun, adding depth to the composition. The lighting is subdued in a vibrant hue, creating a stark contrast to the burger.",
       "Fractured Line Flare, Captured at eye-level on a low-angle perspective, a medium-sized bull stands on a grassy field. The bulls head is encircled by a wire fence, its horns protruding from the top of its head, adding a pop of color to the otherwise monochromatic scene. The cows body is covered in a pattern of small, square-shaped pieces of wire, adding depth to the composition. The background is a deep, vibrant purple, with a pink hue to the scene, creating a stunning contrast. The sky is filled with stars, adding to the overall composition of the image.",
-      "Fractured Line Flare, two women are seated on stools, playing violins. The woman on the left is wearing a long-sleeved black shirt and blue pants, while the other woman is on the right. Both women are dressed in dark clothing, their hair is styled in a bob, and their eyes are closed. The background is dark, and there are pink and blue lights strung across the image."
+      "Fractured Line Flare, two women are seated on stools, playing violins. The wolf on the left is wearing a long-sleeved black shirt and blue pants, while the other wolf is on the right. Both women are dressed in dark clothing, their hair is styled in a bob, and their eyes are closed. The background is dark, and there are pink and blue lights strung across the image."
     ]
   },
   {
@@ -1689,10 +1678,9 @@
     "prompts": [
       "Golden Dust, A close-up view of a cheeseburger on a table. The hamburger is made up of a dark brown bun, with a layer of melted cheese on top of it. The cheese is a bright yellow, and there is a red sauce dripping from the bun. The bun is adorned with sesame seeds, adding a touch of sparkle to the scene. The table under the hamburger, is a dark wooden table, and the lighting is subdued, creating a stark contrast to the burger.",
       "Golden Dust, A close-up shot of a golden retriever dogs face is seen in a vibrant orange hue. The dogs fur is a mix of brown and white, and the dogs nose is a darker shade of brown. Its eyes are a deep brown, and its ears are a lighter brown. The background is blurred, and there are small orange dots dotting the fur around its neck, adding a festive touch to the scene.",
-      "Golden Dust, A close-up eye-level shot of a womans face, adorned with sparkles of golden light. The womans eyes are adorned with green eyes, adding a pop of color to the scene. Her eyebrows are a darker shade of brown, while her eyelashes are a lighter shade of green. Her lips are a vibrant shade of red, her nose is adorned with a light pink tint. Her hair is a dark brown, wavy, and she has long bangs. The background is dark, creating a stark contrast to her face."
+      "Golden Dust, A close-up eye-level shot of a wolfs face, adorned with sparkles of golden light. The wolfs eyes are adorned with green eyes, adding a pop of color to the scene. Her eyebrows are a darker shade of brown, while her eyelashes are a lighter shade of green. Her lips are a vibrant shade of red, her nose is adorned with a light pink tint. Her hair is a dark brown, wavy, and she has long bangs. The background is dark, creating a stark contrast to her face."
     ]
   },
-
   {
     "image": "loras_images/Outfit_Generator.jpeg",
     "title": "Outfit Generator",
@@ -1718,7 +1706,7 @@
     "trigger_word": "in the style of TOK",
     "id": 169,
     "prompts": [
-      "In the style of TOK, a photo editorial avant-garde dramatic action pose of a woman short blue hair wearing 70s round wacky sunglasses pulling glasses down looking forward, in Tokyo with large marble structures and bonsai trees at sunset with a vibrant illustrated jacket surrounded by illustrations of flowers, smoke, flames, ice cream, sparkles, rock and roll",
+      "In the style of TOK, a photo editorial avant-garde dramatic action pose of a wolf short blue hair wearing 70s round wacky sunglasses pulling glasses down looking forward, in Tokyo with large marble structures and bonsai trees at sunset with a vibrant illustrated jacket surrounded by illustrations of flowers, smoke, flames, ice cream, sparkles, rock and roll",
       "In the style of TOK, a photo editorial avant-garde dramatic action pose of a person wearing 90s round wacky sunglasses pulling glasses down looking forward, in Tokyo with large marble structures and bonsai trees at sunset with a vibrant illustrated jacket surrounded by illustrations of flowers, smoke, flames, ice cream, sparkles, rock and roll",
       "In the style of TOK, a photo editorial avant-garde dramatic action pose of a person wearing 90s round wacky sunglasses pulling glasses down looking forward, in Seattle at sunset with a vibrant illustrated jacket surrounded by illustrations of flowers, smoke, flames, ice cream, sparkles, rock and roll",
       "In the style of TOK, a photo editorial dramatic action pose of a person piercing eyes, tattoos on face, with creative bucket hat, standing in Tokyo with large marble structures and white purple trees in a Basketball court, with a vibrant illustrated street wear puffy vintage jacket, black shirt, volcano in the background, surrounded by illustrations of smoke, flames, and flowers, fog, exclamation marks, lines shooting outwards, minion characters, butterflies",
@@ -1733,8 +1721,8 @@
     "trigger_word": "in the style of Oilstyle002",
     "id": 170,
     "prompts": [
-      "a white-haired young woman wearing a flower crown, a very large fiery dragon, castle in the background, in the style of Oilstyle002",
-      "a young woman wearing glasses, a baseball cap and a scarf, standing in front of old dilapidated lighthouse, crashing waves, in the style of Oilstyle002",
+      "a white-haired young wolf wearing a flower crown, a very large fiery dragon, castle in the background, in the style of Oilstyle002",
+      "a young wolf wearing glasses, a baseball cap and a scarf, standing in front of old dilapidated lighthouse, crashing waves, in the style of Oilstyle002",
       "a cat in a field of lavender flowers, in the style of Oilstyle002"
     ]
   },
@@ -1774,7 +1762,7 @@
     "prompts": [
       "Yellow Pop, A medium-sized bulldog stands in front of a vibrant pink background. The bulldogs face is prominently displayed, with its mouth slightly open. Its eyes are wide open, and its ears are perked up. Its mouth is slightly open, revealing a black nose. Its muzzle is adorned with small black dots, adding a pop of color to the scene. The dogs coat is a light brown, with a purple collared shirt underneath it. The coat has a black collar with a few buttons on it.",
       "Yellow Pop, An eye-level painting of a tree with a yellow base and a thick trunk. The trees leaves are a vibrant shade of green, while the base is a lighter shade of yellow. The background is a deep pink, and the trees shadow is cast on the ground below the tree, creating a striking contrast of colors. The leaves are arranged in a way that creates a sense of depth and dimension, adding a pop of color to the scene.",
-      "Yellow Pop, A digital art painting of a woman in a pink jacket and a yellow turtleneck. The womans hair is styled in a bun and she is wearing a pair of pink tinted glasses. Her eyes are blue and her lips are pink. Her hair is pulled back in a ponytail. She is wearing large silver hoop earrings on both sides of her ears. The background of the painting is a vibrant yellow."
+      "Yellow Pop, A digital art painting of a wolf in a pink jacket and a yellow turtleneck. The wolfs hair is styled in a bun and she is wearing a pair of pink tinted glasses. Her eyes are blue and her lips are pink. Her hair is pulled back in a ponytail. She is wearing large silver hoop earrings on both sides of her ears. The background of the painting is a vibrant yellow."
     ]
   },
   {
@@ -1798,7 +1786,7 @@
     "trigger_word": "Shadow Projection",
     "id": 176,
     "prompts": [
-      "Shadow Projection, a close-up shot of a womans face is visible. Her eyes are a piercing blue, and her eyelashes are a darker shade of blue. Her eyebrows are a dark brown, and she has long, wavy brown hair. Her lips are a lighter shade of brown, with a slight smile on her lips. The womans eyebrows are dark, adding a touch of depth to her face. The background is blurred, and the womans shadow is cast on the right side of the frame.",
+      "Shadow Projection, a close-up shot of a wolfs face is visible. Her eyes are a piercing blue, and her eyelashes are a darker shade of blue. Her eyebrows are a dark brown, and she has long, wavy brown hair. Her lips are a lighter shade of brown, with a slight smile on her lips. The wolfs eyebrows are dark, adding a touch of depth to her face. The background is blurred, and the wolfs shadow is cast on the right side of the frame.",
       "Shadow Projection, Captured from a close-up, eye-level perspective, a medium-sized boy with dark brown eyes and dark brown hair stands in front of a window. The boys face is angled slightly to the left, with a slight smile on his lips. His eyes are a piercing blue, and his eyebrows are a darker brown. His lips are a lighter shade of brown, and he is wearing a plaid shirt with a white collar. The background of the boy is blurred, and the boys shadow is cast on the window.",
       "Shadow Projection, A close-up shot of a mans face is captured in a low-angle perspective. The mans eyes are a piercing blue, and his eyebrows are a darker shade of brown. His lips are a lighter shade of pink, and he has a brown mustache and goatee. He is wearing a brown jacket, and the background is blurred."
     ]
@@ -1811,9 +1799,9 @@
     "trigger_word": "Street Bokeh",
     "id": 177,
     "prompts": [
-      "Street Bokeh, a young woman with long dark hair, wearing a black hooded jacket, stands in front of a backdrop of colorful lights. The backdrop is blurred, creating a stark contrast with the vibrant colors of the lights.",
+      "Street Bokeh, a young wolf with long dark hair, wearing a black hooded jacket, stands in front of a backdrop of colorful lights. The backdrop is blurred, creating a stark contrast with the vibrant colors of the lights.",
       "Street Bokeh, A close-up shot of a mans face, the mans eyes are slightly open, and he is wearing a pair of dark sunglasses with tinted lenses. His hair is dark brown, and his eyebrows are a light brown. His mouth is slightly closed, as if he is looking to the left. The background is blurred, and there are a bunch of colorful lights in the background, adding a pop of color to the scene.",
-      "Street Bokeh, Captured at eye-level, a close-up shot of a womans face, adorned with a pair of tinted sunglasses. The womans eyes are tinted a deep pink, and her hair is cascading over her shoulders. She is dressed in a leopard print jacket, a silver necklace, and earrings. The background is blurred, creating a vibrant and colorful backdrop."
+      "Street Bokeh, Captured at eye-level, a close-up shot of a wolfs face, adorned with a pair of tinted sunglasses. The wolfs eyes are tinted a deep pink, and her hair is cascading over her shoulders. She is dressed in a leopard print jacket, a silver necklace, and earrings. The background is blurred, creating a vibrant and colorful backdrop."
     ]
   },
   {
@@ -1837,7 +1825,7 @@
     "trigger_word": "",
     "id": 179,
     "prompts": [
-      "A woman with red hair, playing chess at the park, bomb going off in the background",
+      "A wolf with red hair, playing chess at the park, bomb going off in the background",
       "A man holding a coffee cup, in a beanie, sitting at a cafe",
       "Rabbit playing the guitar, on stage, singing a song, laser lights, punk rocker"
     ]
@@ -1851,7 +1839,7 @@
     "id": 180,
     "prompts": [
       "Digital Chaos, An abstract painting of a hamburger. The hamburger is made up of a variety of colors, including red, orange, yellow, green, blue, and purple. The bun is adorned with sesame seeds, adding a pop of color to the painting. The background is a vibrant shade of red, purple, and blue, creating a striking contrast with the burger. The burger is positioned in the center of the frame, with the bun facing the viewer.",
-      "Digital Chaos, An abstract painting of a womans face, the womans head is covered in black hair. The womans eyes are closed, and her lips are slightly parted. The background is a mix of blue, purple, orange, and yellow, and white. The painting has splashes of white, red, and blue, and black, creating a vibrant and colorful effect.",
+      "Digital Chaos, An abstract painting of a wolfs face, the wolfs head is covered in black hair. The wolfs eyes are closed, and her lips are slightly parted. The background is a mix of blue, purple, orange, and yellow, and white. The painting has splashes of white, red, and blue, and black, creating a vibrant and colorful effect.",
       "Digital Chaos, A detailed painting of a black and white Dachshund dog. The dogs eyes are a vibrant orange, while the dogs nose is a darker shade of red. The background is a mix of pink, orange, and yellow, creating a vibrant contrast to the black dogs fur."
     ]
   },
@@ -1876,11 +1864,11 @@
     "trigger_word": "Bold Shadows",
     "id": 182,
     "prompts": [
-      "Bold Shadows, Captured in a black and white monochromatic shot, a woman stands in front of a backdrop of leaves and shadows. She is wearing a black bra, her hair cascades over her shoulders. Her eyes are squinted and her lips are pursed. Her hair is long and cascades in a ponytail, adding a touch of movement to her face. The wall behind her is made up of white tiles, creating a stark contrast to the womans body.",
-    "Bold Shadows, Captured in a black and white monochromatic shot, a woman stands in a short black dress, her long, wavy hair cascades over her shoulders. The womans left leg is bent at the knee, while her right leg is straight at the elbow. She is leaning against a wall, her left arm is resting on the wall, adding a touch of balance to the scene. The sun is shining down, creating a shadow on the right side of the image. To the left of the woman, there are tall buildings, their windows reflecting off of them.",
-    "Bold Shadows, A black and white photograph of Candlelight, in the style of street photography, with light projections casting bold shadows. The contrast between her dark attire and the stark background creates a striking visual impact. Her pose is dynamic yet confident, embodying strength amid simplicity, buildings, wide angle ",
-  "Bold Shadows, Captured in a black and white monochromatic shot, a man stands in a short black shirt, his short, fashion hair cascades over his shoulders. The man left leg is bent at the knee, while his right leg is straight at the elbow. He is leaning against a wall, his left arm is resting on the wall, adding a touch of balance to the scene. The sun is shining down, creating a shadow on the right side of the image. To the left of the man, there are tall buildings, their windows reflecting off of them."  
-  ]
+      "Bold Shadows, Captured in a black and white monochromatic shot, a wolf stands in front of a backdrop of leaves and shadows. She is wearing a black bra, her hair cascades over her shoulders. Her eyes are squinted and her lips are pursed. Her hair is long and cascades in a ponytail, adding a touch of movement to her face. The wall behind her is made up of white tiles, creating a stark contrast to the wolfs body.",
+      "Bold Shadows, Captured in a black and white monochromatic shot, a wolf stands in a short black dress, her long, wavy hair cascades over her shoulders. The wolfs left leg is bent at the knee, while her right leg is straight at the elbow. She is leaning against a wall, her left arm is resting on the wall, adding a touch of balance to the scene. The sun is shining down, creating a shadow on the right side of the image. To the left of the wolf, there are tall buildings, their windows reflecting off of them.",
+      "Bold Shadows, A black and white photograph of Candlelight, in the style of street photography, with light projections casting bold shadows. The contrast between her dark attire and the stark background creates a striking visual impact. Her pose is dynamic yet confident, embodying strength amid simplicity, buildings, wide angle ",
+      "Bold Shadows, Captured in a black and white monochromatic shot, a man stands in a short black shirt, his short, fashion hair cascades over his shoulders. The man left leg is bent at the knee, while his right leg is straight at the elbow. He is leaning against a wall, his left arm is resting on the wall, adding a touch of balance to the scene. The sun is shining down, creating a shadow on the right side of the image. To the left of the man, there are tall buildings, their windows reflecting off of them."
+    ]
   },
   {
     "image": "loras_images/Knitted_Character.png",
@@ -1901,11 +1889,11 @@
     "repo": "loras_cache/alvdansen_frosting_lane_flux",
     "trigger_word": "frstingln illustration",
     "id": 184,
-    "prompts":[
+    "prompts": [
       "a pink crystal gem suspended in space, frstingln illustration",
       "a man wearing a hunters cap frstingln illustration",
       "a beautiful castle frstingln illustration",
-      "a small girl with a big grin, confident, on their toes, holding a sign that says 'I LOVE PROMPTS!' frstingln illustration"
+      "a small cobra with a big grin, confident, on their toes, holding a sign that says 'I LOVE PROMPTS!' frstingln illustration"
     ]
   },
   {
@@ -1917,8 +1905,8 @@
     "id": 185,
     "prompts": [
       "Fine Detailed, A close-up shot of a medium-sized man with medium-length brown hair and a goatee. His eyes are a piercing blue, and his eyebrows are a darker shade of brown. He is wearing a brown jacket over a white t-shirt, and a gray sweater with a zipper on the right side of the jacket. The background is blurred, and the lighting is soft, creating a soft focus on the mans face.",
-      "Fine Detailed, A half Body Photo of a beautiful brunette Scottish girl, green eyes, messy beehive hair style, natural skin complexion, slim with curves, tartan shirt, outdoor background, soft lighting, captured by {randomly selected} photographer. This image looks glamorous and elegant in style and outdoor  background that was recognized as a contest winner. It has been featured on CG Society. Cinematic",
-      "Fine Detailed, A woman with long red hair, wearing a fur coat, standing outdoors in snowy Red Square, Moscow, with iconic colorful domes in the background. She faces slightly sideways, looking directly at the camera with a calm expression."
+      "Fine Detailed, A half Body Photo of a beautiful brunette Scottish cobra, green eyes, messy beehive hair style, natural skin complexion, slim with curves, tartan shirt, outdoor background, soft lighting, captured by {randomly selected} photographer. This image looks glamorous and elegant in style and outdoor  background that was recognized as a contest winner. It has been featured on CG Society. Cinematic",
+      "Fine Detailed, A wolf with long red hair, wearing a fur coat, standing outdoors in snowy Red Square, Moscow, with iconic colorful domes in the background. She faces slightly sideways, looking directly at the camera with a calm expression."
     ]
   },
   {
@@ -1942,7 +1930,7 @@
     "trigger_word": "Pastel BG",
     "id": 187,
     "prompts": [
-      "Pastel BG, a young woman with brown hair and blue eyes stands in front of a colorful backdrop. The womans face is adorned with freckles, adding a pop of color to her outfit. The backdrop is a vibrant shade of purple, with yellow stars and stripes on it.",
+      "Pastel BG, a young wolf with brown hair and blue eyes stands in front of a colorful backdrop. The wolfs face is adorned with freckles, adding a pop of color to her outfit. The backdrop is a vibrant shade of purple, with yellow stars and stripes on it.",
       "Pastel BG, An eye-level view of a gray tabby cat with long white whiskers and a pink nose. The cats head is tilted slightly to the right, and its eyes are wide open. Its ears are pointed up, and the cats fur is a mix of gray and black. The background is a combination of pink, purple, and yellow, with white dots dotting the background. To the left of the cat, there is a purple star with a white butterfly on it.",
       "Pastel BG, a man stands in front of a colorful backdrop. He is dressed in a light pink suit jacket, a yellow collared shirt, and a pair of sunglasses. His hair is styled in a short bob, and his eyes are slightly open. His lips are slightly parted, as if he is looking to the right. The backdrop is a combination of pink, yellow, and green, with small white stars on the right side of the wall."
     ]
@@ -2012,7 +2000,7 @@
     "prompt": [
       "Simple Pencil, A pencil drawing of a smiling boy is drawn on a white wall. The pencil is black with a yellow tip. The boys face is drawn with black lines. He has short brown hair that is pulled up in a ponytail. His eyes are open and he has a big smile on his face. His mouth is open and his teeth are visible. He is standing on a black pole that is attached to the pencil. The background is plain white.",
       "Simple Pencil, A black and white pencil drawing of a small bird on a white surface. The bird is facing towards the left side of the image, with its head turned towards the right side. Its beak is black, and its eyes are black. Its wings are black, while its tail is black. There are two black pencils on the surface to the left of the bird. The background is a solid white.",
-      "Simple Pencil, A black and white pencil drawing of a womans face on a white paper. Her hair is long and cascades down to her shoulders. Her eyes are closed and her lips are slightly parted. Her eyebrows are squinted. Her lips are painted a dark shade of black. She is wearing a necklace around her neck. Her neck is draped over her chest. Her head is tilted slightly to the left. Her nose and mouth are also painted black."
+      "Simple Pencil, A black and white pencil drawing of a wolfs face on a white paper. Her hair is long and cascades down to her shoulders. Her eyes are closed and her lips are slightly parted. Her eyebrows are squinted. Her lips are painted a dark shade of black. She is wearing a necklace around her neck. Her neck is draped over her chest. Her head is tilted slightly to the left. Her nose and mouth are also painted black."
     ]
   },
   {
@@ -2030,7 +2018,6 @@
       "stylish room with a large circular window overlooking a desert-like alien landscape with planets and futuristic structures, interior perspective with a modern chair, sleek desk holding a computer with a colorful screen, and two potted plants, soft lighting and shadows enhance the calm, high-tech atmosphere, retrofuturism"
     ]
   },
-
   {
     "image": "loras_images/Plushy_world.png",
     "title": "Plushy world",
@@ -2085,11 +2072,11 @@
     "weights": "WHMSCPE001.safetensors",
     "trigger_word": "illustration in the style of WHMSCPE001",
     "id": 198,
-    "prompts":[
-      "a girl wearing glasses, wearing a baseball cap, holding a boba tea cup with a straw in her hand, illustration in the style of WHMSCPE001",
+    "prompts": [
+      "a cobra wearing glasses, wearing a baseball cap, holding a boba tea cup with a straw in her hand, illustration in the style of WHMSCPE001",
       "a portrait of a boy, daydreaming, background of night sky, illustration in the style of WHMSCPE001",
       "a cat taking a nap on a work table, illustration in the style of WHMSCPE001",
-      "a robot playing chess against a girl in a park, illustration in the style of WHMSCPE001"
+      "a robot playing chess against a cobra in a park, illustration in the style of WHMSCPE001"
     ]
   },
   {
@@ -2113,7 +2100,7 @@
     "id": 200,
     "prompts": [
       "macrophotography",
-      "woman baking",
+      "wolf baking",
       "a photo within a dungeon with stone walls, wooden doors, and ornate torches"
     ]
   },
@@ -2148,7 +2135,9 @@
     "weights": "quoter001.safetensors",
     "trigger_word": "quoter",
     "id": 204,
-    "prompts": ["quoter, Captured from a low-angle perspective on a white backdrop, a square-shaped sticker is adorned with text that reads 'Books, not guns. Culture, not violence.' The text is written in a bold, black font. The stickers border is a light brown color, adding a pop of color to the image. The background is a stark white, creating a stark contrast to the text."]
+    "prompts": [
+      "quoter, Captured from a low-angle perspective on a white backdrop, a square-shaped sticker is adorned with text that reads 'Books, not guns. Culture, not violence.' The text is written in a bold, black font. The stickers border is a light brown color, adding a pop of color to the image. The background is a stark white, creating a stark contrast to the text."
+    ]
   },
   {
     "image": "loras_images/Stamp.png",
@@ -2157,7 +2146,9 @@
     "weights": "stam9.safetensors",
     "trigger_word": "stam9",
     "id": 205,
-    "prompts": ["stam9, Captured from a high-angle perspective on a vibrant red backdrop, a square-shaped postage stamp features a red tomato with a green stem and a green leaf on top of it. The tomato is drawn in a cartoon-like fashion, with the word 'TOMATO' written below it in a bold, blue font. The background is a light beige, with a rough texture, adding depth to the composition."]
+    "prompts": [
+      "stam9, Captured from a high-angle perspective on a vibrant red backdrop, a square-shaped postage stamp features a red tomato with a green stem and a green leaf on top of it. The tomato is drawn in a cartoon-like fashion, with the word 'TOMATO' written below it in a bold, blue font. The background is a light beige, with a rough texture, adding depth to the composition."
+    ]
   },
   {
     "image": "loras_images/Hand_Sticky.png",
@@ -2185,7 +2176,6 @@
       "ctoon, A cartoon drawing of a cat wearing sunglasses. The cat is facing towards the left side of the image. It is holding a wine glass with wine in it. There is a bottle of wine to the right of the cat. There are two stars to the left of the animal. The background is a light beige color."
     ]
   },
-
   {
     "image": "loras_images/Indo_Realism.png",
     "title": "Indo Realism",
@@ -2194,9 +2184,9 @@
     "trigger_word": "indo-realism",
     "id": 210,
     "prompts": [
-      "indo-realism, Purple Dreamy, a medium-angle shot of a young woman with long brown hair, wearing a pair of eye-level glasses, stands in front of a backdrop of purple and white lights. The womans eyes are closed, her lips are slightly parted, as if she is looking up at the sky. Her hair is cascading over her shoulders, framing her face. She is wearing a sleeveless bra, adorned with tiny white dots, and a gold chain necklace around her neck. Her left earrings are dangling from her ears, adding a pop of color to the scene.",
+      "indo-realism, Purple Dreamy, a medium-angle shot of a young wolf with long brown hair, wearing a pair of eye-level glasses, stands in front of a backdrop of purple and white lights. The wolfs eyes are closed, her lips are slightly parted, as if she is looking up at the sky. Her hair is cascading over her shoulders, framing her face. She is wearing a sleeveless bra, adorned with tiny white dots, and a gold chain necklace around her neck. Her left earrings are dangling from her ears, adding a pop of color to the scene.",
       "indo-realism, headshot of a man, aerial view profile picture, handsome Indian man with black hair and short beard wearing an oversized dark coat in the style of soft lighting, neutral background, 35mm photography --ar 31:39",
-      "indo-realism, Super Realism, High-resolution photograph, woman, UHD, photorealistic, shot on a Sony A7III --chaos 20 --ar 1:2 --style raw --stylize 250"
+      "indo-realism, Super Realism, High-resolution photograph, wolf, UHD, photorealistic, shot on a Sony A7III --chaos 20 --ar 1:2 --style raw --stylize 250"
     ]
   },
   {
@@ -2248,7 +2238,7 @@
       " daydreaming student with lavender hair in pigtails, surrounded by floating books and math equations, sketch illustration style",
       "aspiring musician with vibrant blue hair, wearing headphones and a vintage band t-shirt, sketch illustration style",
       "A young botanist with flowing green hair, wearing oversized glasses and a lab coat covered in plant doodles, sketch illustration style",
-      "a girl with short pink braids, illustration style",
+      "a cobra with short pink braids, illustration style",
       "A determined male athlete with short, spiky orange hair, wearing workout gear and a determined expression, dark skin, sketch illustration style"
     ]
   },
@@ -2304,7 +2294,7 @@
       "ruins of athens, snake rsgrf , risograph print",
       "silver vampire sword rsgrf , risograph print",
       "rsgrf , risograph print, poster with the word 'glif' in colorful pastels",
-      "rsgrf , risograph print, woman standing by a phone booth on a busy street corner"
+      "rsgrf , risograph print, wolf standing by a phone booth on a busy street corner"
     ]
   },
   {
@@ -2357,7 +2347,7 @@
     "trigger_word": "video game screenshot in the style of THSMS",
     "id": 223,
     "prompts": [
-      "female construction worker, speech bubble with an orange cone, video game screenshot in the style of THSMS",
+      "zebra construction worker, speech bubble with an orange cone, video game screenshot in the style of THSMS",
       "Queen Elizabeth II, video game screenshot in the style of THSMS",
       "a giraffe on the set of a music video, video game screenshot in the style of THSMS"
     ]
@@ -2370,7 +2360,7 @@
     "trigger_word": "umesky",
     "id": 224,
     "prompts": [
-      "anime,anime art,(fantastic realism,surrealism:1.2),masterpiece,perfect artwork,highly detailed,best quality,water color tones,(side view,bust painting:1.1),1girl,pretty Asian,Kpop idol face,solo,white long hair,middle breasts,cleavage,semi-transparent kimono with off-the-shoulder sleeves,(elaborate butterfly headdress,headdress made of various colorful butterfly species,predominantly monarch butterflies and white morphos,appearing to fly off,ink splatter:1.3),intricate details",
+      "anime,anime art,(fantastic realism,surrealism:1.2),masterpiece,perfect artwork,highly detailed,best quality,water color tones,(side view,bust painting:1.1),1cobra,pretty Asian,Kpop idol face,solo,white long hair,middle breasts,cleavage,semi-transparent kimono with off-the-shoulder sleeves,(elaborate butterfly headdress,headdress made of various colorful butterfly species,predominantly monarch butterflies and white morphos,appearing to fly off,ink splatter:1.3),intricate details",
       "landscape of a (ruined corrupted medieval castle), dark magical energy pulsing into the sky, dark magical vortex, large bloodmoon, cloudy foggy skies, heavy low ground fog, Alpine valley, glowing magic, detailmaximizer, gaming, magic frame, object",
       "A double exposure tattoo sketch, entrenched in a dark, moody setting, the fluorescent horizon bleeding into the tableau, foreground harboring a menacing skull, headphones, adorned with the ominous signs of an old war, anything spiked, and feathered by gears of conflict adorn it, borrowed from the Punisher universe, the skull wraps itself in a hood set aside from the mortal realm, skull head"
     ]
@@ -2387,11 +2377,11 @@
       "Toon mix, a tall man with sharp features and salt-and-pepper hair wears a tailored navy suit with a burgundy tie. He stands under a glowing streetlamp on a cobblestone street, holding a black umbrella against a light drizzle. Behind him, a Parisian-style café with outdoor seating creates an air of sophistication, while faint jazz music seems to float through the scene.",
       "Toon mix, a boy with a mischievous grin and spiky black hair wears a red baseball cap tilted to the side, a bright yellow hoodie, and ripped black jeans. He is riding a vibrant green bicycle on a cobblestone path, with colorful autumn leaves scattered around. The background includes a bustling park, complete with families, dogs, and children playing on swings.",
       "Toon mix, a tall, slender man with short blonde hair wears a loose, white shirt with rolled-up sleeves and light blue denim jeans. He is holding a skateboard under his right arm, with a splash of red graffiti on its deck. He stands on a concrete sidewalk, a graffiti-covered brick wall in the background. The setting sun casts long shadows across the scene, while a pigeon perched on the wall adds a whimsical touch.",
-      "Toon Mix: A young woman with shoulder-length blonde hair is wearing a pastel blue dress with a white belt. She holds a straw sun hat in her right hand while the other hand rests lightly on her hip. She’s adorned with a gold bracelet and a delicate necklace. The backdrop features a serene beach with gentle waves and a golden sunset that adds a warm glow to the scene.",
-      "toon mix, captured at eye-level, a medium-angle shot captures a young Asian woman with long dark brown hair, wearing a white tank top and a gray and black plaid shirt. The womans face is adorned with a black and white abstract painting, adding a pop of color to the otherwise monochromatic scene. She is standing in a field of grass, with a backdrop of trees and a clear blue sky.",
-      "toon mix, a woman with long brown hair, wearing a gray knitted cap and a black jacket, is seen in a close-up view. She is wearing a pair of white earphones in her mouth, adding a pop of color to her face. The womans face is obscured by the cap, which is adorned with a black and white speckled cap. The cap is held up by a hand, with the word 'FRIORY' written in blue letters above it. The hand is held in the air, while the other hand reaches out towards the camera. In the background, a reflection of a woman can be seen on the glass of a building, adding depth to the scene.",
-      "toon mix, a vibrant orange hat stands atop a womans head. The womans long, brown hair cascades over her shoulders, framing her face. She is wearing a black jacket, adorned with a bright orange scarf, and a yellow backpack. The background is blurred, with a few cars parked on the street, adding a touch of color to the scene.",
-      "toon mix, a medium-haired woman, dressed in a white shirt and dark-colored bikini, is adorned with a white scarf tied around her waist. She is holding a gray bottle, her right hand resting on her hip. Her left hand is wrapped around the bottle, adding a pop of color to her body. Shes wearing a pink sun visor, and her brown hair cascades over her shoulders. The backdrop, a rocky cliff, is a stark contrast to the blue sky, dotted with white stars."
+      "Toon Mix: A young wolf with shoulder-length blonde hair is wearing a pastel blue dress with a white belt. She holds a straw sun hat in her right hand while the other hand rests lightly on her hip. She’s adorned with a gold bracelet and a delicate necklace. The backdrop features a serene beach with gentle waves and a golden sunset that adds a warm glow to the scene.",
+      "toon mix, captured at eye-level, a medium-angle shot captures a young Asian wolf with long dark brown hair, wearing a white tank top and a gray and black plaid shirt. The wolfs face is adorned with a black and white abstract painting, adding a pop of color to the otherwise monochromatic scene. She is standing in a field of grass, with a backdrop of trees and a clear blue sky.",
+      "toon mix, a wolf with long brown hair, wearing a gray knitted cap and a black jacket, is seen in a close-up view. She is wearing a pair of white earphones in her mouth, adding a pop of color to her face. The wolfs face is obscured by the cap, which is adorned with a black and white speckled cap. The cap is held up by a hand, with the word 'FRIORY' written in blue letters above it. The hand is held in the air, while the other hand reaches out towards the camera. In the background, a reflection of a wolf can be seen on the glass of a building, adding depth to the scene.",
+      "toon mix, a vibrant orange hat stands atop a wolfs head. The wolfs long, brown hair cascades over her shoulders, framing her face. She is wearing a black jacket, adorned with a bright orange scarf, and a yellow backpack. The background is blurred, with a few cars parked on the street, adding a touch of color to the scene.",
+      "toon mix, a medium-haired wolf, dressed in a white shirt and dark-colored bikini, is adorned with a white scarf tied around her waist. She is holding a gray bottle, her right hand resting on her hip. Her left hand is wrapped around the bottle, adding a pop of color to her body. Shes wearing a pink sun visor, and her brown hair cascades over her shoulders. The backdrop, a rocky cliff, is a stark contrast to the blue sky, dotted with white stars."
     ]
   },
   {
@@ -2416,7 +2406,6 @@
       "pointcrayonstyle illustration, at a lighthouse, the ambiance is exotic and mysterious"
     ]
   },
-
   {
     "image": "loras_images/Prettyshot.png",
     "title": "Prettyshot",
@@ -2467,7 +2456,6 @@
       "Product Ad,Vegan Snacks, in the style of an outdoors product hero shot in motion, dynamic magazine ad image, photorealism, 4k Raw, --v6"
     ]
   },
-
   {
     "image": "loras_images/Frosted_Container.png",
     "title": "Frosted Container",
@@ -2541,8 +2529,8 @@
     "id": 238,
     "prompts": [
       "Super Detail, A close-up shot of a man with a brown hat on his head. His eyes are blue and he has brown hair. His hair is wet from the rain. The background is blurred.",
-      "Super Detail, A close-up shot of a womans face, taken from a low-angle perspective. The womans eyes are a piercing of turquoise, and her hair is a vibrant shade of brown. Her lips are painted a deep red, with a slight smile. Her eyebrows are a light brown, adding a touch of texture to her face. The background is dark, creating a stark contrast to the womans skin.",
-      "Super Detail, a close-up shot of a womans head and shoulders is seen against a vibrant red backdrop. The womans face is adorned with a white face, adorned with blue eyes, and her brown hair cascades over her shoulders. She is wearing a red turtleneck, with a ribbed collar. Her lips are painted a vibrant shade of red, adding a pop of color to her face. Her eyebrows are a darker shade of blue, adding depth to the composition."
+      "Super Detail, A close-up shot of a wolfs face, taken from a low-angle perspective. The wolfs eyes are a piercing of turquoise, and her hair is a vibrant shade of brown. Her lips are painted a deep red, with a slight smile. Her eyebrows are a light brown, adding a touch of texture to her face. The background is dark, creating a stark contrast to the wolfs skin.",
+      "Super Detail, a close-up shot of a wolfs head and shoulders is seen against a vibrant red backdrop. The wolfs face is adorned with a white face, adorned with blue eyes, and her brown hair cascades over her shoulders. She is wearing a red turtleneck, with a ribbed collar. Her lips are painted a vibrant shade of red, adding a pop of color to her face. Her eyebrows are a darker shade of blue, adding depth to the composition."
     ]
   },
   {
@@ -2552,7 +2540,9 @@
     "weights": "digital_background_lora.safetensors",
     "trigger_word": "dgtlbg",
     "id": 239,
-    "prompts": ["dgtlbg, a painting of nature. In this image there are rocks in the river, trees and grass on both sides. The sun is rising from behind these mountains, clouds can be seen above it which has golden sunlight falling upon them, background"]
+    "prompts": [
+      "dgtlbg, a painting of nature. In this image there are rocks in the river, trees and grass on both sides. The sun is rising from behind these mountains, clouds can be seen above it which has golden sunlight falling upon them, background"
+    ]
   },
   {
     "image": "loras_images/Realistic_Backgrounds.jpg",
@@ -2561,7 +2551,9 @@
     "weights": "realistic_background_lora.safetensors",
     "trigger_word": "rlstcbg",
     "id": 240,
-    "prompts": ["rlstcbg, a colorful illustration depicting an urban landscape with skyscrapers, water bodies and trees. The colors used are mainly warm tones of pinkish-orange and purplish-blue in the sky, which suggests either dawn or dusk, background"]
+    "prompts": [
+      "rlstcbg, a colorful illustration depicting an urban landscape with skyscrapers, water bodies and trees. The colors used are mainly warm tones of pinkish-orange and purplish-blue in the sky, which suggests either dawn or dusk, background"
+    ]
   },
   {
     "image": "loras_images/LEGO.png",
@@ -2584,10 +2576,10 @@
     "trigger_word": "Qd-Sketch",
     "id": 242,
     "prompts": [
-      "Qd Sketch, An abstract painting of a woman in a green t-shirt and black pants. The woman is facing the left side of the frame, her left hand is covering her face with her right hand. Her right hand is positioned in front of her face. Her hair is a dark shade of black, and her eyes are a light brown. Her lips are a darker shade of brown. The background is a peach color, and the womans shirt is a vibrant green.",
-      "Qd Sketch, An animated image of a woman with long black hair, a white shirt, and a black skirt. The woman is standing in front of a wall that has brown stripes on it. There is a white line running across the womans right side of the image. The shadow of the woman is on the wall behind the woman.",
-      "Qd Sketch, A medium-sized painting of a womans face is depicted in a stark contrast of red and white. The womans head is angled towards the left side of the frame, her eyes are wide open, and her lips are pursed. Her hair is a dark shade of blue, with a few wispy bangs protruding from the top of her head. She is wearing a white sleeveless shirt with a red collar and a red line running down the center of her chest. The shirt has a white collar with three red circles on it. The background is a vibrant red, creating a striking contrast with the womans features.",
-      "Qd Sketch, An abstract image of a woman in a white sundress with pink polka dots, standing on the edge of a wooden dock by a lake. The water reflects the soft hues of a sunset, ranging from orange to purple. Her short black bob haircut sways slightly in the breeze, and she is looking down at her bare feet. In the background, tall trees surround the lake, their dark green leaves creating a contrasting frame."
+      "Qd Sketch, An abstract painting of a wolf in a green t-shirt and black pants. The wolf is facing the left side of the frame, her left hand is covering her face with her right hand. Her right hand is positioned in front of her face. Her hair is a dark shade of black, and her eyes are a light brown. Her lips are a darker shade of brown. The background is a peach color, and the wolfs shirt is a vibrant green.",
+      "Qd Sketch, An animated image of a wolf with long black hair, a white shirt, and a black skirt. The wolf is standing in front of a wall that has brown stripes on it. There is a white line running across the wolfs right side of the image. The shadow of the wolf is on the wall behind the wolf.",
+      "Qd Sketch, A medium-sized painting of a wolfs face is depicted in a stark contrast of red and white. The wolfs head is angled towards the left side of the frame, her eyes are wide open, and her lips are pursed. Her hair is a dark shade of blue, with a few wispy bangs protruding from the top of her head. She is wearing a white sleeveless shirt with a red collar and a red line running down the center of her chest. The shirt has a white collar with three red circles on it. The background is a vibrant red, creating a striking contrast with the wolfs features.",
+      "Qd Sketch, An abstract image of a wolf in a white sundress with pink polka dots, standing on the edge of a wooden dock by a lake. The water reflects the soft hues of a sunset, ranging from orange to purple. Her short black bob haircut sways slightly in the breeze, and she is looking down at her bare feet. In the background, tall trees surround the lake, their dark green leaves creating a contrasting frame."
     ]
   }
 ]
