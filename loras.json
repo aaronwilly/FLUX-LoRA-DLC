@@ -4,7 +4,17 @@
     "title": "Koda",
     "repo": "loras_cache/alvdansen_flux-koda",
     "trigger_word": "flmft style",
-    "id": 1
+    "id": 1,
+    "prompts": [
+      "woman, flmft kodachrome style",
+      "Road trip, view through car window of desert highway, light leak effect, flmft style",
+      "view through car window looking out on the desert, light leak effect, scenery, blurry, flmft style",
+      "the morning after new years eve with scattered party tinsel on the floor, still life, light particles, no humans, flmft style",
+      "Teenage bedroom with posters and clutter, warm color palette, flmft style",
+      "A young woman with tousled hair and minimal makeup, wearing a oversized flannel shirt, looking directly at the camera with a slight smile, kodachrome, flmft style",
+      "A candid shot of a child's hand reaching out to pet a curious deer at a petting zoo with motion blur and busy background, flmft style",
+      "A tabby cat lounging on a sun‑dappled windowsill, half its body in shadow and half in bright light, flmft style"
+    ]
   },
   {
     "image": "loras_images/Super_Realism.png",
@@ -20,7 +30,13 @@
     "repo": "loras_cache/prithivMLmods_Flux-Dalle-Mix-LoRA",
     "weights": "dalle-mix.safetensors",
     "trigger_word": "dalle-mix",
-    "id": 3
+    "id": 3,
+    "prompts": [
+      "dalle‑mix, photography, portrait of contrast, profile silhouette of a woman, vibrant hot pink backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette’s edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
+      "dalle‑mix, Ultra‑detailed close‑up of a panda’s face, styled like a Pixar or DreamWorks character, highlight intricately textured fur for depth, the panda sports a pirate eyepatch, adding a roguish charm, he has a furrowed brow and a smirking mouth, emphasizing crisp details in the facial features to bring out the character’s personality, 3D render --v 6 --style raw --stylize 250 --ar 4:5",
+      "dalle‑mix, photography, portrait of contrast, profile silhouette of a black man, vibrant orange backdrop, visualize using a camera setup that mimics a large aperture, focusing solely on the silhouette’s edge, while a low ISO maintains the richness of color without grain, photorealistic, UHD --ar 9:16 --chaos 1.7 --style raw",
+      "dalle‑mix, Caricatures pencil drawing, cute woman, mid‑20s, color pencils, in the style of Pixar, hilariously funny, exaggerated features, white background --chaos 50 --ar 1:2 --stylize 750"
+    ]
   },
   {
     "image": "loras_images/Ghibli_Flux.png",
@@ -28,31 +44,15 @@
     "repo": "loras_cache/strangerzonehf_Ghibli-Flux-Cartoon-LoRA",
     "weights": "Ghibili-Cartoon-Art.safetensors",
     "trigger_word": "Ghibli Art",
-    "id": 4
-  },
-  {
-    "image": "loras_images/Sketch_Smudge.png",
-    "title": "Sketch_Smudge",
-    "repo": "loras_cache/strangerzonehf_Flux-Sketch-Smudge-LoRA",
-    "weights": "Sketch-Smudge.safetensors",
-    "trigger_word": " Sketch Smudge",
-    "id": 5
-  },
-  {
-    "image": "loras_images/Animeo_Mix.png",
-    "title": "Animeo Mix",
-    "repo": "loras_cache/strangerzonehf_Flux-Animeo-v1-LoRA",
-    "weights": "Animeo.safetensors",
-    "trigger_word": "Animeo",
-    "id": 6
-  },
-  {
-    "image": "loras_images/Animex_Mix.png",
-    "title": "Animex Mix",
-    "repo": "loras_cache/strangerzonehf_Flux-Animex-v2-LoRA",
-    "weights": "Animex.safetensors",
-    "trigger_word": "Animex",
-    "id": 7
+    "id": 4,
+    "prompts": [
+      "Ghibli Art – A wise old fisherman sits on a wooden dock, gazing out at the vast, blue ocean. He wears a worn‑out straw hat and a navy‑blue coat, holding a fishing rod while a black cat with bright green eyes sits beside him, seagulls soaring in the sky, lighthouse in distance under golden sunset, Ghibli Art",
+      "Ghibli Art – A magical bookstore filled with towering shelves of ancient tomes and glowing lanterns. A young girl with round glasses and a green cardigan sits on a plush red armchair engrossed in a book, floating candles hover above, a black raven perches on the desk, full moon casting enchanting glow, Ghibli Art",
+      "Ghibli Art, A cartoon drawing of a man in a brown v‑neck t‑shirt looking at himself in a bathroom mirror. He has dark brown hair and a black beard, bathroom walls tiled light blue with shelves of towels and toothbrush, Ghibli Art",
+      "Ghibli Art, A cartoon drawing of a black man with a white chef’s hat holding a golden trophy. His eyes are squinted and mouth open in excitement, background light brown wooden shelf, Ghibli Art",
+      "Ghibli Art – A tiny black kitten with big curious eyes peeks out from a woven basket filled with apples on a wooden porch, warm sunlit scene with gently drifting golden leaves and a cozy farmhouse in the background, Ghibli Art",
+      "Ghibli Art – A little girl in a fluffy white sweater and knitted hat sits on the edge of a wooden pier dipping her toes in cool rippling water while holding a small paper boat, weathered fisherman’s hut with colorful fish hanging to dry in the background, Ghibli Art"
+    ]
   },
   {
     "image": "loras_images/Super_Portraits.png",
@@ -60,23 +60,34 @@
     "repo": "loras_cache/strangerzonehf_Flux-Super-Portrait-LoRA",
     "weights": "Super-Portrait.safetensors",
     "trigger_word": "Super Portrait",
-    "id": 8
+    "id": 8,
+    "prompts": [
+      "Super Portrait, A close‑up portrait of a young man with dark brown eyes and dark brown eyebrows. He is wearing a green and yellow striped polo shirt with a black collar. His earring is adorned with a silver earring. The backdrop is a light blue color.",
+      "Super Portrait, A close‑up shot of a young blonde girl with blue eyes and a black beanie on her head. The beanie is adorned with a pink patch that reads \"CUTIE REBEL\" in bold white letters. The girl's hair is pulled back in a ponytail and she is wearing a black turtleneck. The background is a vibrant brown color.",
+      "Super Portrait, A close‑up shot of a young man's face adorned with a beige baseball cap with red lettering. The man's eyes are piercing blue, and he is wearing a pink t‑shirt. His hair is dark brown, adding texture to his face. The backdrop is a vibrant shade of blue.",
+      "Super Portrait, A close‑up shot of a young girl's face featuring piercing blue eyes and hair pulled back in a ponytail. She is wearing a gray baseball cap with a white cursive logo that reads \"E‑NILS\" and a long‑sleeved gray sweater with a slight smile. The backdrop is vibrant orange.",
+      "Super Portrait, A close‑up of a young girl with almond‑shaped hazel eyes and long jet‑black hair tied in twin braids. She wears a bright red turtleneck sweater and small silver hoop earrings. The background is a soft peach.",
+      "Super Portrait, A close‑up of a young man with dark brown eyes and wavy black hair. He is wearing a dark green trench coat with a high collar and a light brown scarf. The backdrop is cloudy gray, adding mystery to the scene."
+    ]
   },
-  {
-    "image": "loras_images/Super_Blend.png",
-    "title": "Super Blend",
-    "repo": "loras_cache/strangerzonehf_Flux-Super-Blend-LoRA",
-    "weights": "Super-Blend.safetensors",
-    "trigger_word": "Super Blend",
-    "id": 9
-  },
+
   {
     "image": "loras_images/Midjourney_Mix_2.png",
     "title": "Midjourney Mix 2",
     "repo": "loras_cache/strangerzonehf_Flux-Midjourney-Mix2-LoRA",
     "weights": "mjV6.safetensors",
     "trigger_word": "MJ v6",
-    "id": 10
+    "id": 10,
+    "prompts": [
+      "MJ v6, Portrait photography of a woman in a red dress, in the style of unsplash photography, street photography, dark green background --ar 47:64 --v 6.0 --style raw",
+      "MJ v6, A portrait of a bird in the dark, illuminated by an intense yellow light from above, with a soft blue gradient background, lens glossy effect, high contrast, star bokeh",
+      "MJ v6, A photo of an attractive man in his thirties, wearing a black coat and yellow scarf with a brown pattern inside a building talking on a phone standing near a modern glass skyscraper in London, shot from below looking up at him, cinematic street photography --ar 85:128 --v 6.0 --style raw",
+      "MJ v6, banana bread with chocolate chips and pecans, in the style of tabletop photography, Y2K aesthetic, spiky mounds, flawless line work, schlieren photography, 8k, natural fibers, minimal --ar 123:185 --v 5",
+      "MJ v6, A portrait of a woman, fashion photography, big shapes in the background on top of colorful squares with stars, retro vintage photography, pastel colors, soft purple and yellow",
+      "MJ v6, delicious dipped chocolate pastry japo gallery, white background, dark brown style, close‑up intensity, rounded form, high resolution --ar 2:3 --v 5",
+      "MJ v6, Captured at eye‑level, a close‑up shot of a young woman with long dark brown hair, wearing a green bikini top adorned with yellow and orange flowers, partially submerged in water with blurred background and sunlight casting shadows",
+      "MJ v6, a woman with long dark brown hair stands in front of a stark white wall wearing a sleeveless black and white checkered dress, subdued lighting creating a stark contrast"
+    ]
   },
   {
     "image": "loras_images/SHOU_XIN.jpeg",
@@ -84,7 +95,17 @@
     "repo": "loras_cache/Datou1111_shou_xin",
     "weights": "shou_xin.safetensors",
     "trigger_word": "shou_xin, pencil sketch",
-    "id": 11
+    "id": 11,
+    "prompts": [
+      "shou_xin, a monochromatic pencil sketch of a ragdoll cat, blue eyes, minimalist, impressionism, negative space",
+      "shou_xin, a monochromatic pencil sketch of a crow, minimalist, impressionism, negative space",
+      "shou_xin, a pencil sketch of Steve Jobs, minimalist, impressionism, negative space",
+      "shou_xin, a color pencil sketch of a little cute frog, minimalist, impressionism, negative space",
+      "shou_xin, a pencil sketch of a huge whale flying in the sky, minimalist, impressionism, negative space",
+      "shou_xin, a color pencil sketch of a woman wearing a red dress, realistic, close up, minimalist, impressionism, negative space",
+      "shou_xin, a pencil sketch of a ballerina dancing Swan Lake, realistic",
+      "shou_xin, a pencil sketch of an anime‑style Pikachu"
+    ]
   },
   {
     "image": "loras_images/Long_Toons.png",
@@ -92,7 +113,15 @@
     "repo": "loras_cache/prithivMLmods_Flux-Long-Toon-LoRA",
     "weights": "Long-Toon.safetensors",
     "trigger_word": "Long toons",
-    "id": 12
+    "id": 12,
+    "prompts": [
+      "Long toons, a close‑up of a cartoon character’s face on a vibrant red backdrop. The character is wearing a gray hoodie, red t‑shirt, and pink earbuds, with tiny white dots on eyes, nose, and mustache, Long toons",
+      "Long toons, Super Detail, a close‑up shot of a woman’s head and shoulders against a vibrant red backdrop. The woman’s face has blue eyes, brown hair and red turtleneck with ribbed collar, Long toons",
+      "Long toons, Cat 4K, an expressive cartoon cat character in ultra‑detailed 4K style, Long toons",
+      "Long toons, a close‑up portrait of a soccer player in a light blue and white striped jersey with mohawk hair and blurred sports field background, Long toons",
+      "Long toons, Captured at eye‑level, a close‑up of a black‑haired doll with dreadlocks against a blurred cityscape backdrop, wearing a black hoodie with white design, Long toons",
+      "Long toons, Captured at eye‑level on a sunny day, a Mario figurine in red cap, red shirt and blue overalls on a sandy beach with deep blue sky, Long toons"
+    ]
   },
   {
     "image": "loras_images/Cute_3D_Kawaii.png",
@@ -100,7 +129,17 @@
     "repo": "loras_cache/strangerzonehf_Flux-Cute-3D-Kawaii-LoRA",
     "weights": "Cute-3d-Kawaii.safetensors",
     "trigger_word": "Cute 3d Kawaii",
-    "id": 13
+    "id": 13,
+    "prompts": [
+      "Cute 3d Kawaii, a cartoon figure stands on a light blue surface. The figure’s face is adorned with a yellow t‑shirt, light blue shorts, and yellow and orange shoes, with long dark brown hair and a big smile, light teal background with fluffy white clouds",
+      "Cute 3d Kawaii, captured from a low‑angle perspective on a light blue backdrop, a cheerful cartoon ghost in the center with black eyes, pink cheeks, open mouth and tiny white teeth, three white clouds floating above",
+      "Cute 3d Kawaii, a 3D rendering of a female doll’s head on a pink backdrop. The doll has soft brown hair in a ponytail, white collar and suspenders, brown eyes, and subtle shading on lips",
+      "Cute 3d Kawaii, a tiny pastel pink bunny wearing a blue bow, sitting atop a grassy hill with soft flowers, bright joyful lighting",
+      "Cute 3d Kawaii, a chubby kawaii puppy with big sparkling eyes wearing a red collar, standing on a white floor with pastel stars in the background",
+      "Cute 3d Kawaii, a kawaii pastel yellow rubber duck with rosy cheeks floating on a soft blue pond with lily pads and tiny flowers",
+      "Cute 3d Kawaii, a smiling cartoon dinosaur in light green with big round eyes on a soft toy‑like background, pastel color palette",
+      "Cute 3d Kawaii, a happy kawaii sausage dog wearing a tiny hat and scarf standing on a gentle gradient backdrop with soft sparkles"
+    ]
   },
   {
     "image": "loras_images/Isometric_3D.png",
@@ -108,15 +147,17 @@
     "repo": "loras_cache/strangerzonehf_Flux-Isometric-3D-LoRA",
     "weights": "Isometric-3D.safetensors",
     "trigger_word": "Isometric 3D",
-    "id": 14
-  },
-  {
-    "image": "loras_images/Abstract_Cartoon.png",
-    "title": "Toon 2.5D",
-    "repo": "loras_cache/prithivMLmods_Flux-Toonic-2_5D-LoRA",
-    "weights": "toonic2.5D.safetensors",
-    "trigger_word": "toonic 2.5D",
-    "id": 15
+    "id": 14,
+    "prompts": [
+      "Isometric 3D, a 3D model of a tropical island is displayed on a light blue backdrop. The island features a small body of water, surrounded by gray rocks and green grass with palm trees and small bushes in a miniature style.",
+      "Isometric 3D, a 3D rendering of a yellow jeep positioned on a sandy desert‑like surface with a white roof and black ladder, light peach background and small green plants scattered around.",
+      "Isometric 3D, a small miniature landscape displayed on a light green backdrop. The landscape features a circular pond with a winding walkway, trees and shrubs, and a small wooden bridge crossing the pond.",
+      "Isometric 3D, a detailed miniature isometric village block with tiny houses, trees, and pathways on a soft neutral background.",
+      "Isometric 3D, a 3D isometric render of a fantasy castle with turrets, stone bridges, and surrounding moat on a simple color background.",
+      "Isometric 3D, an isometric 3D farm scene with barn, silo, and crop fields on a pastel backdrop.",
+      "Isometric 3D, a retro pixel‑style isometric robot workshop scene with scattered tools and vibrant floor tiles.",
+      "Isometric 3D, an aerial isometric view of a sci‑fi space station platform with small hover drones and glowing lights against a dark neutral backdrop."
+    ]
   },
   {
     "image": "loras_images/YWL_Realism.png",
@@ -124,7 +165,12 @@
     "repo": "loras_cache/strangerzonehf_Flux-YWL-Realism-LoRA",
     "weights": "ywl-realism.safetensors",
     "trigger_word": "ylw realism",
-    "id": 16
+    "id": 16,
+    "prompts": [
+      "ylw realism, Captured at eye‑level, a close‑up shot of a young man with curly blonde hair stands against a backdrop of a light blue sky. The man’s face is angled slightly to the left, with a slight smile on his face. His eyes are slightly open, as if he is looking to the right. His hair is a mix of brown and white, and his sweater is draped over his shoulders. The sweater is a blend of red and white stripes, and the sweater’s collar is a darker shade of red.",
+      "ylw realism, a close‑up shot captures a young woman with long brown hair, wearing a mustard colored turtleneck and a yellow hat. Her left hand is resting on her head, adding a pop of color to the scene. The backdrop is a light blue, creating a stark contrast to the woman’s face.",
+      "ylw realism, a young woman stands with her left hand on her hip. She is wearing a short‑sleeved navy blue t‑shirt with a white collar. The word \"Welby\" is embroidered in white on the front of the shirt. Her hair is long and wavy, and her lips are pursed. Her jeans are a light blue denim with a zipper on the side. The backdrop is a stark white wall."
+    ]
   },
   {
     "image": "loras_images/Chill_Guy.png",
@@ -132,23 +178,17 @@
     "repo": "loras_cache/prithivMLmods_Flux-Chill-Guy-Zone",
     "weights": "chill-guy.safetensors",
     "trigger_word": "chill guy",
-    "id": 17
-  },
-  {
-    "image": "loras_images/Anime_PVC_Style.png",
-    "title": "Anime PVC Style",
-    "repo": "loras_cache/p1atdev_flux_1-schnell-pvc-style-lora",
-    "weights": "pvc-shnell-7250+7500.safetensors",
-    "trigger_word": "pvc figure, nendoroid, figma",
-    "id": 18
-  },
-  {
-    "image": "loras_images/Smiley_C4C.png",
-    "title": "Smiley C4C",
-    "repo": "loras_cache/strangerzonehf_Flux-C4C-Design-LoRA",
-    "weights": "Smiley-C4C.safetensors",
-    "trigger_word": "Smiley C4C",
-    "id": 19
+    "id": 17,
+    "prompts": [
+      "chill guy, a Peanuts character is standing on a rooftop, facing the viewer. He is wearing a white shirt, white pants, and red and white shoes. His ears are perked up, and his eyes are squinted. His mouth is slightly open, as if he is smiling. The backdrop of the scene is a cityscape with skyscrapers and a hot air balloon in the foreground, chill guy",
+      "chill guy, a cartoon character is standing on a white tiled bathroom floor wearing a black jacket, black pants, and red and white shoes with a white bathtub and mirrors in the background, chill guy",
+      "chill guy, an animated cartoon of a brown dog with a black nose and ears standing on a gray floor with rows of lockers behind, chill guy",
+      "Chill Guy, a cool laid‑back cartoon character leaning against a brick chimney at sunset wearing a green hoodie, ripped jeans, and white sneakers, gazing at birds flying across the orange‑pink sky, chill guy",
+      "Chill Guy, a peaceful cartoon character sitting on a park bench under a large oak tree with a fluffy dog beside him tossing breadcrumbs, chill guy",
+      "Chill Guy, a winter‑loving cartoon character walking through a snow‑covered park holding hot chocolate with whipped cream, chill guy",
+      "Chill Guy, an artistic cartoon character standing in front of a painting easel holding a palette and brush in a bright studio, chill guy",
+      "Chill Guy, a relaxed cartoon character sitting by a campfire in the woods wrapped in a plaid blanket roasting marshmallows, chill guy"
+    ]
   },
   {
     "image": "loras_images/Purple_Dream.png",
@@ -156,126 +196,160 @@
     "repo": "loras_cache/prithivMLmods_Purple-Dreamy-Flux-LoRA",
     "weights": "Purple-Dreamy.safetensors",
     "trigger_word": "Purple Dreamy",
-    "id": 20
+    "id": 20,
+    "prompts": [
+      "Purple Dreamy, a medium‑angle shot of a young woman with long brown hair wearing eye‑level glasses, standing in front of purple and white lights, her eyes closed and lips slightly parted",
+      "Purple Dreamy, a sparrow perched on a branch facing the left side of the frame, with piercing blue eyes and light brown wings against a soft pinkish background",
+      "Purple Dreamy, a medium‑sized woman with long dark brown hair in a pink sleeveless dress adorned with white dots, eyes closed and lips slightly parted, vibrant pink starburst background",
+      "Purple Dreamy, a retro futuristic cityscape at dusk with glowing purple neon lights and dreamy mist under violet skies",
+      "Purple Dreamy, a majestic unicorn standing in a lavender field with floating sparkles and soft glowing purple light",
+      "Purple Dreamy, close‑up portrait of a fox with purple highlights in its fur and dreamy bokeh lights in the background",
+      "Purple Dreamy, a serene lakeside scene at twilight with purple and pink hues reflecting on calm water",
+      "Purple Dreamy, a fantasy castle rising above purple clouds illuminated by moonlight"
+    ]
   },
   {
     "image": "loras_images/Flux_Face_Realism.png",
     "title": "Flux Face Realism",
     "repo": "loras_cache/prithivMLmods_Canopus-LoRA-Flux-FaceRealism",
     "trigger_word": "Realism",
-    "id": 21
+    "id": 21,
+    "prompts": [
+      "A portrait of an attractive woman in her late twenties with light brown hair and purple sweater, looking directly at the camera outdoors near trees, face realism",
+      "Headshot of a handsome young man wearing a dark gray sweater with buttons and shawl collar, short beard and serious expression on a black background with soft studio lighting, face realism",
+      "A photo of a model wearing a white shirt and beige trench coat, posing in front of a train station at sunset with soft light and natural lighting, face realism",
+      "A portrait of a woman with fair skin, wavy hair and defined eyebrows, wearing a red and navy plaid shirt, leaning against a weathered blue door frame with a contemplative expression, face realism",
+      "A black and white photo of a woman with dramatic shadow and serene features, minimalist beauty with high definition contrast shading, face realism",
+      "Photograph of a young male model with long stylish hair and beard, profound gaze, studio lighting on a solid white background, ultra‑realistic face realism"
+    ]
   },
-  {
-    "image": "loras_images/Softserve_Anime.png",
-    "title": "Softserve Anime",
-    "repo": "loras_cache/alvdansen_softserve_anime",
-    "trigger_word": "sftsrv style illustration",
-    "id": 22
-  },
-  {
-    "image": "loras_images/Modeling_Hut.png",
-    "title": "Modeling Hut",
-    "repo": "loras_cache/prithivMLmods_Fashion-Hut-Modeling-LoRA",
-    "trigger_word": "Modeling of",
-    "id": 23
-  },
-  {
-    "image": "loras_images/Creative_Template.jpg",
-    "title": "Creative Template",
-    "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-One-Click-Creative-Template",
-    "trigger_word": "The background is 4 real photos, and in the middle is a cartoon picture summarizing the real photos.",
-    "id": 24
-  },
+
   {
     "image": "loras_images/Ultra_Realism.png",
     "title": "Ultra Realism",
     "repo": "loras_cache/prithivMLmods_Canopus-LoRA-Flux-UltraRealism-2_0",
     "trigger_word": "Ultra realistic",
-    "id": 25
+    "id": 25,
+    "prompts": [
+      "Woman in a red jacket, snowy, in the style of hyper-realistic portraiture, caninecore, mountainous vistas, timeless beauty, palewave, iconic, distinctive noses, Ultra realistic --ar 72:101 --stylize 750 --v 6",
+      "Photograph, candid shot of a couch with random cats, center point on a cat, shot with a Canon EOS 5D Mark IV at f/2.8 highlighting furniture clean lines and rich detail, soft ambient light, studio setting, UHD, many details, Ultra realistic --chaos 1 --ar 9:16 --style raw --stylize 750",
+      "High-resolution photograph of a woman, UHD photorealistic, shot on a Sony A7III, Ultra realistic --chaos 20 --ar 1:2 --style raw --stylize 250",
+      "Photograph of an urban portrait, a young man leaning against a brick wall with dramatic lighting and rich texture, shot with a prime lens to emphasize skin texture and depth, Ultra realistic",
+      "Professional photo of a winter landscape with sharp details and rich contrast under natural light, Ultra realistic",
+      "Photograph of a luxury wristwatch on reflective black surface with cinematic lighting and ultra-realistic detail, Ultra realistic",
+      "Portrait of an elderly woman with deep facial texture and natural lighting, UHD, Ultra realistic",
+      "Photorealistic food photo of a gourmet burger on a wooden table with soft natural backlighting and rich texture, Ultra realistic"
+    ]
   },
   {
     "image": "loras_images/Game_Assets.png",
     "title": "Game Assets",
     "repo": "loras_cache/gokaygokay_Flux-Game-Assets-LoRA-v2",
     "trigger_word": "wbgmsst, white background",
-    "id": 26
-  },
-  {
-    "image": "loras_images/Softpasty.png",
-    "title": "Softpasty",
-    "repo": "loras_cache/alvdansen_softpasty-flux-dev",
-    "trigger_word": "araminta_illus illustration style",
-    "id": 27
+    "id": 26,
+    "prompts": [
+      "wbgmsst, 3D castle, white background",
+      "wbgmsst, crown with details, white background",
+      "wbgmsst, brown and gold shield, white background",
+      "wbgmsst, blue sword, white background",
+      "wbgmsst, sword, white background",
+      "wbgmsst, isometric chest 3D, white background",
+      "wbgmsst, isometric house 3D, white background",
+      "wbgmsst, isometric warrior 3D, white background",
+      "wbgmsst, isometric dwarf character 3D, white background",
+      "wbgmsst, isometric woman warrior 3D, white background",
+      "wbgmsst, isometric game town disney 3D game assets, white background",
+      "wbgmsst, magic wizard staff, white background",
+      "wbgmsst, grand wizard, white background",
+      "wbgmsst, realistic axe, white background",
+      "wbgmsst, pixel art grand wizard, white background"
+    ]
   },
   {
     "image": "loras_images/Details_Add.png",
     "title": "Details Add",
     "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-add-details",
     "trigger_word": "",
-    "id": 28
+    "id": 28,
+    "prompts": ["A beautiful woman, flim rendering"]
   },
   {
     "image": "loras_images/Flux_Anime.png",
     "title": "Flux Anime",
     "repo": "loras_cache/prithivMLmods_Canopus-LoRA-Flux-Anime",
     "trigger_word": "Anime",
-    "id": 29
+    "id": 29,
+    "prompts": [
+      "Anime ((masterpiece,best quality, detailed)), outdoor, wind_lift, souryuu asuka langley, interface headset, red shirt, (realistic:1.3)",
+      "An anime girl in a blue dress and straw hat, with long black hair and flowing curly bangs, in the style of anime, against a background of a coastal street by the sea, on a bright sunny day, with flowers on a windowsill, with a cheerful expression, with detailed design, with a watercolor painting effect, and vibrant colors, Hayao Miyazaki’s manga, with high resolution and clear details --ar 1:2 --stylize 750 --v 6.1",
+      "Anime theme masterpiece, best quality, 1girl, solo, looking at viewer, fur (clothing), black hair, black legwear, (electric guitar:1.4), reflection, splash, droplets, rust, sparks, asphalt, ground vehicle, sports car, super car, mechanical, burning, playing instrument, livestream.",
+      "Well-fitting man equipped with hoodie and cap hiding upper face in anime manga style, Anime",
+      "Pretty cyborg lady, lots of details, sakura flowers, fine art, futuristic setting, Anime"
+    ]
   },
   {
     "image": "loras_images/Ghibsky_Illustration.jpg",
     "title": "Ghibsky Illustration",
     "repo": "loras_cache/aleksa-codes_flux-ghibsky-illustration",
     "trigger_word": "GHIBSKY style painting",
-    "id": 30
+    "id": 30,
+    "prompts": [
+      "GHIBSKY style, a cat on a windowsill gazing out at a starry night sky and distant city lights",
+      "GHIBSKY style, a fisherman casting a line into a peaceful village lake surrounded by quaint cottages",
+      "GHIBSKY style, cozy mountain cabin covered in snow, with smoke curling from the chimney and a warm, inviting light spilling through the windows",
+      "GHIBSKY style, Mykonos",
+      "GHIBSKY style, an orange Lamborghini driving down a hill road at night with a beautiful ocean view in the background, side view, no text",
+      "GHIBSKY style, a small Yorkie on a windowsill during a snowy winter night, with a warm, cozy glow from inside and soft snowflakes drifting outside",
+      "GHIBSKY style, serene Japanese garden with a koi pond and a traditional tea house, nestled under a canopy of cherry blossoms in full bloom",
+      "GHIBSKY style, the most beautiful place in the universe",
+      "GHIBSKY style painting, sign saying \"Flux Ghibsky\""
+    ]
   },
-  {
-    "image": "loras_images/Dark_Fantasy.jpg",
-    "title": "Dark Fantasy",
-    "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-Dark-Fantasy",
-    "trigger_word": "",
-    "id": 31
-  },
+
   {
     "image": "loras_images/Paper_Cutout.png",
     "title": "Paper Cutout",
     "repo": "loras_cache/Norod78_Flux_1_Dev_LoRA_Paper-Cutout-Style",
     "trigger_word": "Paper Cutout Style",
-    "id": 32
-  },
-  {
-    "image": "loras_images/Mooniverse.webp",
-    "title": "Mooniverse",
-    "repo": "loras_cache/alvdansen_mooniverse",
-    "trigger_word": "surreal style",
-    "id": 33
-  },
-  {
-    "image": "loras_images/Pola_Photo.webp",
-    "title": "Pola Photo",
-    "repo": "loras_cache/alvdansen_pola-photo-flux",
-    "trigger_word": "polaroid style",
-    "id": 34
-  },
-  {
-    "image": "loras_images/Flux_Tarot.png",
-    "title": "Flux Tarot",
-    "repo": "loras_cache/multimodalart_flux-tarot-v1",
-    "trigger_word": "in the style of TOK a trtcrd tarot style",
-    "id": 35
+    "id": 32,
+    "prompts": [
+      "The cookie monster, Paper Cutout Style",
+      "Gal Gadot as wonderwoman, Paper Cutout Style",
+      "A green Cthulhu is rising from the blue sea in a great lightning storm, based on a story by H.P. Lovecraft, Paper Cutout Style",
+      "Kermit the frog, Paper Cutout Style",
+      "Starry night van gogh, Paper Cutout Style",
+      "reality-shot, realism, realistic photography of a demon, horns, spikes, demon wings, whimsical magical fairytale landscape, Paper Cutout Style",
+      "Pikachu bursting with lightning bolts at night, Paper Cutout Style"
+    ]
   },
   {
     "image": "loras_images/Real_Anime.png",
     "title": "Real Anime",
     "repo": "loras_cache/prithivMLmods_Flux-Dev-Real-Anime-LoRA",
     "trigger_word": "Real Anime",
-    "id": 36
+    "id": 36,
+    "prompts": [
+      "A photo of an anime model wearing a trendy oversized sweater and denim shorts, sitting on a swing in a park with hands gripping the chains. The golden hour sunlight filters through the trees, creating a magical atmosphere. Fashion photography, high resolution, 35mm lens, f/2.8, natural lighting, global illumination, Real Anime",
+      "A photo of an anime model wearing a white bodyshirt and beige trench coat, posing in front of a train station with hands on head, soft light, sunset, fashion photography, high resolution, 35mm lens, f/22, natural lighting, global illumination, Real Anime",
+      "A photo of an anime model wearing a sleek black jumpshirt and a stylish oversized denim jacket, posing confidently in front of a modern skyscraper with hands on hips. Soft light filters through the buildings, creating a warm glow during golden hour. Fashion photography, high resolution, 50mm lens, f/2.8, natural lighting, global illumination, Real Anime"
+    ]
   },
   {
     "image": "loras_images/Stickers.png",
     "title": "Stickers",
     "repo": "loras_cache/diabolic6045_Flux_Sticker_Lora",
     "trigger_word": "5t1cker 5ty1e",
-    "id": 37
+    "id": 37,
+    "prompts": [
+      "Only Sticker, An animated illustration of a sloth in a mug with the words \"Sloth Fuel\" written on it. The sloth is holding the mug with its left hand and its right hand resting on the mug. The mug is filled with coffee and there is brown liquid dripping from the bottom of the cup. There is a white background behind the sloth with smoke coming out of it and three coffee beans on the bottom left corner.",
+      "Only Sticker, An animated image of a pink brain with a white border around it. The background is solid white. The brain is outlined in vibrant pink with a maroon stripe running down the center and black outlining creating contrast. Taken from a low angle perspective.",
+      "Only Sticker, A sticker of a green van on a white background with mountains and trees behind it, a yellow sun in the top right corner and black text below saying \"collect moments not things\".",
+      "Only Sticker, A sticker of a potted monstera plant on a white background with small leaves and flowers around it and the text below says \"Let’s grow together.\"",
+      "Only Sticker, A smiling cartoon cloud character with rosy cheeks and white outline on a crisp white background.",
+      "Only Sticker, A cute cartoon avocado character wearing sunglasses with a white border, bright simple colors on white background.",
+      "Only Sticker, An animated illustration of a happy taco with arms and a smiling face, bold outlines, on a plain white background.",
+      "Only Sticker, A kawaii-style boba tea cup with a straw and smiling face on white background, vibrant colors and clean design."
+    ]
   },
   {
     "image": "loras_images/Realism.png",
@@ -284,7 +358,7 @@
     "trigger_word": "",
     "id": 38,
     "prompts": [
-      "handsome girl in a suit covered with bold tattoos and holding a pistol. Animatrix illustration style, fantasy style, natural photo cinematic"
+      "handsome girl in a shirt covered with bold tattoos and holding a pistol. Animatrix illustration style, fantasy style, natural photo cinematic"
     ]
   },
   {
@@ -312,7 +386,7 @@
     "id": 40,
     "prompts": [
       "NEOCUTE3D of Picture a valiant knight in shining armor, mounted on a gallant steed, charging with a lance towards an opponent in a lively medieval fair setting",
-      "NEOCUTE3D of an astronaut in a high-tech space suit stepping onto an alien landscape, proudly planting a flag as colorful alien flora surrounds them",
+      "NEOCUTE3D of an astronaut in a high-tech space shirt stepping onto an alien landscape, proudly planting a flag as colorful alien flora surrounds them",
       "NEOCUTE3D of a street musician playing the violin with a colorful background",
       "NEOCUTE3D of a cyclist riding through a scenic mountain trail",
       "NEOCUTE3D of a ninja doing a high kick",
@@ -625,7 +699,7 @@
     "id": 78,
     "prompts": [
       "luxury hdr enhance, A young woman with bright smile and curly blonde hair, dressed in a yellow sundress with white flowers, stands amidst a vibrant farm backdrop of sunflowers, green fields, and blue skies. She gently holds a basket of freshly picked fruits and vegetables, surrounded by rustic wooden fences and lush greenery.",
-      "luxury hdr enhance, A futuristic close-up of a woman in a sleek suit, her blue hair styled in a chic bob. She is a cyborg with silver metallic plating on her arms and torso, glistening under the dim blue lighting. Her piercing green eyes gleam as she gazes directly at the camera, with neon cityscape lighting in the background.",
+      "luxury hdr enhance, A futuristic close-up of a woman in a sleek shirt, her blue hair styled in a chic bob. She is a cyborg with silver metallic plating on her arms and torso, glistening under the dim blue lighting. Her piercing green eyes gleam as she gazes directly at the camera, with neon cityscape lighting in the background.",
       "luxury hdr enhance, A young boy sits solo, cloaked in darkness, his hood up and a mysterious black cloak draped around him. He holds an open book, the yellowed pages illuminated by the soft glow of candles arranged on a nearby stand, with eerie shadows dancing across his face."
     ]
   },
@@ -905,7 +979,7 @@
     "prompts": [
       "FLOAT a giant Pikachu balloon soaring through the city streets, its bright yellow color and cheerful expression captivating the crowd, accompanied by Eevee in a Poké Ball‑themed sleigh",
       "FLOAT a large inflatable balloon in the shape of a cartoon character, The mischievous Homer Simpson, with his signature beer belly, floating through the skyscrapers holding a beer",
-      "FLOAT Spider‑Man swinging high above the city as a balloon, his classic red and blue suit glistening in the sunlight with a dynamic pose",
+      "FLOAT Spider‑Man swinging high above the city as a balloon, his classic red and blue shirt glistening in the sunlight with a dynamic pose",
       "FLOAT an enormous dragon balloon with vibrant red and orange scales, fierce eyes and a wide grin gliding above the parade route, creating excitement",
       "FLOAT a giant Bart Simpson balloon doing skateboarding tricks above the city streets, its bright signature outfit and cheerful expression captivating the crowd",
       "FLOAT a giant turkey in a military uniform balloon soaring through the city streets, its big grin expression while holding a sign that reads \"No Gobble\" captivating the crowd"
@@ -970,7 +1044,7 @@
     "id": 118,
     "prompts": [
       "ovld style anime, a dwarven blacksmith giving a happy thumbs up in front of his Weapons Store, the store has a large decorative sign that says RUNECRAFT",
-      "ovld style anime, a spacefarer in a futuristic spaceship interior hallway, they are charming with brilliant white hair and wearing a jumpsuit with futuristic technology",
+      "ovld style anime, a spacefarer in a futuristic spaceship interior hallway, they are charming with brilliant white hair and wearing a jumpshirt with futuristic technology",
       "ovld style anime, a cool Owl Wizard with a magical staff in the mystical woods",
       "ovld style anime, a beautiful 30 year old woman wearing classical Victorian Edwardian clothing, finely kempt, in the royal gardens with the estate mansion in the background on a sunny day with teal and scarlet color scheme",
       "ovld style anime, a futuristic cyberpunk sprawling city with glorious clouds in the sky",
