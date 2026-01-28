@@ -282,49 +282,73 @@
     "title": "Realism",
     "repo": "loras_cache/XLabs-AI_flux-RealismLora",
     "trigger_word": "",
-    "id": 38
+    "id": 38,
+    "prompts": [
+      "handsome girl in a suit covered with bold tattoos and holding a pistol. Animatrix illustration style, fantasy style, natural photo cinematic"
+    ]
   },
   {
     "image": "loras_images/Cine_Aesthetic.png",
     "title": "Cine Aesthetic",
     "repo": "loras_cache/mgwr_Cine-Aesthetic",
     "trigger_word": "mgwr/cine",
-    "id": 39
+    "id": 39,
+    "prompts": [
+      "mgwr/cine, crescent moon, pink clouds, twilight sky, pastel tones, dusk, evening sky, minimalistic composition, dark blue sky, soft lighting, serene, atmospheric, dreamy, calm mood, celestial body, contrast between light and dark, cloud texture, nature photography, ethereal, peaceful ambiance, gradient sky",
+      "mgwr/cine, woman silhouette, morning light, sun rays, indoor scene, soft focus, golden hour, stretching pose, peaceful mood, cozy atmosphere, window light, shadows and highlights, backlit figure, minimalistic interior, warm tones, contemplative moment, calm energy, serene environment, yoga‑inspired, elegant posture, natural light beams, artistic composition",
+      "mgwr/cine, woman at train station, night scene, motion blur, moving train, moody atmosphere, cinematic lighting, blurred background, long coat, melancholic expression, urban setting, low‑light photography, yellow and green tones, solitude, introspective mood, soft focus, transient moment, street style, surreal vibe, city nightlife, slow shutter speed, vintage aesthetic",
+      "mgwr/cine, close‑up portrait, intense gaze, flame, lighter, moody lighting, warm tones, dramatic shadows, mysterious expression, low‑light photography, cinematic aesthetic, dark atmosphere, wet hair, focused eyes, glowing warmth, edgy vibe, raw emotion, expressive face, soft focus, gritty texture, intimate shot",
+      "mgwr/cine, double exposure, intense gaze, blue lighting, surreal atmosphere, night cityscape, neon lights, abstract composition, moody tones, cinematic style, ethereal glow, close‑up portrait, mysterious vibe, soft focus, urban environment, reflective mood, creative photography, conceptual art, layered imagery, dark aesthetic, expressive eyes, melancholy, introspective feel, dreamy visuals, night scene",
+      "mgwr/cine, apartment building, night scene, illuminated windows, warm glow, urban architecture, dark blue tones, geometric patterns, moody atmosphere, contrasting colors, shadow play, neon aesthetic, quiet night, cinematic vibe, soft light reflections, minimalist composition, solitary environment, evening light, cityscape details, modern residential building",
+      "mgwr/cine, empty gas station, night scene, snowy landscape, 24‑hour sign, isolated setting, cold atmosphere, retro aesthetic, eerie mood, neon lighting, green and red tones, tire tracks in snow, minimalistic composition, deserted environment, quiet night, vintage design, small town vibe, dark sky, cinematic shot",
+      "mgwr/cine, ethereal portrait, glowing light, smoke effect, warm tones, surreal imagery, soft lighting, moody atmosphere, abstract art, dreamlike aesthetic, side profile, cinematic vibe, mysterious mood, vibrant glow, otherworldly feel, high‑contrast colors, creative composition, soft focus, intense expression, artistic photography, immersive visual"
+    ]
   },
   {
     "image": "loras_images/Cute_3D.webp",
     "title": "Cute 3D",
     "repo": "loras_cache/SebastianBodza_flux_cute3D",
     "trigger_word": "NEOCUTE3D",
-    "id": 40
+    "id": 40,
+    "prompts": [
+      "NEOCUTE3D of Picture a valiant knight in shining armor, mounted on a gallant steed, charging with a lance towards an opponent in a lively medieval fair setting",
+      "NEOCUTE3D of an astronaut in a high-tech space suit stepping onto an alien landscape, proudly planting a flag as colorful alien flora surrounds them",
+      "NEOCUTE3D of a street musician playing the violin with a colorful background",
+      "NEOCUTE3D of a cyclist riding through a scenic mountain trail",
+      "NEOCUTE3D of a ninja doing a high kick",
+      "NEOCUTE3D of a cute monster"
+    ]
   },
   {
     "image": "loras_images/Dreamscape.jpg",
     "title": "Dreamscape",
     "repo": "loras_cache/bingbangboom_flux_dreamscape",
     "trigger_word": "in the style of BSstyle004",
-    "id": 41
-  },
-  {
-    "image": "loras_images/Cute_Kawaii.webp",
-    "title": "Cute Kawaii",
-    "repo": "loras_cache/prithivMLmods_Canopus-Cute-Kawaii-Flux-LoRA",
-    "trigger_word": "cute-kawaii",
-    "id": 42
-  },
-  {
-    "image": "loras_images/Pastel_Anime.png",
-    "title": "Pastel Anime",
-    "repo": "loras_cache/Raelina_Flux-Pastel-Anime",
-    "trigger_word": "Anime",
-    "id": 43
+    "id": 41,
+    "prompts": [
+      "white-haired young man, extremely simple, large-scale blue, brightly colored board, dark white and light blue, in the style of BSstyle004",
+      "a cat taking a nap on a work table, in the style of BSstyle004",
+      "a girl holding a large black raven close to her face, eerie and mysterious, in the style of BSstyle004",
+      "a seal holding a beach ball in a pool, in the style of BSstyle004"
+    ]
   },
   {
     "image": "loras_images/Vector.jpg",
     "title": "Vector",
     "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-Vector-Journey",
     "trigger_word": "artistic style blends reality and illustration elements",
-    "id": 44
+    "id": 44,
+    "prompts": [
+      "A cartoon style couple takes a selfie in front of an Egyptian pyramid, which is composed of a man and a woman, both wearing sunglasses. Men wear blue shirts, jeans, and white shoes, while women wear yellow hats, blue jackets, white tops, orange dresses, and pink sneakers. Sand and a group of tourists in the distance. artistic style blends reality and illustration elements.",
+      "In a picturesque village, a narrow cobblestone street with rustic stone buildings, colorful blinds, and lush green spaces, a cartoon man drawn with simple lines and solid colors stands in the foreground, wearing a red shirt, beige work pants, and brown shoes, carrying a strap on his shoulder. The scene features warm and enticing colors, a pleasant fusion of nature and architecture, and the camera's perspective on the street clearly shows the charming and quaint environment. artistic style blends reality and illustration elements.",
+      "A cartoon-style boy playing games in his living room, artistic style blends reality and illustration elements.",
+      "A cartoon-style pianist is playing in the Golden Hall, and artistic style blends reality and illustration elements.",
+      "A cartoon-style basketball player, dunking on the NBA court, artistic style blends reality and illustration elements.",
+      "A cartoon-style male singer, Concert, artistic style blends reality and illustration elements.",
+      "A cartoon-style Donald Duck, walking on the street, the art style combines reality and illustration elements.",
+      "A cartoon-style Morty, walking on the street, the art style combines reality and illustration elements.",
+      "A cartoon-style Batman, walking on the street, the art style combines reality and illustration elements."
+    ]
   },
   {
     "image": "loras_images/Miniature.jpg",
@@ -332,7 +356,15 @@
     "repo": "loras_cache/bingbangboom_flux-miniature-worlds",
     "weights": "flux_MNTRWRLDS.safetensors",
     "trigger_word": "Image in the style of MNTRWRLDS",
-    "id": 45
+    "id": 45,
+    "prompts": [
+      "a cat in a field of lavender flowers. Image in the style of MNTRWRLDS.",
+      "a penguin eating an ice cream, standing on ice floating on water, holding a sign that says 'i love ice'. Image in the style of MNTRWRLDS.",
+      "a dog playing with a ball in a park. Image in the style of MNTRWRLDS.",
+      "a girl wearing glasses and a scarf, reading a book in a cafe with a burger and a cup on the table. Image in the style of MNTRWRLDS.",
+      "a cat taking a nap on a work table with a sign board that says 'at work'. Image in the style of MNTRWRLDS.",
+      "a boy and his pet monster watering a potted plant with a text bubble that says 'do not melt'. Image in the style of MNTRWRLDS."
+    ]
   },
   {
     "image": "loras_images/Surf_Bingbangboom.jpg",
@@ -340,7 +372,15 @@
     "repo": "loras_cache/glif-loradex-trainer_bingbangboom_flux_surf",
     "weights": "flux_surf.safetensors",
     "trigger_word": "SRFNGV01",
-    "id": 46
+    "id": 46,
+    "prompts": [
+      "a woman wearing glasses, wearing a baseball cap, holding a boba tea cup with a straw in her hand, the text 'boba' is written on the cup, illustration in the style of SRFNGV01",
+      "a white-haired young woman wearing a flower crown, a very large fiery dragon, castle in the background, illustration in the style of SRFNGV01",
+      "a boy wearing glasses, reading a book, in a cozy bedroom, illustration in the style of SRFNGV01",
+      "text on a poster that says 'flux' placed above a penguin, an orange sun below the text, beautiful typography in the style of SRFNGV01",
+      "a girl wearing a flower crown, standing in a garden, holding a sign that says 'this is flux surf', illustration in the style of SRFNGV01",
+      "a robot eating ramen in a busy cafe, illustration in the style of SRFNGV01"
+    ]
   },
   {
     "image": "loras_images/Snoopy_Charlie.png",
@@ -354,57 +394,60 @@
     "title": "Fixed Sonny",
     "repo": "loras_cache/alvdansen_sonny-anime-fixed",
     "trigger_word": "nm22 style",
-    "id": 48
-  },
-  {
-    "image": "loras_images/Multi_Angle.png",
-    "title": "Multi Angle",
-    "repo": "loras_cache/davisbro_flux-multi-angle",
-    "trigger_word": "A TOK composite photo of a person posing at different angles",
-    "id": 49
+    "id": 48,
+    "prompts": [
+      "a chibi astronaut, nm22 minimalist style",
+      "a pink frog, nm22 minimalist style",
+      "a girl wearing a flower crown, nm22 anime style",
+      "a girl wearing a flower crown, nm22 style",
+      "a cute creature, nm22 style",
+      "a girl with brown‑blonde hair and big round glasses, tired, white tank top, jeans, nm22 style",
+      "a girl with brown‑blonde hair and big round glasses, tired, white tank top, jeans, nm22 illustration style",
+      "girl, neck tuft, white hair, sheep horns, blue eyes, nm22 style"
+    ]
   },
   {
     "image": "loras_images/How2Draw.jpg",
     "title": "How2Draw",
     "repo": "loras_cache/glif_how2draw",
     "trigger_word": "How2Draw",
-    "id": 50
-  },
-  {
-    "image": "loras_images/Text_Poster.jpg",
-    "title": "Text Poster",
-    "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-Text-Poster",
-    "trigger_word": "text poster",
-    "id": 51
+    "id": 50,
+    "prompts": [
+      "an owl, How2Draw",
+      "a dolphin, How2Draw",
+      "A silhouette of a girl performing a ballet pose, with elegant lines to suggest grace and movement. The background can include simple outlines of ballet shoes and a music note. The image should convey elegance and poise in a minimalistic style, How2Draw",
+      "Yorkshire Terrier with smile, How2Draw",
+      "a druid, How2Draw",
+      "sunflower, How2Draw"
+    ]
   },
   {
     "image": "loras_images/Aquarell_Watercolor.webp",
     "title": "Aquarell Watercolor",
     "repo": "loras_cache/SebastianBodza_Flux_Aquarell_Watercolor_v2",
     "trigger_word": "AQUACOLTOK",
-    "id": 52
-  },
-  {
-    "image": "loras_images/Face_Projection.jpeg",
-    "title": "Face Projection ",
-    "repo": "loras_cache/Purz_face-projection",
-    "trigger_word": "f4c3_p40j3ct10n",
-    "id": 53
+    "id": 52,
+    "prompts": [
+      "A painting of a person giving a ted talk on a TED stage with the TED logo, \"the speaker\". AQUACOLTOK",
+      "A AQUACOLTOK watercolor painting of a lone hiker standing triumphantly on the summit of a snow-capped mountain. The hiker, wearing a red jacket and backpack, is silhouetted against a clear blue sky. The word \"ASCEND\" is painted in bold, blue letters at the base of the mountain, adding a powerful message to the image. Dramatic high quality",
+      "A AQUACOLTOK a barista creating an intricate latte art design, with the \"Coffee Creations\" logo skillfully formed within the latte foam. White background",
+      "A AQUACOLTOK of a quaint, old-fashioned bookstore, with the words \"Tales of Wonder\" etched in gold lettering above the storefront. White background"
+    ]
   },
   {
     "image": "loras_images/Ecom_Design_Art.png",
     "title": "Ecom Design Art",
     "repo": "loras_cache/martintomov_ecom-flux-v2",
     "trigger_word": "",
-    "id": 54
-  },
-  {
-    "image": "loras_images/Max_Head-Room.png",
-    "title": "Max Head-Room",
-    "repo": "loras_cache/TheAwakenOne_max-headroom",
-    "weights": "max-headroom-v1.safetensors",
-    "trigger_word": "M2X, Max-Headroom",
-    "id": 55
+    "id": 54,
+    "prompts": [
+      "A raw photograph of a sofa of 88 cm width and 79 cm height on a non-reflective light-colored carpet in a cozy living room with soft, ambient lighting. The mood of the scene should be warm and inviting.",
+      "A raw photograph of a sofa of 88 cm width and 79 cm height in a stylish modern bedroom on a non-reflective wooden floor, with natural daylight streaming through large windows. The mood of the scene should be serene and comfortable.",
+      "A raw photograph of an espresso machine of 30 cm width and 25 cm height on a non-reflective black granite countertop in a modern kitchen with natural daylight illuminating the space. The mood of the scene should be bright and inviting.",
+      "A raw photograph of an espresso machine of 30 cm width and 25 cm height on a non-reflective wooden dining table in a cozy café environment with warm afternoon light filtering through large windows. The mood of the scene should be relaxed and welcoming.",
+      "A raw photograph of a bijzettafel of 33 cm width and 50 cm height on a non-reflective tiled floor in a vibrant living room decorated with colorful cushions and plants, with warm, ambient lighting. The mood of the scene should be cheerful and inviting.",
+      "A raw photograph of a hangstoel swing of 95 cm width and 200 cm height on a non-reflective stone patio in a sunny outdoor garden setting surrounded by lush greenery, with warm, natural daylight illuminating the scene. The mood of the scene should be peaceful and inviting."
+    ]
   },
   {
     "image": "loras_images/Toy_Box_Flux.png",
@@ -412,60 +455,42 @@
     "repo": "loras_cache/renderartist_toyboxflux",
     "weights": "Toy_Box_Flux_v2_renderartist.safetensors",
     "trigger_word": "t0yb0x, simple toy design, detailed toy design, 3D render",
-    "id": 56
+    "id": 56,
+    "prompts": [
+      "t0yb0x 3d render of a toy design, a rocket",
+      "t0yb0x 3d render of a cute toy design, wizard in a purple robe, smile, isolated color background",
+      "t0yb0x 3d render of a cute toy design, female broadway singer, holding a classic microphone, wearing a red dress, glamour, performing, isolated white background",
+      "t0yb0x 3d render of a toy design, a knight, white background",
+      "t0yb0x 3d render of a detailed toy design, army commando, white background, dynamic pose jump",
+      "t0yb0x 3d render of a cute toy design, lawyer, smile, isolated color background",
+      "t0yb0x 3d render of a toy design, a man is kneeling petting his dog, looking downward",
+      "t0yb0x 3d render of a toy design, a family of 3, man, woman, boy, eating at a dining room table, isolated white background",
+      "t0yb0x 3d render of a cute toy design, witch with a bubbling cauldron, stirring the pot, smile, isolated color background"
+    ]
   },
   {
     "image": "loras_images/Live_3D.jpg",
     "title": "Live 3D",
     "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-live-3D",
     "trigger_word": "",
-    "id": 57
-  },
-  {
-    "image": "loras_images/Garbage_Bag_Art.jpg",
-    "title": "Garbage Bag Art",
-    "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-Garbage-Bag-Art",
-    "trigger_word": "Inflatable plastic bag",
-    "id": 58
+    "id": 57,
+    "prompts": [
+      "A purple lovely plush monster, sitting on the top of a high building in New York, looking up at the perspective, Times Square, there are some colored balloons, the ground is pink, billboards, rich design sense of the picture, excellent advertising ideas",
+      "A cartoon 3D monkey lies in the middle of the city, aerial view, shift axis photography",
+      "A colorful cartoon monkey sits on a bus as it rolls down the street in Times Square, New York"
+    ]
   },
   {
     "image": "loras_images/Logo_Design.png",
     "title": "Logo Design",
     "repo": "loras_cache/Shakker-Labs_FLUX_1-dev-LoRA-Logo-Design",
     "trigger_word": "wablogo, logo, Minimalist",
-    "id": 59
-  },
-  {
-    "image": "loras_images/Sadie_Sink.png",
-    "title": "Sadie Sink",
-    "repo": "loras_cache/punzel_flux_sadie_sink",
-    "weights": "flux_sadie_sink.safetensors",
-    "trigger_word": "Sadie Sink",
-    "id": 60
-  },
-  {
-    "image": "loras_images/Jenna_ortega.png",
-    "title": "Jenna ortega",
-    "repo": "loras_cache/punzel_flux_jenna_ortega",
-    "weights": "flux_jenna_ortega.safetensors",
-    "trigger_word": "Jenna ortega",
-    "id": 61
-  },
-  {
-    "image": "loras_images/Poker_Cards.png",
-    "title": "Poker Cards",
-    "repo": "loras_cache/Wakkamaruh_balatro-poker-cards",
-    "weights": "balatro-poker-cards.safetensors",
-    "trigger_word": "balatrocard",
-    "id": 62
-  },
-  {
-    "image": "loras_images/Cubist_Cartoon.png",
-    "title": "Cubist Cartoon",
-    "repo": "loras_cache/lichorosario_flux-cubist-cartoon",
-    "weights": "lora.safetensors",
-    "trigger_word": "CBSTCRTN",
-    "id": 63
+    "id": 59,
+    "prompts": [
+      "logo,Minimalist,A man stands in front of a door, his shadow forming the word \"A\"",
+      "logo,Minimalist,A pair of chopsticks and a bowl of rice with the word \"Lee\"",
+      "wablogo,Minimalist,Leaf and cat,logo"
+    ]
   },
   {
     "image": "loras_images/Miniature_People.png",
