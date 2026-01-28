@@ -1,16 +1,19 @@
-# `enable_sequential_cpu_offload()` in diffusers requires `accelerate`.
-# Installing from PyPI is more reliable than a git URL on many Windows setups.
+# Core runtime deps
+# Note: this repo supports a fully-offline install via wheelhouse; see README.
 accelerate
-git+https://github.com/huggingface/diffusers.git
-git+https://github.com/huggingface/peft.git
+diffusers
+peft
 huggingface_hub
-sentencepiece 
 transformers
+gradio
 spaces
 numpy
 protobuf
 requests
 tqdm
+pillow
+safetensors
+sentencepiece 
 
 # IMPORTANT: PyTorch with CUDA must be installed separately!
 # DO NOT install torch/torchvision from this file - they will be CPU-only

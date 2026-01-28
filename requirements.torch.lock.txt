@@ -1,0 +1,4 @@
+# IMPORTANT:
+# These are CUDA wheels served from the PyTorch CUDA index, not from PyPI.
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121

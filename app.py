@@ -3,6 +3,33 @@ import os
 # Set PyTorch expandable segments BEFORE importing torch (VERY IMPORTANT)
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
+# Offline mode (prevents Hugging Face network calls; requires local caches to be present)
+# - If `FLUX_OFFLINE` is set, we honor it.
+# - Otherwise, we auto-detect lack of internet (common on offline machines) and switch to offline automatically.
+import socket
+
+def _parse_env_bool(value: str) -> bool:
+    return str(value).strip().lower() in {"1", "true", "yes", "y", "on"}
+
+def _can_reach_host(host: str, port: int = 443, timeout_s: float = 1.5) -> bool:
+    try:
+        with socket.create_connection((host, port), timeout=timeout_s):
+            return True
+    except OSError:
+        return False
+
+_flux_offline_env = os.environ.get("FLUX_OFFLINE")
+if _flux_offline_env is None:
+    # Auto-detect: if we can't reach huggingface, assume offline.
+    OFFLINE_MODE = not _can_reach_host("huggingface.co", 443, timeout_s=1.5)
+else:
+    OFFLINE_MODE = _parse_env_bool(_flux_offline_env)
+
+if OFFLINE_MODE:
+    os.environ.setdefault("HF_HUB_OFFLINE", "1")
+    os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+    os.environ.setdefault("HF_HUB_DISABLE_TELEMETRY", "1")
+
 import json
 import copy
 import time
@@ -334,6 +361,13 @@ def ensure_lora_cached(lora_repo_or_path, weight_name=None, offline_mode=False):
     Returns:
         Local path to cached LoRA directory
     """
+    # Force offline behavior when FLUX_OFFLINE=1
+    if OFFLINE_MODE:
+        offline_mode = True
+
+    # Normalize variable name (repo id or local path)
+    lora_repo = lora_repo_or_path
+
     local_path = get_lora_local_path(lora_repo_or_path)
     
     # If it's already a local path and exists, return it directly (offline mode)
@@ -403,7 +437,21 @@ def ensure_lora_cached(lora_repo_or_path, weight_name=None, offline_mode=False):
 # This alone saves ~10–15% memory
 dtype = torch.float16
 device = "cuda" if torch.cuda.is_available() else "cpu"
-base_model = "black-forest-labs/FLUX.1-dev"
+
+# Base model resolution:
+# - Prefer a local snapshot folder if present (works great for fully-offline runs).
+# - Otherwise fall back to the HF repo id + cache_dir (online or cache-only when offline).
+BASE_MODEL_ID = "black-forest-labs/FLUX.1-dev"
+
+def _is_valid_model_dir(path: str) -> bool:
+    # Diffusers snapshots should have model_index.json at the root.
+    return os.path.isfile(os.path.join(path, "model_index.json"))
+
+def _pick_base_model_source(models_cache_dir: str) -> str:
+    local_dir = os.path.join(models_cache_dir, "black-forest-labs", "FLUX.1-dev")
+    if _is_valid_model_dir(local_dir):
+        return local_dir
+    return BASE_MODEL_ID
 
 # Use single VAE (AutoencoderKL) for both pipelines
 # ✅ FIX: Only load ONE VAE (not both Tiny + KL) - loading two VAEs is too much for RTX 4070
@@ -413,12 +461,44 @@ base_model = "black-forest-labs/FLUX.1-dev"
 # Loading both pipelines at once is too much for 12GB RTX 4070
 # Load pipe_i2i only when needed (first image-to-image request)
 # ✅ OFFLINE MODE: Use local models_cache directory instead of default C drive cache
-good_vae = AutoencoderKL.from_pretrained(base_model, subfolder="vae", torch_dtype=dtype, low_cpu_mem_usage=True, cache_dir=MODELS_CACHE_DIR)
 print("Loading text-to-image pipeline...")
 try:
-    pipe = DiffusionPipeline.from_pretrained(base_model, torch_dtype=dtype, vae=good_vae, low_cpu_mem_usage=True, cache_dir=MODELS_CACHE_DIR)
+    base_model = _pick_base_model_source(MODELS_CACHE_DIR)
+    if OFFLINE_MODE:
+        print("✓ Offline mode enabled (no Hugging Face network calls)")
+        if os.path.isdir(os.path.join(MODELS_CACHE_DIR, "black-forest-labs")):
+            # likely a local snapshot layout
+            pass
+    good_vae = AutoencoderKL.from_pretrained(
+        base_model,
+        subfolder="vae",
+        torch_dtype=dtype,
+        low_cpu_mem_usage=True,
+        cache_dir=MODELS_CACHE_DIR,
+        local_files_only=OFFLINE_MODE,
+    )
+    pipe = DiffusionPipeline.from_pretrained(
+        base_model,
+        torch_dtype=dtype,
+        vae=good_vae,
+        low_cpu_mem_usage=True,
+        cache_dir=MODELS_CACHE_DIR,
+        local_files_only=OFFLINE_MODE,
+    )
     print("✓ Text-to-image pipeline loaded")
 except Exception as e:
+    if OFFLINE_MODE:
+        expected_local_dir = os.path.join(MODELS_CACHE_DIR, "black-forest-labs", "FLUX.1-dev")
+        hint = (
+            "\n\nOffline mode is enabled, so the base model must already exist locally.\n"
+            f"- Expected local snapshot folder (recommended): {expected_local_dir}\n"
+            "- Or: a previously-populated Hugging Face cache under models_cache/\n\n"
+            "If you have an online machine, download the base model into that folder, then copy it over:\n"
+            "  python -c \"from huggingface_hub import snapshot_download; "
+            "snapshot_download(repo_id='black-forest-labs/FLUX.1-dev', "
+            "local_dir='models_cache/black-forest-labs/FLUX.1-dev', local_dir_use_symlinks=False)\""
+        )
+        raise RuntimeError(f"Failed to load base model in offline mode: {e}{hint}") from e
     print(f"❌ Failed to load text-to-image pipeline: {e}")
     raise
 
@@ -491,7 +571,8 @@ def ensure_pipe_i2i_loaded():
                 vae=good_vae,
                 torch_dtype=dtype,
                 low_cpu_mem_usage=True,
-                cache_dir=MODELS_CACHE_DIR
+                cache_dir=MODELS_CACHE_DIR,
+                local_files_only=OFFLINE_MODE,
             )
             
             # Enable optimizations
@@ -585,8 +666,22 @@ def restart_pipelines():
         
         # Reload text-to-image pipeline
         # ✅ OFFLINE MODE: Use local models_cache directory instead of default C drive cache
-        good_vae = AutoencoderKL.from_pretrained(base_model, subfolder="vae", torch_dtype=dtype, low_cpu_mem_usage=True, cache_dir=MODELS_CACHE_DIR)
-        pipe = DiffusionPipeline.from_pretrained(base_model, torch_dtype=dtype, vae=good_vae, low_cpu_mem_usage=True, cache_dir=MODELS_CACHE_DIR)
+        good_vae = AutoencoderKL.from_pretrained(
+            base_model,
+            subfolder="vae",
+            torch_dtype=dtype,
+            low_cpu_mem_usage=True,
+            cache_dir=MODELS_CACHE_DIR,
+            local_files_only=OFFLINE_MODE,
+        )
+        pipe = DiffusionPipeline.from_pretrained(
+            base_model,
+            torch_dtype=dtype,
+            vae=good_vae,
+            low_cpu_mem_usage=True,
+            cache_dir=MODELS_CACHE_DIR,
+            local_files_only=OFFLINE_MODE,
+        )
         
         # Re-enable optimizations
         try:

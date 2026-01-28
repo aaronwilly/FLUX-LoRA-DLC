@@ -1,0 +1,3 @@
+git+https://github.com/huggingface/accelerate.git@b7f2212e54b960a731fb786dac7afc574a7d1fa4
+git+https://github.com/huggingface/diffusers.git@53d8a1e3100bdaa30975324e9ff674091684a1c3
+git+https://github.com/huggingface/peft.git@4d970440a34646807a28cd16b24e49a146526e6e
