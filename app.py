@@ -256,6 +256,9 @@ def flux_pipe_call_that_returns_an_iterable_of_images(
 
 # ✅ OFFLINE MODE: Setup local LoRA cache directory (define early for use below)
 WORKSPACE_DIR = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_LORA_IMAGE = os.path.join(WORKSPACE_DIR, "screen.png")
+if not os.path.exists(DEFAULT_LORA_IMAGE):
+    DEFAULT_LORA_IMAGE = None
 
 # Load LoRAs from external JSON file
 with open("loras.json", "r", encoding="utf-8") as f:
@@ -264,7 +267,9 @@ with open("loras.json", "r", encoding="utf-8") as f:
 # ✅ OFFLINE MODE: Convert local image paths to absolute paths for Gradio
 # Gradio needs absolute paths for local images, but can handle URLs directly
 def get_image_path_or_url(image_path_or_url):
-    """Convert local image paths to absolute paths, keep URLs as-is."""
+    """Convert local image paths to absolute paths, keep URLs as-is, tolerate missing images."""
+    if not image_path_or_url:
+        return DEFAULT_LORA_IMAGE
     if image_path_or_url.startswith("http://") or image_path_or_url.startswith("https://"):
         # It's a URL, return as-is
         return image_path_or_url
@@ -272,13 +277,16 @@ def get_image_path_or_url(image_path_or_url):
         # It's a local path, convert to absolute
         if not os.path.isabs(image_path_or_url):
             # Relative path - make it absolute
-            return os.path.join(WORKSPACE_DIR, image_path_or_url)
-        return image_path_or_url
+            abs_path = os.path.join(WORKSPACE_DIR, image_path_or_url)
+        else:
+            abs_path = image_path_or_url
 
-# Update all image paths in loras to use absolute paths
+        # If the file doesn't exist (e.g. user removed loras_images), fall back to a placeholder.
+        return abs_path if os.path.exists(abs_path) else DEFAULT_LORA_IMAGE
+
+# Update all image paths in loras to use absolute paths (and ensure an "image" key exists)
 for lora in loras:
-    if "image" in lora and lora["image"]:
-        lora["image"] = get_image_path_or_url(lora["image"])
+    lora["image"] = get_image_path_or_url(lora.get("image"))
 # ✅ OFFLINE MODE: Setup local cache directories
 MODELS_CACHE_DIR = os.path.join(WORKSPACE_DIR, "models_cache")
 LORAS_CACHE_DIR = os.path.join(WORKSPACE_DIR, "loras_cache")
@@ -422,6 +430,33 @@ try:
 except Exception as e:
     print(f"⚠ xformers not available: {e}")
 
+# CPU offload helpers (require accelerate)
+def _try_enable_cpu_offload(pipeline, label: str):
+    """
+    Enable CPU offload if possible.
+    Diffusers' offload utilities require the `accelerate` package; if it's missing,
+    we warn and continue instead of crashing at import-time.
+    """
+    try:
+        import accelerate  # noqa: F401
+    except Exception as e:
+        print(f"⚠ accelerate not available ({e}); skipping CPU offload for {label}")
+        return
+
+    # Prefer sequential offload (lower peak VRAM), fall back to model offload.
+    try:
+        pipeline.enable_sequential_cpu_offload()
+        print(f"✓ Sequential CPU offload enabled for {label} (prevents peak VRAM spikes)")
+        return
+    except Exception as e:
+        print(f"⚠ Failed to enable sequential CPU offload for {label}: {e}")
+
+    try:
+        pipeline.enable_model_cpu_offload()
+        print(f"✓ Model CPU offload enabled for {label}")
+    except Exception as e:
+        print(f"⚠ Failed to enable any CPU offload for {label}: {e}")
+
 # ✅ FIX: FLUX does not benefit from attention slicing the way SDXL does
 # This line actually increases peak VRAM on FLUX
 # We already have: xformers + CPU offload + FP16 - that's enough
@@ -430,8 +465,7 @@ except Exception as e:
 # Sequential CPU offload: Moves models to CPU sequentially when not in use
 # ⚠️ Sequential offload is slower than pure GPU but does not cause the same peak spikes
 # during transformer + scheduler stepping loops (critical for FLUX + custom loop on 12GB)
-pipe.enable_sequential_cpu_offload()
-print("✓ Sequential CPU offload enabled (prevents peak VRAM spikes)")
+_try_enable_cpu_offload(pipe, "text-to-image pipeline")
 
 # ✅ LAZY LOADING: pipe_i2i will be loaded on-demand when first image-to-image is requested
 pipe_i2i = None
@@ -466,7 +500,7 @@ def ensure_pipe_i2i_loaded():
             except Exception:
                 pass
             # pipe_i2i.enable_attention_slicing()  # ❌ Removed - increases VRAM on FLUX
-            pipe_i2i.enable_sequential_cpu_offload()
+            _try_enable_cpu_offload(pipe_i2i, "image-to-image pipeline")
             
             print("✓ Image-to-image pipeline loaded")
             
@@ -561,7 +595,7 @@ def restart_pipelines():
             pass
         # ✅ FIX: FLUX does not benefit from attention slicing - removed to prevent VRAM increase
         # pipe.enable_attention_slicing()  # ❌ Removed
-        pipe.enable_sequential_cpu_offload()
+        _try_enable_cpu_offload(pipe, "text-to-image pipeline")
         
         # Re-attach custom function
         pipe.flux_pipe_call_that_returns_an_iterable_of_images = flux_pipe_call_that_returns_an_iterable_of_images.__get__(pipe)
@@ -925,7 +959,7 @@ with gr.Blocks(delete_cache=(60, 60)) as demo:
         with gr.Column():
             selected_info = gr.Markdown("")
             gallery = gr.Gallery(
-                [(item["image"], item["title"]) for item in loras],
+                [((item.get("image") or DEFAULT_LORA_IMAGE), item.get("title", "")) for item in loras],
                 label="250+ LoRA DLC's",
                 allow_preview=False,
                 columns=3,

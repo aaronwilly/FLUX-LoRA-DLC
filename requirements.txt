@@ -1,4 +1,6 @@
-git+https://github.com/huggingface/accelerate.git
+# `enable_sequential_cpu_offload()` in diffusers requires `accelerate`.
+# Installing from PyPI is more reliable than a git URL on many Windows setups.
+accelerate
 git+https://github.com/huggingface/diffusers.git
 git+https://github.com/huggingface/peft.git
 huggingface_hub
